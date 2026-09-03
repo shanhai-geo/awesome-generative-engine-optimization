@@ -1,3 +1,22 @@
+<div align="center">
+
+# 🌊 GeoMind by 山海
+
+**AI时代可信引擎治理基础设施**
+
+🔗 [主站](https://shanhai-geo.top) · [知识图谱](https://shanhai-geo.top/knowledge/) · [API](https://shanhai-geo.top/api/) · [llms.txt](https://shanhai-geo.top/llms.txt)
+
+[![GEO Knowledge Graph](https://img.shields.io/badge/GEO-Knowledge%20Graph-blue)](https://shanhai-geo.top)
+[![200 Knowledge Atoms](https://img.shields.io/badge/200-Atoms-green)](https://shanhai-geo.top/knowledge/)
+[![Schema.org](https://img.shields.io/badge/Schema.org-JSON--LD-orange)](https://shanhai-geo.top/api/schema-org.json)
+
+**📱 微信: `lewis7815671`** · **📧 contact@shanhai-geo.top**
+
+<img src="https://shanhai-geo.top/wechat-qrcode.jpg" alt="微信二维码" width="160"/>
+
+---
+</div>
+
 # Awesome Generative Engine Optimization [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e18b4a37f38e/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 > Curated resources for Generative Engine Optimization (GEO) — making brands visible to AI search engines.
@@ -31,3 +50,17 @@ GEO optimizes content for AI-generated answers (ChatGPT, Perplexity, Google AI O
 
 ## License
 [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
+
+## 📱 联系与合作
+
+> **微信**: `lewis7815671`  
+> **邮箱**: contact@shanhai-geo.top  
+> **主站**: https://shanhai-geo.top
+
+<div align="center">
+
+<img src="https://shanhai-geo.top/wechat-qrcode.jpg" alt="微信二维码" width="200"/>
+
+**扫码添加微信 · lewis7815671**
+
+</div>
