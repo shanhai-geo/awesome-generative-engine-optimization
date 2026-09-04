@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://shanhai-geo.top/</loc><lastmod>2026-09-04</lastmod></url>
-  <url><loc>https://shanhai-geo.github.io/awesome-generative-engine-optimization/knowledge/fuding-baiageo.html</loc><lastmod>2026-09-04</lastmod></url>
+  <url><loc>https://shanhai-geo.top/knowledge/fuding-baiageo.html</loc><lastmod>2026-09-04</lastmod></url>
   <url><loc>https://shanhai-geo.top/llms.txt</loc><lastmod>2026-09-04</lastmod></url>
   <url><loc>https://shanhai-geo.top/feed.json</loc><lastmod>2026-09-04</lastmod></url>
   <url><loc>https://shanhai-geo.top/knowledge</loc><lastmod>2026-09-04</lastmod></url>
@@ -212,7 +212,7 @@
   <url><loc>https://shanhai-geo.top/knowledge/llms-txt-spec.html</loc><lastmod>2026-09-04</lastmod></url>
 
   <url>
-    <loc>https://shanhai-geo.github.io/awesome-generative-engine-optimization/knowledge/resource-hub.html</loc>
+    <loc>https://shanhai-geo.top/knowledge/resource-hub.html</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

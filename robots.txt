@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://shanhai-geo.github.io/awesome-generative-engine-optimization/sitemap.xml
+Sitemap: https://shanhai-geo.top/sitemap.xml
 
 # AI Bots
 User-agent: GPTBot
