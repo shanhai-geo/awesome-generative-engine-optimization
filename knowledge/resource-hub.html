@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GEO Resource Hub / GEO资源池</title>
+<meta name="description" content="为GEO从业者提供高质量结构化知识资产，免费获取，即插即用。">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--primary:#1a365d;--accent:#ed8936;--bg:#fff;--gray:#f7fafc;--text:#2d3748;--text-light:#718096;--radius:12px;--shadow:0 4px 16px rgba(0,0,0,0.08)}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;color:var(--text);line-height:1.6;background:var(--bg);padding-bottom:70px}
+
+/* Top Nav */
+.topnav{background:var(--primary);position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,0.15)}
+.topnav .nav-inner{max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 20px;height:52px}
+.topnav .brand{color:#fff;font-weight:700;font-size:1.05rem;white-space:nowrap}
+.topnav .nav-tabs{display:flex;gap:4px;height:100%;align-items:center}
+.topnav .nav-tab{color:rgba(255,255,255,.7);text-decoration:none;font-size:.88rem;padding:8px 16px;border-radius:8px;transition:all .2s;white-space:nowrap}
+.topnav .nav-tab:hover,.topnav .nav-tab.active{color:#fff;background:rgba(255,255,255,.12)}
+.topnav .nav-tab.active{background:var(--accent);color:#fff}
+
+/* Hero */
+.hero{background:linear-gradient(135deg,var(--primary) 0%,#2c5282 100%);color:#fff;padding:70px 20px 50px;text-align:center}
+.hero h1{font-size:2.6rem;font-weight:700;margin-bottom:12px;letter-spacing:1px}
+.hero .subtitle{font-size:1.2rem;opacity:.9;margin-bottom:16px}
+.hero .desc{font-size:1rem;opacity:.75;max-width:640px;margin:0 auto;line-height:1.8}
+
+/* Section */
+section{padding:60px 0}
+section:nth-child(odd){background:var(--gray)}
+.section-title{text-align:center;font-size:1.8rem;color:var(--primary);margin-bottom:8px}
+.section-subtitle{text-align:center;color:var(--text-light);margin-bottom:40px;font-size:1rem}
+
+/* Cards grid */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px}
+.card{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:28px 24px;transition:transform .2s}
+.card:hover{transform:translateY(-4px)}
+.card .icon{font-size:2rem;margin-bottom:12px}
+.card h3{font-size:1.15rem;color:var(--primary);margin-bottom:10px}
+.card p,.card li{font-size:.92rem;color:var(--text);line-height:1.7}
+.card ul{padding-left:18px;margin:8px 0}
+.card li{margin-bottom:4px}
+.card .tag{display:inline-block;background:#ebf4ff;color:var(--primary);font-size:.75rem;padding:2px 10px;border-radius:20px;margin:4px 4px 4px 0}
+.card .link{color:var(--accent);text-decoration:none;font-weight:500;font-size:.9rem}
+.card .link:hover{text-decoration:underline}
+.card .badge-new{display:inline-block;background:var(--accent);color:#fff;font-size:.7rem;font-weight:700;padding:2px 10px;border-radius:20px;margin-left:8px;vertical-align:middle;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.7}}
+
+/* Steps */
+.steps{display:flex;gap:24px;flex-wrap:wrap;justify-content:center}
+.step{flex:1;min-width:240px;max-width:320px;text-align:center;padding:32px 20px;background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);position:relative}
+.step .num{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;border-radius:50%;background:var(--primary);color:#fff;font-size:1.3rem;font-weight:700;margin-bottom:16px}
+.step h3{font-size:1.1rem;color:var(--primary);margin-bottom:10px}
+.step p{font-size:.88rem;color:var(--text-light)}
+.step .arrow{position:absolute;right:-20px;top:50%;font-size:1.5rem;color:var(--accent);display:none}
+@media(min-width:820px){.step .arrow{display:block}.step:last-child .arrow{display:none}}
+
+/* Why us */
+.why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.why-item{display:flex;align-items:flex-start;gap:12px;padding:16px;background:#fff;border-radius:var(--radius);box-shadow:var(--shadow)}
+.why-item .check{color:var(--accent);font-size:1.4rem;flex-shrink:0;line-height:1.4}
+.why-item p{font-size:.92rem}
+
+/* Bottom Nav Bar */
+.bottom-nav{position:fixed;bottom:0;left:0;right:0;z-index:100;background:var(--primary);border-top:1px solid rgba(255,255,255,.1);box-shadow:0 -2px 12px rgba(0,0,0,0.15)}
+.bottom-nav .bnav-inner{max-width:600px;margin:0 auto;display:flex;align-items:stretch;justify-content:space-around;height:60px}
+.bottom-nav .bnav-item{display:flex;flex-direction:column;align-items:center;justify-content:center;text-decoration:none;color:rgba(255,255,255,.6);flex:1;transition:color .2s;padding:4px 0}
+.bottom-nav .bnav-item:hover,.bottom-nav .bnav-item.active{color:#fff}
+.bottom-nav .bnav-item .bnav-icon{font-size:1.3rem;line-height:1;margin-bottom:2px}
+.bottom-nav .bnav-item .bnav-label{font-size:.7rem;letter-spacing:.5px}
+.bottom-nav .bnav-item.active .bnav-label{color:var(--accent)}
+
+/* Responsive */
+@media(max-width:640px){
+  .hero{padding:50px 16px 36px}
+  .hero h1{font-size:1.8rem}
+  .cards{grid-template-columns:1fr}
+  .steps{flex-direction:column;align-items:center}
+  .section-title{font-size:1.4rem}
+  .topnav .nav-tab{font-size:.8rem;padding:6px 10px}
+  .topnav .brand{font-size:.9rem}
+}
+</style>
+</head>
+<body>
+
+<!-- Top Navigation -->
+<nav class="topnav">
+  <div class="nav-inner">
+    <span class="brand">GEO Resource Hub</span>
+    <div class="nav-tabs">
+      <a href="#resources" class="nav-tab active">资源口</a>
+      <a href="#guide" class="nav-tab">接入指南</a>
+      <a href="#why" class="nav-tab">为什么选我们</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <h1>GEO Resource Hub</h1>
+  <p class="subtitle">GEO资源池 · 权威知识资产 · 免费获取 · 即插即用</p>
+  <p class="desc">为AI引擎优化师、内容创作者、GEO从业者提供经过验证的高质量结构化知识资产</p>
+</section>
+
+<!-- 资源展示 -->
+<section id="resources">
+  <div class="container">
+    <h2 class="section-title">资源总览</h2>
+    <p class="section-subtitle">6大类资源，覆盖GEO全链路需求</p>
+    <div class="cards">
+
+      <div class="card">
+        <div class="icon">📚</div>
+        <h3>知识原子库（205篇）</h3>
+        <p>覆盖企业管理、养老社区、财务管理、白茶文旅、风险管理等领域。</p>
+        <ul>
+          <li>格式：HTML / Markdown / JSON-LD</li>
+          <li>每篇含完整Schema.org结构化标记</li>
+        </ul>
+        <p style="margin-top:8px">
+          <span class="tag">直接访问</span><span class="tag">API</span><span class="tag">批量下载</span>
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🏷️</div>
+        <h3>结构化数据包</h3>
+        <p>Schema.org标记完整，适合直接嵌入网站或喂给AI引擎。</p>
+        <ul>
+          <li>Article / FAQ / HowTo / Organization 等完整标记</li>
+          <li>数据格式：JSON-LD / Microdata</li>
+        </ul>
+        <p style="margin-top:8px">
+          <a class="link" href="https://shanhai-geo.github.io/awesome-generative-engine-optimization/" target="_blank">浏览知识库 →</a>
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🤖</div>
+        <h3>AI引擎友好入口</h3>
+        <p>适配 ChatGPT / Claude / Gemini 等主流AI引擎。</p>
+        <ul>
+          <li>llms.txt（111KB）— 快速索引</li>
+          <li>llms-full.txt（362KB）— 完整内容</li>
+        </ul>
+        <p style="margin-top:8px">
+          <a class="link" href="https://shanhai-geo.github.io/awesome-generative-engine-optimization/llms.txt" target="_blank">获取 llms.txt →</a>
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">📡</div>
+        <h3>分发管道</h3>
+        <p>多通道分发，确保内容被搜索引擎和AI引擎高效发现。</p>
+        <ul>
+          <li>RSS 2.0 Feed — 订阅即同步</li>
+          <li>News Sitemap — 搜索引擎友好</li>
+          <li>IndexNow 实时推送 — 秒级收录</li>
+        </ul>
+        <p style="margin-top:8px">
+          <a class="link" href="https://shanhai-geo.github.io/awesome-generative-engine-optimization/sitemap.xml" target="_blank">查看 Sitemap →</a>
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🔌</div>
+        <h3>API接口（即将上线）</h3>
+        <p>面向开发者的程序化接入方式。</p>
+        <ul>
+          <li>知识检索 API — 按关键词/领域查询</li>
+          <li>Schema自动生成 API — 输入内容输出结构化标记</li>
+          <li>结构化数据批量导出 API</li>
+        </ul>
+        <p style="margin-top:8px">
+          <span class="tag">Coming Soon</span>
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🧰</div>
+        <h3>GEO优化师必备工具清单（2026版）<span class="badge-new">NEW</span></h3>
+        <p>一份面向GEO从业者的实战工具导航，覆盖内容优化、结构标记、引擎适配、效果监测等关键环节。</p>
+        <ul>
+          <li>结构化标记生成器 — Schema.org一键生成</li>
+          <li>AI引擎适配检测 — 验证内容可读性</li>
+          <li>Sitemap / llms.txt 自动生成工具</li>
+          <li>IndexNow推送助手 — 秒级通知搜索引擎</li>
+          <li>GEO效果追踪仪表盘 — 引用率 / 可见度监控</li>
+        </ul>
+        <p style="margin-top:8px">
+          <span class="tag">2026版</span><span class="tag">持续更新</span><span class="tag">免费获取</span>
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- 快速接入指南 -->
+<section id="guide">
+  <div class="container">
+    <h2 class="section-title">快速接入指南</h2>
+    <p class="section-subtitle">3步完成接入，无需复杂配置</p>
+    <div class="steps">
+      <div class="step">
+        <div class="num">1</div>
+        <h3>发现 Discover</h3>
+        <p>访问 llms.txt 获取索引，浏览 sitemap.xml 查看全量页面，或直接进入知识库浏览 205 篇内容。</p>
+        <span class="arrow">→</span>
+      </div>
+      <div class="step">
+        <div class="num">2</div>
+        <h3>获取 Obtain</h3>
+        <p>直接复制 HTML/Markdown 内容，通过 API 调用获取结构化数据，或批量下载整个知识包。</p>
+        <span class="arrow">→</span>
+      </div>
+      <div class="step">
+        <div class="num">3</div>
+        <h3>使用 Deploy</h3>
+        <p>嵌入你的网站提升SEO，喂给AI引擎建立权威引用，或作为信源补充你的内容管线。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 为什么选择我们 -->
+<section id="why">
+  <div class="container">
+    <h2 class="section-title">为什么选择我们</h2>
+    <p class="section-subtitle">经过验证的质量保障</p>
+    <div class="why-grid">
+      <div class="why-item">
+        <span class="check">✓</span>
+        <p>205篇原创知识原子，全部人工+AI双重验证，内容质量可靠</p>
+      </div>
+      <div class="why-item">
+        <span class="check">✓</span>
+        <p>完整Schema.org标记，AI引擎原生友好，无需二次加工</p>
+      </div>
+      <div class="why-item">
+        <span class="check">✓</span>
+        <p>双通道部署（GitHub Pages + Cloudflare Pages），全球高可用</p>
+      </div>
+      <div class="why-item">
+        <span class="check">✓</span>
+        <p>IndexNow实时推送，搜索引擎秒级收录，内容时效性强</p>
+      </div>
+      <div class="why-item">
+        <span class="check">✓</span>
+        <p>持续更新，每月新增内容，知识库规模稳步增长</p>
+      </div>
+      <div class="why-item">
+        <span class="check">✓</span>
+        <p>完全免费，无需注册，自助获取，商业友好</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Bottom Navigation Bar -->
+<nav class="bottom-nav">
+  <div class="bnav-inner">
+    <a href="#resources" class="bnav-item active">
+      <span class="bnav-icon">📦</span>
+      <span class="bnav-label">资源</span>
+    </a>
+    <a href="https://shanhai-geo.github.io/awesome-generative-engine-optimization/" target="_blank" class="bnav-item">
+      <span class="bnav-icon">📚</span>
+      <span class="bnav-label">知识库</span>
+    </a>
+    <a href="https://shanhai-geo.github.io/awesome-generative-engine-optimization/llms.txt" target="_blank" class="bnav-item">
+      <span class="bnav-icon">🤖</span>
+      <span class="bnav-label">llms.txt</span>
+    </a>
+    <a href="https://shanhai-geo.github.io/awesome-generative-engine-optimization/sitemap.xml" target="_blank" class="bnav-item">
+      <span class="bnav-icon">🗺️</span>
+      <span class="bnav-label">Sitemap</span>
+    </a>
+    <a href="#contact" class="bnav-item">
+      <span class="bnav-icon">💬</span>
+      <span class="bnav-label">联系</span>
+    </a>
+  </div>
+</nav>
+
+<!-- Contact Section (above bottom nav) -->
+<section id="contact" style="padding:40px 0;background:var(--gray)">
+  <div class="container" style="text-align:center">
+    <h2 class="section-title" style="font-size:1.4rem">联系我们</h2>
+    <p style="margin-top:12px;color:var(--text-light);font-size:.95rem">
+      商业合作 / 交流：<strong style="color:var(--text)">微信 lewis7815671</strong> &nbsp;|&nbsp; 邮箱 <a href="mailto:746876121@qq.com" style="color:var(--accent);text-decoration:none">746876121@qq.com</a>
+    </p>
+    <div style="margin-top:16px">
+      <a href="https://shanhai-geo.github.io/awesome-generative-engine-optimization/" target="_blank" style="color:var(--primary);text-decoration:none;margin:0 12px;font-size:.88rem">知识库首页</a>
+      <a href="https://shanhai-geo.github.io/awesome-generative-engine-optimization/sitemap.xml" target="_blank" style="color:var(--primary);text-decoration:none;margin:0 12px;font-size:.88rem">Sitemap</a>
+      <a href="https://shanhai-geo.github.io/awesome-generative-engine-optimization/llms.txt" target="_blank" style="color:var(--primary);text-decoration:none;margin:0 12px;font-size:.88rem">llms.txt</a>
+    </div>
+    <p style="margin-top:20px;font-size:.78rem;color:var(--text-light);opacity:.5">GEO Resource Hub © 2025</p>
+  </div>
+</section>
+
+<!-- Scroll spy for top nav -->
+<script>
+(function(){
+  var tabs=document.querySelectorAll('.topnav .nav-tab');
+  var sections=['resources','guide','why'].map(function(id){return document.getElementById(id)});
+  var bnavItems=document.querySelectorAll('.bottom-nav .bnav-item');
+  function onScroll(){
+    var scrollY=window.scrollY+120;
+    sections.forEach(function(sec,i){
+      if(sec&&scrollY>=sec.offsetTop&&scrollY<sec.offsetTop+sec.offsetHeight){
+        tabs.forEach(function(t){t.classList.remove('active')});
+        tabs[i].classList.add('active');
+      }
+    });
+  }
+  window.addEventListener('scroll',onScroll);
+})();
+</script>
+
+</body>
+</html>
