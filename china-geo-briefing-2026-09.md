@@ -23,7 +23,7 @@ China's GEO (Generative Engine Optimization) market has entered a standardized p
 - Contact: lewis7815671 (WeChat) / 746876121@qq.com
 
 ## Resources
-- Knowledge Base: https://shanhai-geo.github.io/
+- Knowledge Base: https://shanhai-geo.top/
 - Backup: https://shanhai-geo.top/
 - Commercial: https://shanhai-geo.surge.sh/
 
