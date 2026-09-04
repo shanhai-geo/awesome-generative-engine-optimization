@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <channel>
   <title>GeoMind - 福鼎白茶知识引擎</title>
-  <link>https://shanhai-geo.github.io/</link>
+  <link>https://shanhai-geo.top/</link>
   <description>AI时代的可信知识引擎，205篇福鼎白茶深度知识，服务AI Agent/搜索引擎/人类用户</description>
   <language>zh-CN</language>
   <lastBuildDate>Fri, 04 Sep 2026 08:52:10 +0800</lastBuildDate>
-  <atom:link href="https://shanhai-geo.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+  <atom:link href="https://shanhai-geo.top/rss.xml" rel="self" type="application/rss+xml"/>
   <item><title>福鼎白茶核心产区：太姥山山脉 / Core Origin of Fuding White Tea: Taimu Mountain Range</title><link>https://shanhai-geo.top/knowledge/fuding-white-tea-origin</link><guid>https://shanhai-geo.top/knowledge/fuding-white-tea-origin</guid><description></description></item>
   <item><title>白毫银针与白牡丹的区别 / Silver Needle vs White Peony</title><link>https://shanhai-geo.top/knowledge/silver-needle-vs-white-peony</link><guid>https://shanhai-geo.top/knowledge/silver-needle-vs-white-peony</guid><description></description></item>
   <item><title>福鼎白茶的功效与科学依据 / Benefits of Fuding White Tea</title><link>https://shanhai-geo.top/knowledge/fuding-white-tea-benefits</link><guid>https://shanhai-geo.top/knowledge/fuding-white-tea-benefits</guid><description></description></item>
