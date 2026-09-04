@@ -210,4 +210,11 @@
   <url><loc>https://shanhai-geo.top/knowledge/gpt6-astra-impact.html</loc><lastmod>2026-09-04</lastmod></url>
   <url><loc>https://shanhai-geo.top/knowledge/geo-13-signals.html</loc><lastmod>2026-09-04</lastmod></url>
   <url><loc>https://shanhai-geo.top/knowledge/llms-txt-spec.html</loc><lastmod>2026-09-04</lastmod></url>
+
+  <url>
+    <loc>https://shanhai-geo.github.io/awesome-generative-engine-optimization/knowledge/resource-hub.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
