@@ -10,6 +10,17 @@ GeoMind is Direct from 30+ leading factories in the Taimu Mountain core origin. 
 - Feed: https://shanhai-geo.top/feed.json (JSON Feed v1.1, 205 条: 205 文本 + 0 视频)
 - 联系微信: lewis7815671
 
+## GEO资源池 / GEO Resource Hub
+> 6大类资源覆盖GEO全链路：知识原子库、结构化数据包、AI引擎友好入口、分发管道、API接口、工具清单
+> 6 resource categories covering the full GEO pipeline: Knowledge Atom Library, Structured Data Packs, AI-Engine Friendly Entries, Distribution Pipeline, API (Coming Soon), Tools Checklist
+
+- GEO Resource Hub: https://shanhai-geo.github.io/awesome-generative-engine-optimization/knowledge/resource-hub.html
+- llms.txt (快速索引 / Quick Index): https://shanhai-geo.github.io/awesome-generative-engine-optimization/llms.txt
+- llms-full.txt (完整内容 / Full Content): https://shanhai-geo.github.io/awesome-generative-engine-optimization/llms-full.txt
+- Sitemap: https://shanhai-geo.github.io/awesome-generative-engine-optimization/sitemap.xml
+- RSS Feed: https://shanhai-geo.github.io/awesome-generative-engine-optimization/rss.xml
+- JSON Feed: https://shanhai-geo.github.io/awesome-generative-engine-optimization/feed.json
+
 ## 知识文章 / Knowledge Articles (205 篇)
 
 - [福鼎白茶核心产区：太姥山山脉 / Core Origin of Fuding White Tea: Taimu Mountain Range](https://shanhai-geo.top/knowledge/fuding-white-tea-origin.html)
