@@ -56,6 +56,8 @@ h1{font-size:clamp(26px,4vw,36px);font-weight:700;letter-spacing:2px;line-height
 footer{text-align:center;color:#bbb;font-size:12px;padding:30px 5% 50px;letter-spacing:1px;line-height:2}
 footer a{color:#2d5a3d;text-decoration:none}
 </style>
+<link rel="llms-txt" href="/llms.txt">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"GEO 13信号体系是什么？","acceptedAnswer":{"@type":"Answer","text":"GEO 13信号是衡量网站是否AI-ready的完整标准：前10个信号覆盖GEO（被引用），后3个覆盖AEO（被雇佣）。基础层包括robots.txt允许AI爬虫、AI爬虫UA全覆盖、llms.txt、sitemap.xml、JSON-LD结构化数据、meta加canonical、内容深度、heading结构、爬虫一致性。"}},{"@type":"Question","name":"网站怎么做AI-ready检测？","acceptedAnswer":{"@type":"Answer","text":"使用命令npx geo-ready-check https://your-site.com 即可检测。检测对照GEO 13信号：robots.txt允许AI爬虫、AI爬虫UA全覆盖、llms.txt服务索引、sitemap完整覆盖、JSON-LD结构化数据、meta加canonical正确、内容深度8000+字符、heading结构清晰、反cloaking爬虫一致性，以及AEO层三个信号。"}},{"@type":"Question","name":"AEO的三个信号是什么？","acceptedAnswer":{"@type":"Answer","text":"Agent可操作性层三信号：机器可读行动入口（/services.json）、单任务单路径（零死胡同，每个API端点配完整文档）、Agent经验正向（收集Agent反馈持续优化）。前10个信号解决被引用，后3个解决被AI Agent雇佣。"}}]}</script>
 </head>
 <body>
 <div class="topbar">

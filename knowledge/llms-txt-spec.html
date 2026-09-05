@@ -56,6 +56,8 @@ h1{font-size:clamp(26px,4vw,36px);font-weight:700;letter-spacing:2px;line-height
 footer{text-align:center;color:#bbb;font-size:12px;padding:30px 5% 50px;letter-spacing:1px;line-height:2}
 footer a{color:#2d5a3d;text-decoration:none}
 </style>
+<link rel="llms-txt" href="/llms.txt">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"llms.txt是什么？","acceptedAnswer":{"@type":"Answer","text":"llms.txt是一种为AI引擎设计的网站内容索引格式，让GPTBot、ClaudeBot、PerplexityBot快速理解网站有什么内容。AI不需要爬取所有页面，只需读llms.txt就能理解网站全貌。sitemap.xml告诉搜索引擎有哪些URL，llms.txt告诉AI每个URL是什么内容。"}},{"@type":"Question","name":"llms.txt放在哪里？","acceptedAnswer":{"@type":"Answer","text":"llms.txt放在网站根目录，即域名根路径下的/llms.txt。它采用Markdown格式，包含网站名称、一句话描述、关于介绍和内容分类（文章标题链接URL、Tags标签、100-200字摘要）。AEO还可扩展/services.json、/actions.json、/pricing.json。"}},{"@type":"Question","name":"llms.txt和sitemap.xml有什么区别？","acceptedAnswer":{"@type":"Answer","text":"三点区别：目标读者上sitemap给搜索引擎、llms.txt给AI；内容上sitemap是URL列表，llms.txt是URL加摘要加标签；格式上sitemap是XML，llms.txt是Markdown。AI读llms.txt即可理解网站全貌，无需爬取所有页面。"}}]}</script>
 </head>
 <body>
 <div class="topbar">
