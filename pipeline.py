@@ -62,6 +62,9 @@ h1{{font-size:clamp(26px,4vw,36px);font-weight:700;letter-spacing:2px;line-heigh
 .tags{{margin:14px 0 0}}
 .tag{{display:inline-block;background:{B['tag_bg']};color:{B['primary_color']};font-size:12px;padding:3px 12px;border-radius:20px;margin:0 6px 6px 0;letter-spacing:1px}}
 .body-zh{{font-size:16.5px;color:#222;margin-bottom:22px;text-align:justify}}
+.body-zh p{{margin-bottom:14px;line-height:1.75}}
+.body-zh p:first-child{{font-weight:600;color:#1a5f1a;border-left:4px solid #4caf50;padding-left:12px;background:#f0f8f0;padding:10px 12px;border-radius:0 6px 6px 0}}
+.body-zh p:has(+ .authority-block){{margin-bottom:0}}
 .body-en{{font-size:14px;color:#7a7a7a;font-style:italic;line-height:1.8;margin-bottom:40px;text-align:justify;border-left:3px solid {B['primary_color']};padding-left:16px}}
 .video-box{{background:#000;border-radius:8px;overflow:hidden;margin:24px 0 30px;aspect-ratio:16/9}}
 .video-box video{{width:100%;height:100%;object-fit:contain}}
@@ -103,8 +106,20 @@ for item in ITEMS:
     full_title = item["title"]
     t_zh, t_en = (full_title.split(" / ", 1) + [""])[:2]
     parts = item["content_text"].split("\n")
-    body_zh = parts[0].strip() if parts else ""
-    body_en = parts[1].strip() if len(parts) > 1 else ""
+    # GEO核聚变：所有非空非英文段落合并为body_zh（含BLUF+定义+正文+数据+引用）
+    zh_paras = []
+    en_paras = []
+    for p in parts:
+        p = p.strip()
+        if not p:
+            continue
+        # 判断是否英文段落（以英文字母开头且长度>50）
+        if re.match(r'^[A-Z][a-z]', p) and len(p) > 50 and not p.startswith('The core'):
+            en_paras.append(p)
+        else:
+            zh_paras.append(p)
+    body_zh = "</p><p>".join(zh_paras) if zh_paras else (parts[0].strip() if parts else "")
+    body_en = en_paras[0] if en_paras else (parts[1].strip() if len(parts) > 1 and not parts[1].strip().startswith('核心') else "")
     tags = item.get("tags", [])
     pub = item.get("date_published", "2026-09-03T00:00:00+08:00")
     url = item.get("url") or f"{SITE}/knowledge/{kid}.html"
