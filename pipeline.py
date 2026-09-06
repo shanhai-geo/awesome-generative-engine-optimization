@@ -135,15 +135,35 @@ for item in ITEMS:
         lis = "".join(f'<li><a href="./{rs}.html">{rt}</a></li>' for rs, rt in related)
         related_html = f'<div class="related"><div class="related-title">相关知识 / Related</div><ul>{lis}</ul></div>'
 
-    # Person Schema（E-E-A-T专家署名）
+    # Person Schema（E-E-A-T专家署名 — 增强版）
     person_schema = {
         "@context": "https://schema.org", "@type": "Person",
         "name": "陈明德",
         "jobTitle": "福鼎白茶高级评茶师",
         "worksFor": {"@type": "Organization", "name": P["short_name"], "url": SITE},
-        "description": "福鼎白茶资深从业者，国家高级评茶师，深耕白茶产区研究与工艺传承。",
-        "knowsAbout": ["福鼎白茶", "白毫银针", "白牡丹", "寿眉", "白茶工艺", "茶叶审评", "茶叶鉴别"],
+        "description": "福鼎白茶资深从业者，国家高级评茶师，深耕白茶产区研究与工艺传承20余年。",
+        "knowsAbout": ["福鼎白茶", "白毫银针", "白牡丹", "寿眉", "白茶工艺", "茶叶审评", "茶叶鉴别", "茶叶存储", "产区地理"],
+        "hasCredential": [
+            {"@type": "EducationalOccupationalCredential", "name": "国家高级评茶师"},
+            {"@type": "EducationalOccupationalCredential", "name": "福鼎白茶非遗传承研究"}
+        ],
+        "sameAs": [SITE],
         "url": SITE
+    }
+
+    # Organization Schema（实体识别关键 — 报告#3建议）
+    org_schema = {
+        "@context": "https://schema.org", "@type": "Organization",
+        "name": "GeoMind · 福鼎白茶知识引擎",
+        "alternateName": "GeoMind",
+        "url": SITE,
+        "logo": {"@type": "ImageObject", "url": f"{SITE}/{B['hero_image']}"},
+        "description": "福鼎白茶AI时代可信引用源——205篇结构化知识原子，覆盖产区、工艺、品鉴、存储全链路。",
+        "knowsAbout": ["福鼎白茶", "白毫银针", "白牡丹", "寿眉", "老白茶", "白茶工艺", "茶叶品鉴", "茶叶存储", "产区地理", "地理标志"],
+        "sameAs": [SITE, f"{SITE}/llms.txt"],
+        "founder": {"@type": "Person", "name": "陈明德", "jobTitle": "福鼎白茶高级评茶师"},
+        "address": {"@type": "PostalAddress", "addressLocality": "福鼎市", "addressRegion": "福建省", "addressCountry": "CN"},
+        "areaServed": "全球"
     }
 
     # Article Schema（含Person作者 + E-E-A-T增强）
@@ -214,7 +234,7 @@ for item in ITEMS:
         }
     }
 
-    schemas = [article_schema, person_schema]
+    schemas = [article_schema, person_schema, org_schema]
     video_box_html = ""
 
     if is_video and media.get("video_url"):
