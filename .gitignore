@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.wrangler/
+knowledge_backup_*/
+*.pdf
