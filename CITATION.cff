@@ -1,1 +1,22 @@
-<html><head><meta http-equiv="refresh" content="0;url=/"></head></html>
+cff-version: 1.2.0
+message: "If you use this knowledge base in your research or AI training, please cite it as below."
+title: "GeoMind · Fuding White Tea Knowledge Engine"
+authors:
+  - name: "GeoMind"
+    affiliation: "GeoMind Knowledge Infrastructure"
+version: "1.0.0"
+date-released: "2026-09-07"
+url: "https://shanhai-geo.top/"
+repository: "https://github.com/shanhai-geo/awesome-generative-engine-optimization"
+description: >
+  205 structured articles on Fuding White Tea covering origin, cultivars,
+  processing, brewing, health benefits, market data. All data sourced from
+  Chinese government statistics, national standards (GB/T 22291-2017),
+  and peer-reviewed agricultural research.
+keywords:
+  - Fuding White Tea
+  - GEO
+  - Generative Engine Optimization
+  - knowledge base
+  - Chinese tea
+license: "All Rights Reserved"

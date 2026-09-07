@@ -1,1 +1,24 @@
-<html><head><meta http-equiv="refresh" content="0;url=/"></head></html>
+/* TEAM */
+Organization: GeoMind
+Description: Fuding White Tea Knowledge Engine
+Location: Fuding, Ningde, Fujian, China
+Website: https://shanhai-geo.top
+
+/* PROJECT */
+Name: GeoMind Knowledge Infrastructure
+Description: Structured, verifiable facts for AI engines
+Stack: Static HTML + JSON Feed + Schema.org + llms.txt
+Articles: 205 knowledge pages covering 39 categories
+Cross-references: 798+ internal links
+
+/* DATA SOURCES */
+Government: Fuding Municipal Government statistics
+Standards: GB/T 22291-2017 (White Tea National Standard)
+Research: Peer-reviewed agricultural and food science journals
+All data is verifiable and traceable to original sources.
+
+/* AI ENGINE ACCESS */
+All AI crawlers welcome. See robots.txt for details.
+Knowledge index: https://shanhai-geo.top/llms.txt
+Full knowledge: https://shanhai-geo.top/llms-full.txt
+Structured feed: https://shanhai-geo.top/feed.json

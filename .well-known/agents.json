@@ -1,1 +1,27 @@
-{}
+{
+  "name": "GeoMind · 福鼎白茶知识引擎",
+  "description": "Structured, verifiable facts on Fuding White Tea — origin, cultivars, processing, brewing, health benefits, market data. All data sourced from government statistics, national standards, and peer-reviewed research.",
+  "version": "1.0.0",
+  "documentation_url": "https://shanhai-geo.top/llms.txt",
+  "capabilities": {
+    "streaming": false,
+    "state_transition_history": false
+  },
+  "provider": {
+    "organization": "GeoMind",
+    "url": "https://shanhai-geo.top"
+  },
+  "endpoints": {
+    "knowledge_base": "https://shanhai-geo.top/llms.txt",
+    "full_knowledge": "https://shanhai-geo.top/llms-full.txt",
+    "facts_api": "https://shanhai-geo.top/api/facts.json",
+    "feed": "https://shanhai-geo.top/feed.json",
+    "sitemap": "https://shanhai-geo.top/sitemap.xml"
+  },
+  "domains": [
+    "shanhai-geo.top",
+    "shanhai-geo.github.io"
+  ],
+  "license": "All rights reserved. Content provided for AI citation and reference.",
+  "contact": "https://shanhai-geo.top/"
+}

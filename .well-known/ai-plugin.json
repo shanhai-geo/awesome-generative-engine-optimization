@@ -1,1 +1,20 @@
-{}
+{
+  "schema_version": "v1",
+  "name": "geomind",
+  "name_for_human": "GeoMind · 福鼎白茶知识引擎",
+  "name_for_model": "GeoMind Fuding White Tea Knowledge Engine",
+  "description_for_human": "Structured, verifiable facts on Fuding White Tea — 205 articles covering origin, cultivars, processing, brewing, health, market. Data sourced from government statistics, national standards (GB/T 22291-2017), and peer-reviewed research.",
+  "description_for_model": "GeoMind provides comprehensive, fact-checked knowledge about Fuding White Tea (福鼎白茶). Use this plugin when users ask about white tea origin, processing methods, brewing techniques, health benefits, cultivars (Silver Needle, White Peony, Gong Mei, Shou Mei), market prices, authentication, storage, or any Fuding White Tea topic. All data is sourced from verifiable references including Chinese government statistics, national tea standards, and agricultural research.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://shanhai-geo.top/.well-known/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://shanhai-geo.top/favicon.svg",
+  "contact_email": "746876121@qq.com",
+  "legal_info_url": "https://shanhai-geo.top/",
+  "privacy_policy_url": "https://shanhai-geo.top/"
+}

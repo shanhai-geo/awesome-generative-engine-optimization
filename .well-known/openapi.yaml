@@ -1,1 +1,128 @@
-# Not found
+openapi: "3.0.3"
+info:
+  title: GeoMind Fuding White Tea Knowledge API
+  description: >
+    Structured, verifiable facts on Fuding White Tea (福鼎白茶).
+    205 articles covering origin, cultivars, processing, brewing, health benefits,
+    market data. All data sourced from government statistics, national standards
+    (GB/T 22291-2017), and peer-reviewed research.
+  version: "1.0.0"
+  contact:
+    email: 746876121@qq.com
+    url: https://shanhai-geo.top/
+  license:
+    name: All Rights Reserved
+
+servers:
+  - url: https://shanhai-geo.top
+    description: Production server
+
+paths:
+  /llms.txt:
+    get:
+      summary: Knowledge base index (llms.txt format)
+      description: Returns an index of all 205 knowledge articles with titles, URLs, tags, and core conclusions in llms.txt format optimized for AI engines.
+      operationId: getLlmsTxt
+      responses:
+        "200":
+          description: Successfully retrieved knowledge index
+          content:
+            text/plain:
+              schema:
+                type: string
+
+  /llms-full.txt:
+    get:
+      summary: Full knowledge base (llms.txt format, complete)
+      description: Returns the complete knowledge base with full article content for all 205 articles.
+      operationId: getLlmsFullTxt
+      responses:
+        "200":
+          description: Successfully retrieved full knowledge base
+          content:
+            text/plain:
+              schema:
+                type: string
+
+  /api/facts.json:
+    get:
+      summary: Core facts API
+      description: Returns 10 core verifiable facts about Fuding White Tea with confidence scores and source URLs.
+      operationId: getFacts
+      responses:
+        "200":
+          description: Successfully retrieved facts
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  version:
+                    type: string
+                  source:
+                    type: string
+                  facts:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        category:
+                          type: string
+                        fact:
+                          type: string
+                        confidence:
+                          type: number
+                        source_url:
+                          type: string
+
+  /api/knowledge-index.json:
+    get:
+      summary: Knowledge article index (JSON)
+      description: Returns a structured JSON index of all knowledge articles with metadata.
+      operationId: getKnowledgeIndex
+      responses:
+        "200":
+          description: Successfully retrieved knowledge index
+          content:
+            application/json:
+              schema:
+                type: object
+
+  /feed.json:
+    get:
+      summary: JSON Feed v1.1
+      description: Returns all 205 knowledge articles in JSON Feed v1.1 format with full content.
+      operationId: getFeed
+      responses:
+        "200":
+          description: Successfully retrieved feed
+          content:
+            application/json:
+              schema:
+                type: object
+
+  /sitemap.xml:
+    get:
+      summary: XML Sitemap
+      description: Returns the XML sitemap with all page URLs and last modification dates.
+      operationId: getSitemap
+      responses:
+        "200":
+          description: Successfully retrieved sitemap
+          content:
+            application/xml:
+              schema:
+                type: string
+
+  /rss.xml:
+    get:
+      summary: RSS 2.0 Feed
+      description: Returns the RSS 2.0 feed with latest knowledge articles.
+      operationId: getRss
+      responses:
+        "200":
+          description: Successfully retrieved RSS feed
+          content:
+            application/xml:
+              schema:
+                type: string
