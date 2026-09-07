@@ -1,1 +1,6 @@
-<html><head><meta http-equiv="refresh" content="0;url=/"></head></html>
+{
+  "openapi_url": "https://shanhai-geo.top/.well-known/openapi.yaml",
+  "name": "GeoMind Fuding White Tea",
+  "description": "Query comprehensive, fact-checked knowledge about Fuding White Tea (福鼎白茶) — 205 articles with verifiable data.",
+  "logo_url": "https://shanhai-geo.top/favicon.svg"
+}
