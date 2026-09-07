@@ -1,0 +1,1412 @@
+{
+  "title": "福鼎白茶SC认证厂家数据库",
+  "description": "福鼎市获得SC认证（食品生产许可证）的白茶生产企业结构化数据。数据采集自福鼎市政府官方公示、国家市场监管总局SC数据库、福鼎市茶业协会地理标志授权名单等公开权威来源。",
+  "source": "福鼎市人民政府食品生产许可公示、foodsc.net(国家市场监管总局SC数据库汇总)、福鼎市茶业协会地理标志证明商标授权名单、第二批福鼎老字号企业公示、企查查/启信宝企业工商信息",
+  "last_updated": "2026-09-07",
+  "total_count": 114,
+  "factories": [
+    {
+      "name": "福建省福鼎市旭日种植专业合作社",
+      "sc_number": "SC11435098205091",
+      "town": "贯岭镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市贯岭镇中兴路9号",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376487.htm"
+    },
+    {
+      "name": "福鼎市尖兜茶业有限公司",
+      "sc_number": "SC11435098205106",
+      "town": "点头镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市点头镇上宅村尖兜15号",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376487.htm"
+    },
+    {
+      "name": "福鼎市管阳福昌昌海茶厂",
+      "sc_number": "SC11435098205114",
+      "town": "管阳镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市管阳镇管阳村长尾外29-1号",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376487.htm"
+    },
+    {
+      "name": "福建白茶村茶业有限公司",
+      "sc_number": "SC11435098205122",
+      "town": "管阳镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市管阳镇唐阳村外洋35号",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376487.htm"
+    },
+    {
+      "name": "福建福鼎青莲生态有机茶发展有限公司",
+      "sc_number": "SC11435098205139",
+      "town": "贯岭镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市贯岭镇军营村张家山56号",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376487.htm"
+    },
+    {
+      "name": "福建座右茗茶业有限公司",
+      "sc_number": "SC11435098205163",
+      "town": "山前街道",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市兰田工业园区荣泰路2号一层A区",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376487.htm"
+    },
+    {
+      "name": "福鼎市奕森茶叶有限公司",
+      "sc_number": "SC11435098205171",
+      "town": "山前街道",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市双岳工业项目集中区Y-Z-3",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376487.htm"
+    },
+    {
+      "name": "福鼎市崇澜茶业有限公司",
+      "sc_number": "SC11435098205198",
+      "town": "太姥山镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市太姥山镇太姥洋村贰坝头6-12号",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376487.htm"
+    },
+    {
+      "name": "福鼎市莲花山茶业有限公司",
+      "sc_number": "SC11435098205202",
+      "town": "桐城街道",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市桐城街道玉塘村竹仔山29号",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376487.htm"
+    },
+    {
+      "name": "福鼎市天龙号茶业有限公司",
+      "sc_number": "SC11435098205219",
+      "town": "管阳镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市管阳镇管阳村大坪里89号",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376487.htm"
+    },
+    {
+      "name": "福鼎市妙贡堂茶业有限公司",
+      "sc_number": "SC11435098205235",
+      "town": "桐城街道",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市桐城街道玉塘村青石桥果场",
+      "phone": null,
+      "brand": "妙贡堂",
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376487.htm"
+    },
+    {
+      "name": "福建青叶堂茶业有限公司",
+      "sc_number": "SC11435098205235",
+      "town": "管阳镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市管阳镇管阳村楮楼楮楼里233号",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376487.htm"
+    },
+    {
+      "name": "福鼎市太元福茶业有限公司",
+      "sc_number": "SC11435098205243",
+      "town": "白琳镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市白琳镇藤屿村洋心146-149号",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376487.htm"
+    },
+    {
+      "name": "福建省北晒茶业有限公司",
+      "sc_number": "SC11435098205251",
+      "town": "管阳镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市管阳镇乾头村南山岗138号",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376487.htm"
+    },
+    {
+      "name": "福鼎市王府妙贡茶业有限公司",
+      "sc_number": "SC11435098205260",
+      "town": "管阳镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市管阳镇章边村望里158号",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376487.htm"
+    },
+    {
+      "name": "福鼎九冈生态白茶有限公司",
+      "sc_number": "SC11435098205278",
+      "town": "太姥山镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市太姥山镇太姥洋村二坝头1-1号",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376487.htm"
+    },
+    {
+      "name": "福鼎市启山茶业有限公司",
+      "sc_number": "SC11435098205286",
+      "town": "山前街道",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市双岳工业园区同裕路12号",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376487.htm"
+    },
+    {
+      "name": "福建福茂春茶业有限公司",
+      "sc_number": "SC11435098205286",
+      "town": "山前街道",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市双岳工业园区同裕路12号",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376487.htm"
+    },
+    {
+      "name": "福鼎市铭茶泉茶业有限公司",
+      "sc_number": "SC11435098205333",
+      "town": "桐山街道",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市岭头村林家庄大厝基",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376487.htm"
+    },
+    {
+      "name": "福鼎市承匠茶业有限公司",
+      "sc_number": "SC11435098205325",
+      "town": "硖门畲族乡",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市硖门畲族乡秦石村月屿4号",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376487.htm"
+    },
+    {
+      "name": "福鼎市古源柏柳茶业有限公司",
+      "sc_number": "SC11435098205341",
+      "town": "管阳镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市管阳镇亭边村皇帝墓31号",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376487.htm"
+    },
+    {
+      "name": "福鼎市大茗福茶业有限公司",
+      "sc_number": "SC11435098205350",
+      "town": "点头镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市点头镇果阳村垅头自然村33号",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376487.htm"
+    },
+    {
+      "name": "福建春社茶业有限公司",
+      "sc_number": "SC11435098205368",
+      "town": "点头镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市点头镇扆山西路63号",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376487.htm"
+    },
+    {
+      "name": "福建泰美茶业有限公司",
+      "sc_number": "SC11435098204961",
+      "town": "山前街道",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市双岳工业园区双岳路12号-7#车间",
+      "phone": null,
+      "brand": "泰美",
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376484.htm"
+    },
+    {
+      "name": "福鼎市云顶春茶业有限公司",
+      "sc_number": "SC11435098205000",
+      "town": "磻溪镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市磻溪镇湖林村岙里68号",
+      "phone": null,
+      "brand": "周鼎興",
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376484.htm"
+    },
+    {
+      "name": "福建悠然谷茶业有限公司",
+      "sc_number": "SC11435098205026",
+      "town": "磻溪镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市磻溪镇金谷村瓦瑶岗",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376484.htm"
+    },
+    {
+      "name": "福鼎市翁商记茶业有限公司",
+      "sc_number": "SC11435098205059",
+      "town": "磻溪镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市磻溪镇湖林村亭下28号",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376484.htm"
+    },
+    {
+      "name": "福鼎市拾荒老树白茶研究所",
+      "sc_number": "SC11435098205042",
+      "town": "磻溪镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市磻溪镇湖林村大岗尾39号",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376484.htm"
+    },
+    {
+      "name": "福鼎市桑湖茶业有限公司",
+      "sc_number": "SC11435098205034",
+      "town": "磻溪镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市磻溪镇湖林村古坪头15-1号",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376484.htm"
+    },
+    {
+      "name": "福建奇古枝茶业有限公司",
+      "sc_number": "SC11435098205067",
+      "town": "点头镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市点头镇过笕村村委会（竹兰头32-1）",
+      "phone": null,
+      "brand": "奇古枝",
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376484.htm"
+    },
+    {
+      "name": "福鼎市阳风茶业有限公司",
+      "sc_number": "SC11435098205075",
+      "town": "磻溪镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市磻溪镇排洋村茶阳1-1号",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376484.htm"
+    },
+    {
+      "name": "福鼎市万夫锦茶业有限公司",
+      "sc_number": "SC11435098205083",
+      "town": "点头镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "宁德市福鼎市点头镇观洋村半山50号",
+      "phone": null,
+      "brand": null,
+      "source": "http://www.fuding.gov.cn/ztzl/zwgkbzhgfhjsgz/bzml/spypjg/xzsp_32897/202010/t20201023_1376484.htm"
+    },
+    {
+      "name": "福建品品香茶业有限公司",
+      "sc_number": "SC11435098200740",
+      "town": "桐城街道",
+      "categories": [
+        "白毫银针",
+        "白牡丹",
+        "贡眉",
+        "寿眉"
+      ],
+      "address": "福建省宁德市福鼎市桐城资国村山下106号",
+      "phone": "0593-7669881",
+      "brand": "品品香、晒白金",
+      "source": "https://www.foodsc.net/sc/36630.html"
+    },
+    {
+      "name": "福建省天湖茶业有限公司",
+      "sc_number": "SC11435098200740",
+      "town": "山前街道",
+      "categories": [
+        "白毫银针",
+        "白牡丹",
+        "贡眉",
+        "寿眉"
+      ],
+      "address": "福建省福鼎市双岳工业园区岳丰路2号",
+      "phone": null,
+      "brand": "绿雪芽",
+      "source": "http://www.fuding.gov.cn/zwgk/tzgg/202607/t20260708_2468997.htm"
+    },
+    {
+      "name": "六妙白茶股份有限公司",
+      "sc_number": null,
+      "town": "点头镇",
+      "categories": [
+        "白毫银针",
+        "白牡丹",
+        "贡眉",
+        "寿眉"
+      ],
+      "address": "福鼎市点头镇工业集中区B-6号",
+      "phone": null,
+      "brand": "六妙、梅相靖大师白茶",
+      "source": "http://www.fuding.gov.cn/zwgk/tzgg/202607/t20260708_2468997.htm"
+    },
+    {
+      "name": "福建瑞达茶业有限公司",
+      "sc_number": "SC11435098200436",
+      "town": "点头镇",
+      "categories": [
+        "白毫银针",
+        "白牡丹",
+        "贡眉",
+        "寿眉"
+      ],
+      "address": "福建省福鼎市点头镇扆山西路121号",
+      "phone": "400-0593-128",
+      "brand": "瑞达",
+      "source": "https://www.ruidabaicha.com/"
+    },
+    {
+      "name": "福建誉达茶业有限公司",
+      "sc_number": "SC11435098200160",
+      "town": "桐城街道",
+      "categories": [
+        "白毫银针",
+        "白牡丹",
+        "贡眉",
+        "寿眉"
+      ],
+      "address": "福建省宁德市福鼎市桐城星火路30号",
+      "phone": "0593-7806777",
+      "brand": "誉达",
+      "source": "http://www.fuding.gov.cn/zwgk/tzgg/202607/t20260708_2468997.htm"
+    },
+    {
+      "name": "福建鼎白茶业有限公司",
+      "sc_number": null,
+      "town": "磻溪镇",
+      "categories": [
+        "白毫银针",
+        "白牡丹",
+        "贡眉",
+        "寿眉"
+      ],
+      "address": "福建省宁德市福鼎市磻溪镇",
+      "phone": null,
+      "brand": "鼎白",
+      "source": "https://m.maigoo.com/news/724532.html"
+    },
+    {
+      "name": "福建顺茗道茶业有限公司",
+      "sc_number": null,
+      "town": "磻溪镇",
+      "categories": [
+        "白毫银针",
+        "白牡丹",
+        "贡眉",
+        "寿眉"
+      ],
+      "address": "福建省宁德市福鼎市磻溪镇",
+      "phone": null,
+      "brand": "顺茗道",
+      "source": "https://m.maigoo.com/news/724532.html"
+    },
+    {
+      "name": "福建省大沁茶业有限公司",
+      "sc_number": "SC11435098202411",
+      "town": "磻溪镇",
+      "categories": [
+        "白毫银针",
+        "白牡丹",
+        "贡眉",
+        "寿眉"
+      ],
+      "address": "福建省宁德市福鼎市磻溪镇十三坪",
+      "phone": null,
+      "brand": "大沁白茶",
+      "source": "https://www.qixin.com/company/7815ef5a-a932-43d0-9d88-fd70038b147b"
+    },
+    {
+      "name": "福建福鼎东南白茶进出口有限公司",
+      "sc_number": "SC11435098200250",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": "东南多奇",
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福建省广福茶业有限责任公司",
+      "sc_number": null,
+      "town": "磻溪镇",
+      "categories": [
+        "白毫银针",
+        "白牡丹",
+        "贡眉",
+        "寿眉"
+      ],
+      "address": "福建省宁德市福鼎市磻溪镇湖林村",
+      "phone": null,
+      "brand": "广福茶业",
+      "source": "https://m.maigoo.com/news/724532.html"
+    },
+    {
+      "name": "福建省裕荣香茶业有限公司",
+      "sc_number": null,
+      "town": "白琳镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省福鼎市白琳镇坑里洋村北山三斗丘1号",
+      "phone": null,
+      "brand": "裕荣香",
+      "source": "http://www.fuding.gov.cn/zwgk/tzgg/202607/t20260708_2468997.htm"
+    },
+    {
+      "name": "福建省恒春源茶业有限公司",
+      "sc_number": null,
+      "town": "佳阳畲族乡",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市佳阳畲族乡周山村西坑内57号",
+      "phone": null,
+      "brand": "恒春源",
+      "source": "http://www.fuding.gov.cn/zwgk/tzgg/202607/t20260708_2468997.htm"
+    },
+    {
+      "name": "福建同顺泰茶业有限公司",
+      "sc_number": null,
+      "town": "白琳镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省福鼎市白琳镇玉琳西路291号",
+      "phone": null,
+      "brand": "同顺泰",
+      "source": "http://www.fuding.gov.cn/zwgk/tzgg/202607/t20260708_2468997.htm"
+    },
+    {
+      "name": "福建省华羽村茶业有限公司",
+      "sc_number": null,
+      "town": "管阳镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市管阳镇管阳村管街38号",
+      "phone": null,
+      "brand": "华羽村",
+      "source": "http://www.fuding.gov.cn/zwgk/tzgg/202607/t20260708_2468997.htm"
+    },
+    {
+      "name": "福鼎市春隆白茶有限公司",
+      "sc_number": null,
+      "town": "白琳镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省福鼎市白琳镇隧道口茶叶加工区",
+      "phone": null,
+      "brand": "双春隆",
+      "source": "http://www.fuding.gov.cn/zwgk/tzgg/202607/t20260708_2468997.htm"
+    },
+    {
+      "name": "福鼎市七碗李家农业发展有限公司",
+      "sc_number": null,
+      "town": "点头镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市点头镇龙田村岙里177号",
+      "phone": null,
+      "brand": "七碗李家",
+      "source": "http://www.fuding.gov.cn/zwgk/tzgg/202607/t20260708_2468997.htm"
+    },
+    {
+      "name": "福鼎市芳茗茶业有限公司",
+      "sc_number": "SC11435098200549",
+      "town": "点头镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市点头镇观洋亭65、65-1号",
+      "phone": "13950494185",
+      "brand": "叶芳养",
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎元宏昌茶业有限公司",
+      "sc_number": "SC11435098200233",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市确实好茶业有限公司",
+      "sc_number": "SC11435098200284",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市十福缘茶业有限公司",
+      "sc_number": "SC11435098200292",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市清凉帝茶业有限公司",
+      "sc_number": "SC11435098200356",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市福来轩茶产业有限公司",
+      "sc_number": "SC11435098200485",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市绿意浓茶业有限公司",
+      "sc_number": "SC11435098200604",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市天霁茶业有限公司",
+      "sc_number": "SC11435098200612",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市畲山茗韵茶业有限公司",
+      "sc_number": "SC11435098200524",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市茗道堂茶文化发展有限公司",
+      "sc_number": "SC11435098200637",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市茗鼎茶业有限公司",
+      "sc_number": "SC11435098200565",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福建省福鼎市鼎农茶业有限公司",
+      "sc_number": "SC11435098200590",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市天健茶业有限公司",
+      "sc_number": "SC11435098200532",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市大姥号茶业有限公司",
+      "sc_number": "SC11435098200766",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎长品白茶有限公司",
+      "sc_number": "SC11435098200758",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市元银茶业有限公司",
+      "sc_number": "SC11435098200688",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市张时芳茶业有限公司",
+      "sc_number": "SC11435098200696",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福建省福鼎市赤溪茶业有限公司",
+      "sc_number": "SC11435098200820",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市文洋有机茶发展有限公司",
+      "sc_number": "SC11435098200879",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市金眉山茶业有限公司",
+      "sc_number": "SC11435098200887",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎汉仪楼茶业有限公司",
+      "sc_number": "SC11435098200846",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": "汉仪楼",
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市新恒丰茶业有限公司",
+      "sc_number": "SC11435098200900",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市畲茗香茶业有限公司",
+      "sc_number": "SC11435098200209",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市鼎程龙茶业有限公司",
+      "sc_number": "SC11435098201041",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福建福鼎福泰兴茶业有限公司",
+      "sc_number": "SC11435098201105",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市春绿茶业有限公司",
+      "sc_number": "SC11435098200942",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市入帘青茶业有限公司",
+      "sc_number": "SC11435098201033",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市天天品茶叶有限公司",
+      "sc_number": "SC11435098200372",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市碧山茶业有限公司",
+      "sc_number": "SC11435098201050",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市以琳茶业有限公司",
+      "sc_number": "SC11435098200799",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市福蕴茶业有限公司",
+      "sc_number": "SC11435098200959",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市龙鼎茶业有限公司",
+      "sc_number": "SC11435098201156",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市西坑孔家茶业有限公司",
+      "sc_number": "SC11435098201130",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福建省福鼎市一叶九鼎茶业有限公司",
+      "sc_number": "SC11435098201148",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市天毫茶业有限公司",
+      "sc_number": "SC11435098201172",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": "天毫",
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎陈源泰茶业有限公司",
+      "sc_number": "SC11435098201197",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": "陈源泰",
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福鼎市九峰山白茶有限公司",
+      "sc_number": "SC11435098201210",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/%E7%A6%8F%E9%BC%8E.html"
+    },
+    {
+      "name": "福建天峰茶业有限公司",
+      "sc_number": "SC11435098201236",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/sc11435098201.html"
+    },
+    {
+      "name": "福鼎市白琳中之鼎白茶专业合作社",
+      "sc_number": "SC11435098201244",
+      "town": "白琳镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/sc11435098201.html"
+    },
+    {
+      "name": "福鼎市点头顺利茶厂（普通合伙）",
+      "sc_number": "SC11435098201381",
+      "town": "点头镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/sc11435098201.html"
+    },
+    {
+      "name": "福鼎市云飞茶业有限公司",
+      "sc_number": "SC11435098201461",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/sc11435098201.html"
+    },
+    {
+      "name": "福鼎市湖林茗湖茶叶专业合作社",
+      "sc_number": "SC11435098201412",
+      "town": "磻溪镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/sc11435098201.html"
+    },
+    {
+      "name": "福鼎市黄氏京鼎茶业有限公司",
+      "sc_number": "SC11435098201453",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/sc11435098201.html"
+    },
+    {
+      "name": "福鼎市春润白茶有限公司",
+      "sc_number": "SC11435098201470",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/sc11435098201.html"
+    },
+    {
+      "name": "福鼎自然白茶有限公司",
+      "sc_number": "SC11435098201523",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/sc11435098201.html"
+    },
+    {
+      "name": "福鼎市吴阳村茶业专业合作社",
+      "sc_number": "SC11435098201531",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/psearch/kws/sc11435098201.html"
+    },
+    {
+      "name": "福鼎市茗峰茶厂",
+      "sc_number": "SC11435098202680",
+      "town": "磻溪镇",
+      "categories": [
+        "白毫银针",
+        "白牡丹",
+        "贡眉"
+      ],
+      "address": "福建省宁德市福鼎市磻溪镇黄岗村打铁坵39号",
+      "phone": null,
+      "brand": null,
+      "source": "https://www.foodsc.net/sc/133625.html"
+    },
+    {
+      "name": "福建省老仙蒲茶业有限公司",
+      "sc_number": "SC11435098200305",
+      "town": "磻溪镇",
+      "categories": [
+        "白毫银针",
+        "白牡丹",
+        "贡眉",
+        "寿眉"
+      ],
+      "address": "福建省宁德市福鼎市磻溪镇仙蒲村仙蒲1-2号",
+      "phone": null,
+      "brand": "老仙蒲",
+      "source": "http://www.qszt.cn/scsjk/model/temple1/company.asp?id=33428"
+    },
+    {
+      "name": "福鼎市骏达茶业有限公司",
+      "sc_number": "SC11435098203061",
+      "town": "点头镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福建省宁德市福鼎市点头镇马洋村竹下里50号",
+      "phone": "13030928358",
+      "brand": "骏大白",
+      "source": "https://www.qcc.com/crun/0c6f4694ae5e90b578b278b09be813a3.html"
+    },
+    {
+      "name": "福鼎市沁福顺茶业专业合作社",
+      "sc_number": null,
+      "town": "点头镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": "福鼎市点头镇富民路34-38号",
+      "phone": "13860360683",
+      "brand": null,
+      "source": "https://www.qcc.com/crun/6c4209dcf3587c378585f7c965bd094c.html"
+    },
+    {
+      "name": "福鼎润古今白茶有限公司",
+      "sc_number": null,
+      "town": "点头镇",
+      "categories": [
+        "白毫银针",
+        "白牡丹",
+        "贡眉",
+        "寿眉"
+      ],
+      "address": "福建省宁德市福鼎市点头镇",
+      "phone": null,
+      "brand": "润古今",
+      "source": "http://www.rungujin.cn/col.jsp?id=101"
+    },
+    {
+      "name": "福建太姥山名茶有限公司",
+      "sc_number": null,
+      "town": "太姥山镇",
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": "太姥山",
+      "source": "https://www.lvxueyatea.com/uploads/20250219/949d64e94f6a07374d2cf40550daed68.png"
+    },
+    {
+      "name": "福建康来颜茶业有限公司",
+      "sc_number": null,
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": "康来颜",
+      "source": "https://m.qcc.com/postnews/e42a8644c1a613ba7319c48f0a63f8b2.html"
+    },
+    {
+      "name": "福建省董德茶业有限公司",
+      "sc_number": null,
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": "董德",
+      "source": "https://m.qcc.com/postnews/e42a8644c1a613ba7319c48f0a63f8b2.html"
+    },
+    {
+      "name": "福建茶珍香茶业有限公司",
+      "sc_number": null,
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": "茶珍香",
+      "source": "https://m.qcc.com/postnews/e42a8644c1a613ba7319c48f0a63f8b2.html"
+    },
+    {
+      "name": "福建省万氏留香茶业有限公司",
+      "sc_number": null,
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": "万氏留香",
+      "source": "https://m.qcc.com/postnews/e42a8644c1a613ba7319c48f0a63f8b2.html"
+    },
+    {
+      "name": "福建永香茶业有限公司",
+      "sc_number": null,
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://m.qcc.com/postnews/e42a8644c1a613ba7319c48f0a63f8b2.html"
+    },
+    {
+      "name": "福鼎梅相靖白茶有限公司",
+      "sc_number": null,
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": "梅相靖",
+      "source": "https://m.qcc.com/postnews/e42a8644c1a613ba7319c48f0a63f8b2.html"
+    },
+    {
+      "name": "福建白茶山茶叶有限公司",
+      "sc_number": null,
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://m.qcc.com/postnews/e42a8644c1a613ba7319c48f0a63f8b2.html"
+    },
+    {
+      "name": "福建北路银针茶业有限公司",
+      "sc_number": null,
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": "北路银针",
+      "source": "https://www.cnipa.gov.cn/20191030155921022538.pdf"
+    },
+    {
+      "name": "福鼎市山之语茶业有限公司",
+      "sc_number": null,
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.cnipa.gov.cn/20191030155921022538.pdf"
+    },
+    {
+      "name": "福鼎市八闽清音茶业有限公司",
+      "sc_number": null,
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.cnipa.gov.cn/20191030155921022538.pdf"
+    },
+    {
+      "name": "福鼎一末茶业有限公司",
+      "sc_number": null,
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": "一末",
+      "source": "https://www.cnipa.gov.cn/20191030155921022538.pdf"
+    },
+    {
+      "name": "福建合熹堂茶业有限公司",
+      "sc_number": null,
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": "合熹堂",
+      "source": "https://www.cnipa.gov.cn/20191030155921022538.pdf"
+    },
+    {
+      "name": "福鼎市绿园茶业有限公司",
+      "sc_number": "SC11435098200039",
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.cnipa.gov.cn/module/download/downfile.jsp?classid=0&filename=4f86173074fa4fb6bfac6c52865e935f.pdf"
+    },
+    {
+      "name": "福鼎市幽兰茶业有限公司",
+      "sc_number": null,
+      "town": null,
+      "categories": [
+        "白茶"
+      ],
+      "address": null,
+      "phone": null,
+      "brand": null,
+      "source": "https://www.cnipa.gov.cn/module/download/downfile.jsp?classid=0&filename=4f86173074fa4fb6bfac6c52865e935f.pdf"
+    }
+  ]
+}

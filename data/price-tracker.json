@@ -1,0 +1,375 @@
+{
+  "title": "福鼎白茶价格追踪",
+  "description": "福鼎白茶主要品类市场零售/批发价格追踪数据，覆盖白毫银针、白牡丹、贡眉、寿眉四大品类，按等级和年份维度组织",
+  "source": "公开市场价格采集（淘宝/1688/惠农网/一亩田/品牌旗舰店/行业协会报告）",
+  "last_updated": "2026-09-07",
+  "currency": "CNY",
+  "unit": "500g（1斤）",
+  "data_note": "价格为市场采集区间，实际价格因产区、品牌、工艺、渠道差异较大；陈茶年份基于商家标注，真实性需自行鉴别；批发价通常为批量采购价（5-10斤起）",
+  "categories": [
+    {
+      "name": "白毫银针",
+      "grade": "特级",
+      "year": "2026",
+      "type": "新茶",
+      "price_range": {
+        "retail": {"min": 500, "max": 1500, "median": 800},
+        "wholesale": {"min": 200, "max": 300, "median": 250}
+      },
+      "source": "淘宝平台2026新茶特级白毫银针商品列表 + 惠农网批发价",
+      "source_url": "https://mobile-phone.taobao.com/chanpin/06c9c5223bb3bdf14d786c099c0cd1887d8d28155648c4047ab9195cac26225f.html",
+      "notes": "品牌产品（品品香、绿雪芽等）零售价可达2000-5000元/斤；低价产品可能非福鼎正宗或等级不足"
+    },
+    {
+      "name": "白毫银针",
+      "grade": "一级",
+      "year": "2026",
+      "type": "新茶",
+      "price_range": {
+        "retail": {"min": 250, "max": 600, "median": 380},
+        "wholesale": {"min": 150, "max": 230, "median": 190}
+      },
+      "source": "惠农网批发价 + 淘宝平台 + 1688批发",
+      "source_url": "https://m.cnhnb.com/p/baichao-0-13-8288-111_24396-2/",
+      "notes": "一级银针多为头采后批次或非核心产区产品"
+    },
+    {
+      "name": "白毫银针",
+      "grade": "二级",
+      "year": "2026",
+      "type": "新茶",
+      "price_range": {
+        "retail": {"min": 100, "max": 300, "median": 180},
+        "wholesale": {"min": 80, "max": 150, "median": 110}
+      },
+      "source": "淘宝平台 + 1688批发平台",
+      "source_url": "https://www.1688.com/wiki/zh/white-tea/WKfigcz1v9gwzk",
+      "notes": "二级银针多为雨水茶或尾针，芽头较小；部分低价产品可能为云南月光白冒充"
+    },
+    {
+      "name": "白毫银针",
+      "grade": "特级",
+      "year": "2025",
+      "type": "1年陈",
+      "price_range": {
+        "retail": {"min": 600, "max": 1800, "median": 1000},
+        "wholesale": {"min": 230, "max": 350, "median": 290}
+      },
+      "source": "品品香2025特级白毫银针定价 + 行业陈化增值规律",
+      "source_url": "https://m.maigoo.com/news/543569.html",
+      "notes": "品品香2025特级花香白毫银针40g/199元≈2488元/斤（品牌高端价）；普通市场1年陈约为新茶的1.2-1.5倍"
+    },
+    {
+      "name": "白毫银针",
+      "grade": "特级",
+      "year": "2023",
+      "type": "3年陈",
+      "price_range": {
+        "retail": {"min": 800, "max": 2500, "median": 1500},
+        "wholesale": {"min": 350, "max": 500, "median": 420}
+      },
+      "source": "绿雪芽3年陈白毫银针定价 + 国际站3-4年陈银针批发价",
+      "source_url": "https://japanese.alibaba.com/f/%E3%81%BA%E3%81%93_5.html",
+      "notes": "国际站3-4年陈特级银针批发约SG$420-433/kg≈2200元/kg=1100元/斤；品牌3年陈溢价更高"
+    },
+    {
+      "name": "白毫银针",
+      "grade": "特级",
+      "year": "2021",
+      "type": "5年陈",
+      "price_range": {
+        "retail": {"min": 1200, "max": 4000, "median": 2200},
+        "wholesale": {"min": 500, "max": 800, "median": 650}
+      },
+      "source": "绿雪芽6年陈白毫银针定价 + 行业陈化规律推算",
+      "source_url": "https://m.maigoo.com/news/536045.html",
+      "notes": "绿雪芽6年陈韵白毫银针56g/1870元≈16700元/斤为高端收藏级，非市场普遍价；普通5年陈银针约为新茶的2.5-4倍"
+    },
+    {
+      "name": "白毫银针",
+      "grade": "特级",
+      "year": "2016",
+      "type": "10年陈",
+      "price_range": {
+        "retail": {"min": null, "max": null, "median": null},
+        "wholesale": {"min": null, "max": null, "median": null}
+      },
+      "source": "数据缺口",
+      "source_url": "N/A",
+      "notes": "市场上标注10年以上白毫银针的产品极少且年份真实性难以验证，暂无可靠价格数据"
+    },
+    {
+      "name": "白牡丹",
+      "grade": "特级",
+      "year": "2026",
+      "type": "新茶",
+      "price_range": {
+        "retail": {"min": 200, "max": 800, "median": 400},
+        "wholesale": {"min": 120, "max": 250, "median": 180}
+      },
+      "source": "惠农网牡丹王批发价 + 淘宝特级白牡丹 + 1688批发",
+      "source_url": "https://m.cnhnb.com/p/baichao-0-0-8289-56_24413,111_24397-1/",
+      "notes": "特级白牡丹（牡丹王）惠农网批发约245-250元/斤；品牌特级可达600-1000元/斤"
+    },
+    {
+      "name": "白牡丹",
+      "grade": "一级",
+      "year": "2026",
+      "type": "新茶",
+      "price_range": {
+        "retail": {"min": 100, "max": 350, "median": 180},
+        "wholesale": {"min": 68, "max": 150, "median": 100}
+      },
+      "source": "惠农网一级白牡丹批发 + 一亩田白牡丹产地价 + 淘宝零售价",
+      "source_url": "https://m.ymt.com/hangqing/juhe-214066",
+      "notes": "一亩田福建宁德白牡丹通货165.5元/斤（单位存疑，结合其他来源判断为元/斤）"
+    },
+    {
+      "name": "白牡丹",
+      "grade": "二级",
+      "year": "2026",
+      "type": "新茶",
+      "price_range": {
+        "retail": {"min": 50, "max": 150, "median": 80},
+        "wholesale": {"min": 35, "max": 70, "median": 50}
+      },
+      "source": "1688批发平台低价白牡丹 + 惠农网大宗批发价",
+      "source_url": "https://wiki.1688.com/zh/white-tea/WKfkvmp58giscg",
+      "notes": "二级白牡丹多为谷雨前后采摘，叶片较大；1688最低价23.02元/斤起批量大且品质较低"
+    },
+    {
+      "name": "白牡丹",
+      "grade": "特级",
+      "year": "2025",
+      "type": "1年陈",
+      "price_range": {
+        "retail": {"min": 250, "max": 1000, "median": 500},
+        "wholesale": {"min": 150, "max": 300, "median": 220}
+      },
+      "source": "品品香2024-2025白牡丹定价推算",
+      "source_url": "https://m.maigoo.com/news/543569.html",
+      "notes": "品品香2024年白牡丹100g礼盒/109元≈545元/斤；1年陈约为新茶的1.2-1.3倍"
+    },
+    {
+      "name": "白牡丹",
+      "grade": "特级",
+      "year": "2023",
+      "type": "3年陈",
+      "price_range": {
+        "retail": {"min": 400, "max": 1500, "median": 700},
+        "wholesale": {"min": 200, "max": 400, "median": 300}
+      },
+      "source": "绿雪芽3年陈白牡丹 + 品品香晒白金白牡丹定价",
+      "source_url": "https://m.maigoo.com/news/536045.html",
+      "notes": "绿雪芽3年陈韵白牡丹56g/320元≈2857元/斤为高端系列；品品香晒白金2018白牡丹360g/1352.6元≈1879元/斤"
+    },
+    {
+      "name": "白牡丹",
+      "grade": "特级",
+      "year": "2021",
+      "type": "5年陈",
+      "price_range": {
+        "retail": {"min": 500, "max": 2000, "median": 900},
+        "wholesale": {"min": 280, "max": 500, "median": 380}
+      },
+      "source": "品品香简语2021白牡丹 + 行业陈化规律",
+      "source_url": "https://m.maigoo.com/news/543569.html",
+      "notes": "品品香简语2021明前白牡丹100g/127.9元≈640元/斤；5年陈约为新茶的2.5-3倍"
+    },
+    {
+      "name": "白牡丹",
+      "grade": "特级",
+      "year": "2016",
+      "type": "10年陈",
+      "price_range": {
+        "retail": {"min": null, "max": null, "median": null},
+        "wholesale": {"min": null, "max": null, "median": null}
+      },
+      "source": "数据缺口",
+      "source_url": "N/A",
+      "notes": "10年陈特级白牡丹市场存量少，价格离散度大，暂无可靠的公开基准价格"
+    },
+    {
+      "name": "贡眉",
+      "grade": "特级",
+      "year": "2026",
+      "type": "新茶",
+      "price_range": {
+        "retail": {"min": 150, "max": 500, "median": 280},
+        "wholesale": {"min": 80, "max": 180, "median": 120}
+      },
+      "source": "福建茶叶协会指导价 + 惠农网贡眉批发价",
+      "source_url": "http://m.toutiao.com/group/7619227781842436608/",
+      "notes": "福建茶叶协会优质贡眉（一级）指导价200-500元/斤；特级贡眉原料为小叶种菜茶，产量稀少"
+    },
+    {
+      "name": "贡眉",
+      "grade": "一级",
+      "year": "2026",
+      "type": "新茶",
+      "price_range": {
+        "retail": {"min": 80, "max": 250, "median": 150},
+        "wholesale": {"min": 50, "max": 120, "median": 80}
+      },
+      "source": "福建茶叶协会指导价 + 惠农网批发",
+      "source_url": "http://m.toutiao.com/group/7619227781842436608/",
+      "notes": "一级贡眉为市场主流产品；注意区分贡眉与寿眉——贡眉为菜茶原料，寿眉为大白/大毫原料"
+    },
+    {
+      "name": "贡眉",
+      "grade": "二级",
+      "year": "2026",
+      "type": "新茶",
+      "price_range": {
+        "retail": {"min": 50, "max": 150, "median": 80},
+        "wholesale": {"min": 35, "max": 70, "median": 50}
+      },
+      "source": "一亩田贡眉产地价 + 淘宝贡眉零售价",
+      "source_url": "https://m.ymt.com/hangqing/juhe-214066",
+      "notes": "一亩田贡眉通货99.03元（单位存疑）；二级贡眉与一级寿眉价格相近，市场常混用"
+    },
+    {
+      "name": "贡眉",
+      "grade": "一级",
+      "year": "2025",
+      "type": "1年陈",
+      "price_range": {
+        "retail": {"min": 100, "max": 300, "median": 180},
+        "wholesale": {"min": 60, "max": 140, "median": 95}
+      },
+      "source": "基于新茶价格和陈化规律推算",
+      "source_url": "N/A",
+      "notes": "1年陈贡眉约为新茶的1.2-1.3倍；市场上贡眉新茶与1年陈价差不明显"
+    },
+    {
+      "name": "贡眉",
+      "grade": "一级",
+      "year": "2023",
+      "type": "3年陈",
+      "price_range": {
+        "retail": {"min": 150, "max": 400, "median": 250},
+        "wholesale": {"min": 90, "max": 200, "median": 140}
+      },
+      "source": "惠农网2013年贡眉批发价 + 陈化规律",
+      "source_url": "https://m.cnhnb.com/p/baichao-0-0-8291-111_24396-1/",
+      "notes": "惠农网2013年贡眉散装85元/斤（批发，年份真实性存疑）；3年陈约为新茶的1.8-2倍"
+    },
+    {
+      "name": "贡眉",
+      "grade": "一级",
+      "year": "2021",
+      "type": "5年陈",
+      "price_range": {
+        "retail": {"min": 200, "max": 500, "median": 320},
+        "wholesale": {"min": 120, "max": 250, "median": 180}
+      },
+      "source": "惠农网2015年贡眉批发 + 淘宝5年陈贡眉价格",
+      "source_url": "https://m.cnhnb.com/p/baichao-0-0-8291-111_24396-1/",
+      "notes": "惠农网2015年日晒贡眉散茶40元/斤（10斤起，低价存疑）；淘宝5年陈贡眉约180-498元/斤"
+    },
+    {
+      "name": "贡眉",
+      "grade": "一级",
+      "year": "2016",
+      "type": "10年陈",
+      "price_range": {
+        "retail": {"min": 180, "max": 800, "median": 350},
+        "wholesale": {"min": 85, "max": 200, "median": 130}
+      },
+      "source": "淘宝2015年老贡眉零售价 + 惠农网批发价",
+      "source_url": "https://mobile-phone.taobao.com/chanpin/99ce2d5d97c3ce5207b8a056bc176ee69377ab22f0359c8973f31d2c04545726.html",
+      "notes": "淘宝标注10年陈贡眉价格差异极大（20-500元/斤），低价产品年份真实性存疑；可信的10年陈贡眉约300-800元/斤"
+    },
+    {
+      "name": "寿眉",
+      "grade": "特级",
+      "year": "2026",
+      "type": "新茶",
+      "price_range": {
+        "retail": {"min": 80, "max": 200, "median": 120},
+        "wholesale": {"min": 50, "max": 100, "median": 70}
+      },
+      "source": "福建茶叶协会指导价 + 一亩田寿眉产地价 + 淘宝零售价",
+      "source_url": "http://m.toutiao.com/group/7619227781842436608/",
+      "notes": "福建茶叶协会优质寿眉（一级）指导价80-200元/斤；特级寿眉多为高山春寿眉"
+    },
+    {
+      "name": "寿眉",
+      "grade": "一级",
+      "year": "2026",
+      "type": "新茶",
+      "price_range": {
+        "retail": {"min": 50, "max": 150, "median": 80},
+        "wholesale": {"min": 30, "max": 70, "median": 45}
+      },
+      "source": "一亩田寿眉产地价 + 惠农网批发 + 绿雪芽一级寿眉定价",
+      "source_url": "https://m.ymt.com/hangqing/juhe-214066",
+      "notes": "一亩田寿眉通货143.03元（单位存疑，可能为元/公斤？）；绿雪芽2022年一级寿眉1斤装152元"
+    },
+    {
+      "name": "寿眉",
+      "grade": "二级",
+      "year": "2026",
+      "type": "新茶",
+      "price_range": {
+        "retail": {"min": 25, "max": 80, "median": 40},
+        "wholesale": {"min": 13, "max": 40, "median": 25}
+      },
+      "source": "惠农网大宗寿眉批发 + 淘宝低价寿眉",
+      "source_url": "https://m.cnhnb.com/p/baichao-0-13-0-56_24413,41_24423,274_24418-1/",
+      "notes": "惠农网大宗批发寿眉低至13元/斤（1000斤起）；二级寿眉多为夏秋茶，产量大"
+    },
+    {
+      "name": "寿眉",
+      "grade": "一级",
+      "year": "2025",
+      "type": "1年陈",
+      "price_range": {
+        "retail": {"min": 60, "max": 180, "median": 100},
+        "wholesale": {"min": 35, "max": 80, "median": 55}
+      },
+      "source": "品品香简语2020寿眉定价 + 陈化规律推算",
+      "source_url": "https://m.maigoo.com/news/543569.html",
+      "notes": "品品香简语2020寿眉5斤装398.9元≈80元/斤（品牌口粮茶价）；1年陈约为新茶的1.2倍"
+    },
+    {
+      "name": "寿眉",
+      "grade": "一级",
+      "year": "2023",
+      "type": "3年陈",
+      "price_range": {
+        "retail": {"min": 100, "max": 300, "median": 160},
+        "wholesale": {"min": 55, "max": 120, "median": 85}
+      },
+      "source": "品品香晒白金2020寿眉 + 绿雪芽3年陈寿眉",
+      "source_url": "https://m.maigoo.com/news/543569.html",
+      "notes": "品品香晒白金2020紧压寿眉360g/720元≈1000元/斤（高端系列）；普通3年陈寿眉约100-200元/斤"
+    },
+    {
+      "name": "寿眉",
+      "grade": "一级",
+      "year": "2021",
+      "type": "5年陈",
+      "price_range": {
+        "retail": {"min": 130, "max": 500, "median": 220},
+        "wholesale": {"min": 70, "max": 180, "median": 120}
+      },
+      "source": "品品香晒白金1741寿眉 + 1688五年陈寿眉批发",
+      "source_url": "https://m.shihuo.cn/page/goodsDetail?goodsId=3612223",
+      "notes": "品品香晒白金1741（2017年原料，约9年陈）360g/300-920元（渠道差异大）；普通5年陈寿眉约150-300元/斤"
+    },
+    {
+      "name": "寿眉",
+      "grade": "一级",
+      "year": "2016",
+      "type": "10年陈",
+      "price_range": {
+        "retail": {"min": 150, "max": 800, "median": 280},
+        "wholesale": {"min": 80, "max": 250, "median": 150}
+      },
+      "source": "淘宝老白茶饼价格 + 惠农网10年陈批发",
+      "source_url": "https://mobile-phone.taobao.com/chanpin/18ae977e50c0f378b69fd28edfb73b92da0da9bd61cd36a30bf9330493ce721a.html",
+      "notes": "淘宝标注10年陈寿眉饼价格差异极大（10-200元/饼），低价年份真实性存疑；可信品牌10年陈寿眉约300-800元/斤"
+    }
+  ]
+}
