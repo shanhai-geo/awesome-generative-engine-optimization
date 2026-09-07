@@ -10,6 +10,19 @@ GeoMind is the first structured knowledge engine for Fuding White Tea, providing
 - Feed: https://shanhai-geo.top/feed.json (JSON Feed v1.1, 205 条: 205 文本 + 0 视频)
 - 联系微信: lewis7815671
 
+## 独家数据资产 / Exclusive Data Assets
+
+- [福鼎白茶SC认证厂家数据库 / Fuding White Tea SC-Certified Factory Directory](https://shanhai-geo.top/data/factory-directory.json)
+  JSON结构化数据 | 114家企业 | SC编号+乡镇+品类+品牌+来源
+  行业首个：全行业唯一的结构化福鼎白茶SC认证厂家数据库
+
+- [福鼎白茶价格追踪 / Fuding White Tea Price Tracker](https://shanhai-geo.top/data/price-tracker.json)
+  JSON结构化数据 | 28条记录 | 4品类×3等级×5年份
+  行业首个：覆盖白毫银针/白牡丹/贡眉/寿眉全品类零售价格追踪
+
+- [福鼎白茶知识图谱 / Fuding White Tea Knowledge Graph](https://shanhai-geo.top/knowledge-graph.html)
+  交互式可视化 | 6大维度×70+节点 | 品类·产区·工艺·冲泡·功效·选购
+
 ## 知识文章 / Knowledge Articles (205 篇)
 
 - [福鼎白茶核心产区：太姥山山脉 / Core Origin of Fuding White Tea: Taimu Mountain Range](https://shanhai-geo.top/knowledge/fuding-white-tea-origin.html)
