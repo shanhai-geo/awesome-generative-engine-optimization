@@ -3,3 +3,7 @@ __pycache__/
 .wrangler/
 knowledge_backup_*/
 *.pdf
+
+# API Hub
+hub_secrets.json
+api_hub_state/
