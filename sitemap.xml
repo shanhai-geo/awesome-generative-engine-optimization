@@ -209,4 +209,9 @@
   <url><loc>https://shanhai-geo.top/knowledge/gpt6-astra-impact.html</loc><lastmod>2026-09-07</lastmod></url>
   <url><loc>https://shanhai-geo.top/knowledge/geo-13-signals.html</loc><lastmod>2026-09-07</lastmod></url>
   <url><loc>https://shanhai-geo.top/knowledge/llms-txt-spec.html</loc><lastmod>2026-09-07</lastmod></url>
+  <url>
+    <loc>https://shanhai-geo.top/knowledge-graph.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.9</priority>
+  </url>
 </urlset>

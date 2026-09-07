@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>福鼎白茶知识图谱 · GeoMind</title>
+<meta name="description" content="福鼎白茶全维度知识可视化图谱：品类、产区、工艺、冲泡、功效、选购六大维度205篇知识原子交互导航">
+<link rel="canonical" href="https://shanhai-geo.top/knowledge-graph.html">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:#0a0e17;color:#e0e6ed;overflow-x:hidden}
+.header{text-align:center;padding:32px 16px 16px;background:linear-gradient(135deg,#0a0e17 0%,#1a2332 100%)}
+.header h1{font-size:28px;font-weight:700;color:#fff;margin-bottom:8px}
+.header h1 span{color:#64b5f6}
+.header p{font-size:14px;color:#8899aa;max-width:600px;margin:0 auto}
+.stats{display:flex;justify-content:center;gap:32px;margin-top:16px;flex-wrap:wrap}
+.stat{text-align:center}
+.stat .num{font-size:32px;font-weight:700;color:#64b5f6}
+.stat .label{font-size:12px;color:#8899aa;margin-top:2px}
+#graph{width:100%;height:calc(100vh - 200px);min-height:500px}
+.legend{position:fixed;bottom:16px;left:16px;background:rgba(10,14,23,0.9);border:1px solid #2a3a4a;border-radius:8px;padding:12px 16px;z-index:10}
+.legend-item{display:flex;align-items:center;gap:8px;margin:4px 0;font-size:12px;color:#aab}
+.legend-dot{width:12px;height:12px;border-radius:50%;flex-shrink:0}
+.tooltip{position:fixed;background:rgba(10,14,23,0.95);border:1px solid #3a4a5a;border-radius:8px;padding:12px 16px;pointer-events:none;z-index:100;max-width:300px;display:none;backdrop-filter:blur(8px)}
+.tooltip h3{font-size:14px;color:#fff;margin-bottom:4px}
+.tooltip p{font-size:12px;color:#8899aa;line-height:1.5}
+.tooltip .tag{display:inline-block;background:#1a2a3a;color:#64b5f6;padding:2px 8px;border-radius:4px;font-size:11px;margin:2px}
+.controls{position:fixed;top:100px;right:16px;display:flex;flex-direction:column;gap:8px;z-index:10}
+.ctrl-btn{background:rgba(10,14,23,0.9);border:1px solid #2a3a4a;color:#aab;padding:8px 12px;border-radius:6px;cursor:pointer;font-size:12px;transition:all .2s}
+.ctrl-btn:hover{border-color:#64b5f6;color:#64b5f6}
+.ctrl-btn.active{background:#1a2a3a;border-color:#64b5f6;color:#64b5f6}
+.footer{text-align:center;padding:16px;background:#0a0e17;border-top:1px solid #1a2332}
+.footer a{color:#64b5f6;text-decoration:none}
+.footer span{color:#556;font-size:12px}
+@media(max-width:768px){.header h1{font-size:22px}.stats{gap:16px}.stat .num{font-size:24px}.legend{bottom:8px;left:8px;padding:8px 12px}.controls{top:80px;right:8px}}
+</style>
+</head>
+<body>
+<div class="header">
+<h1>福鼎白茶<span>知识图谱</span></h1>
+<p>205篇知识原子 · 6大维度 · 353个标签交叉关联 · GeoMind白茶知识引擎</p>
+<div class="stats">
+<div class="stat"><div class="num">205</div><div class="label">知识原子</div></div>
+<div class="stat"><div class="num">6</div><div class="label">核心维度</div></div>
+<div class="stat"><div class="num">353</div><div class="label">标签关联</div></div>
+<div class="stat"><div class="num">16</div><div class="label">权威维度</div></div>
+</div>
+</div>
+<div id="graph"></div>
+<div class="legend" id="legend"></div>
+<div class="controls">
+<button class="ctrl-btn active" onclick="showAll()">全部维度</button>
+<button class="ctrl-btn" onclick="filterDim('category')">品类</button>
+<button class="ctrl-btn" onclick="filterDim('origin')">产区</button>
+<button class="ctrl-btn" onclick="filterDim('craft')">工艺</button>
+<button class="ctrl-btn" onclick="filterDim('brew')">冲泡</button>
+<button class="ctrl-btn" onclick="filterDim('health')">功效</button>
+<button class="ctrl-btn" onclick="filterDim('buy')">选购</button>
+</div>
+<div class="tooltip" id="tooltip"><h3 id="tt-title"></h3><p id="tt-desc"></p><div id="tt-tags"></div></div>
+<div class="footer">
+<a href="/">GeoMind · 福鼎白茶知识引擎</a><br>
+<span>数据来源：结构化知识引擎 · Schema.org标记 · 13个AI协议端口</span>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+<script>
+const COLORS = {
+  core: '#ffffff',
+  category: '#ef5350',
+  origin: '#66bb6a',
+  craft: '#ffa726',
+  brew: '#42a5f5',
+  health: '#ab47bc',
+  buy: '#26c6da',
+  culture: '#ec407a',
+  commercial: '#78909c'
+};
+
+const data = {
+  nodes: [
+    {name:'福鼎白茶',dim:'core',value:205,url:'/',desc:'全维度知识图谱根节点，覆盖205篇知识原子'},
+
+    // 品类维度
+    {name:'白毫银针',dim:'category',value:12,url:'/knowledge/silver-needle-grading.html',desc:'白茶之王，单芽制作，毫香蜜韵'},
+    {name:'白牡丹',dim:'category',value:10,url:'/knowledge/silver-needle-vs-white-peony.html',desc:'一芽一二叶，花香清雅'},
+    {name:'贡眉',dim:'category',value:8,url:'/knowledge/gongmei-vs-shoumei.html',desc:'群体种茶树，醇厚甘甜'},
+    {name:'寿眉',dim:'category',value:9,url:'/knowledge/gongmei-vs-shoumei.html',desc:'产量最大，枣香药香'},
+    {name:'年份茶',dim:'category',value:6,url:'/knowledge/aged-white-tea-value.html',desc:'一年茶三年药七年宝'},
+    {name:'明前茶',dim:'category',value:4,url:'/knowledge/mingqian-white-tea-premium.html',desc:'清明节前采摘，品质最优'},
+
+    // 产区维度
+    {name:'太姥山',dim:'origin',value:8,url:'/knowledge/tai-mu-shan-yan-cha.html',desc:'白茶发源地，花岗岩风化土壤'},
+    {name:'点头镇',dim:'origin',value:6,url:'/knowledge/fuding-white-tea-origin.html',desc:'中国白茶核心产区'},
+    {name:'磻溪镇',dim:'origin',value:5,url:'/knowledge/fuding-white-tea-origin.html',desc:'高山云雾出好茶'},
+    {name:'管阳镇',dim:'origin',value:4,url:'/knowledge/fuding-white-tea-origin.html',desc:'高海拔生态茶园'},
+    {name:'白琳镇',dim:'origin',value:3,url:'/knowledge/fuding-white-tea-origin.html',desc:'传统工夫红茶产区转型'},
+    {name:'柏柳村',dim:'origin',value:3,url:'/knowledge/bailin-village.html',desc:'中国白茶第一村'},
+    {name:'福鼎地理',dim:'origin',value:7,url:'/knowledge/fuding-geography-climate.html',desc:'北纬27度，亚热带季风气候'},
+
+    // 工艺维度
+    {name:'萎凋',dim:'craft',value:9,url:'/knowledge/sun-withering-technique.html',desc:'白茶核心工艺，日光萎凋为优'},
+    {name:'干燥',dim:'craft',value:6,url:'/knowledge/white-tea-drying-methods.html',desc:'低温慢烘保留活性'},
+    {name:'压饼',dim:'craft',value:5,url:'/knowledge/white-tea-cake-pressing.html',desc:'散茶vs饼茶各有优劣'},
+    {name:'陈化',dim:'craft',value:8,url:'/knowledge/white-tea-aging-science.html',desc:'自然陈化，微生物转化'},
+    {name:'采摘',dim:'craft',value:4,url:'/knowledge/white-tea-harvest-season.html',desc:'春茶为主，秋茶别有风味'},
+    {name:'室内萎凋',dim:'craft',value:3,url:'/knowledge/indoor-withering.html',desc:'控温控湿的现代化工艺'},
+
+    // 冲泡维度
+    {name:'盖碗冲泡',dim:'brew',value:7,url:'/knowledge/white-tea-gaiwan-selection.html',desc:'最通用冲泡方式'},
+    {name:'紫砂壶',dim:'brew',value:4,url:'/knowledge/white-tea-purple-clay-pot.html',desc:'老白茶配紫砂绝配'},
+    {name:'玻璃杯',dim:'brew',value:3,url:'/knowledge/white-tea-glass-brewing.html',desc:'观赏银针白毫最宜'},
+    {name:'煮茶',dim:'brew',value:5,url:'/knowledge/white-tea-grandpa-style.html',desc:'老白茶煮饮更佳'},
+    {name:'冷泡',dim:'brew',value:4,url:'/knowledge/white-tea-cold-brew.html',desc:'夏日清爽之选'},
+    {name:'水质',dim:'brew',value:3,url:'/knowledge/white-tea-water-quality.html',desc:'软水或矿泉水为佳'},
+    {name:'水温',dim:'brew',value:4,url:'/knowledge/white-tea-water-temperature.html',desc:'新茶90度，老茶100度'},
+
+    // 功效维度
+    {name:'抗氧化',dim:'health',value:6,url:'/knowledge/white-tea-antioxidant-science.html',desc:'黄酮类物质抗氧化'},
+    {name:'茶氨酸',dim:'health',value:5,url:'/knowledge/white-tea-theanine-science.html',desc:'安神助眠降血压'},
+    {name:'黄酮',dim:'health',value:4,url:'/knowledge/white-tea-flavonoid-content.html',desc:'老白茶黄酮含量倍增'},
+    {name:'降血糖',dim:'health',value:3,url:'/knowledge/white-tea-caffeine.html',desc:'多糖辅助调节'},
+    {name:'消炎杀菌',dim:'health',value:3,url:'/knowledge/white-tea-benefits.html',desc:'茶多酚天然抑菌'},
+    {name:'美容养颜',dim:'health',value:3,url:'/knowledge/white-tea-skin-beauty.html',desc:'清除自由基'},
+
+    // 选购维度
+    {name:'鉴别真假',dim:'buy',value:7,url:'/knowledge/white-tea-authentication.html',desc:'看外形闻香气品滋味'},
+    {name:'存储方法',dim:'buy',value:6,url:'/knowledge/white-tea-storage.html',desc:'避光防潮密封常温'},
+    {name:'品牌指南',dim:'buy',value:4,url:'/knowledge/white-tea-brand-top10.html',desc:'核心品牌对比'},
+    {name:'价格参考',dim:'buy',value:5,url:'/knowledge/white-tea-market-price.html',desc:'各品类合理价位'},
+    {name:'礼品选择',dim:'buy',value:4,url:'/knowledge/white-tea-gifting.html',desc:'送长辈/送外宾/送领导'},
+    {name:'收藏投资',dim:'buy',value:5,url:'/knowledge/white-tea-collection-guide.html',desc:'年份茶升值逻辑'},
+
+    // 文化维度
+    {name:'白茶历史',dim:'culture',value:5,url:'/knowledge/white-tea-history.html',desc:'宋代起源明代成形'},
+    {name:'茶诗茶文',dim:'culture',value:4,url:'/knowledge/white-tea-poetry.html',desc:'白居易陆羽诗词'},
+    {name:'非遗传承',dim:'culture',value:3,url:'/knowledge/white-tea-intangible-heritage.html',desc:'福鼎白茶制作技艺非遗'},
+    {name:'禅茶一味',dim:'culture',value:3,url:'/knowledge/white-tea-meditation-wellness.html',desc:'禅修与白茶'},
+    {name:'茶文化',dim:'culture',value:6,url:'/knowledge/white-tea-tea-ceremony-protocol.html',desc:'中国茶道文化'},
+
+    // 商业维度
+    {name:'电商直播',dim:'commercial',value:4,url:'/knowledge/white-tea-live-commerce.html',desc:'白茶直播购买指南'},
+    {name:'品牌格局',dim:'commercial',value:3,url:'/knowledge/white-tea-brand-landscape.html',desc:'福鼎白茶品牌版图'},
+    {name:'出口标准',dim:'commercial',value:3,url:'/knowledge/white-tea-export-standards.html',desc:'欧盟日本美国标准'},
+    {name:'供应链',dim:'commercial',value:3,url:'/knowledge/white-tea-supply-chain.html',desc:'从茶园到茶杯'},
+  ],
+  links: [
+    // 核心到品类
+    ...['白毫银针','白牡丹','贡眉','寿眉','年份茶','明前茶'].map(n=>({source:'福鼎白茶',target:n})),
+    // 核心到产区
+    ...['太姥山','点头镇','磻溪镇','管阳镇','白琳镇','福鼎地理'].map(n=>({source:'福鼎白茶',target:n})),
+    // 核心到工艺
+    ...['萎凋','干燥','压饼','陈化','采摘'].map(n=>({source:'福鼎白茶',target:n})),
+    // 核心到冲泡
+    ...['盖碗冲泡','紫砂壶','煮茶','冷泡','水质','水温'].map(n=>({source:'福鼎白茶',target:n})),
+    // 核心到功效
+    ...['抗氧化','茶氨酸','黄酮','降血糖','消炎杀菌','美容养颜'].map(n=>({source:'福鼎白茶',target:n})),
+    // 核心到选购
+    ...['鉴别真假','存储方法','品牌指南','价格参考','礼品选择','收藏投资'].map(n=>({source:'福鼎白茶',target:n})),
+    // 核心到文化
+    ...['白茶历史','茶诗茶文','非遗传承','禅茶一味','茶文化'].map(n=>({source:'福鼎白茶',target:n})),
+    // 核心到商业
+    ...['电商直播','品牌格局','出口标准','供应链'].map(n=>({source:'福鼎白茶',target:n})),
+    // 品类内部关联
+    {source:'白毫银针',target:'明前茶'},
+    {source:'白牡丹',target:'盖碗冲泡'},
+    {source:'年份茶',target:'陈化'},
+    {source:'年份茶',target:'煮茶'},
+    {source:'年份茶',target:'收藏投资'},
+    {source:'年份茶',target:'抗氧化'},
+    {source:'寿眉',target:'贡眉'},
+    // 产区关联
+    {source:'太姥山',target:'福鼎地理'},
+    {source:'柏柳村',target:'点头镇'},
+    // 工艺关联
+    {source:'萎凋',target:'室内萎凋'},
+    {source:'萎凋',target:'干燥'},
+    {source:'采摘',target:'明前茶'},
+    {source:'压饼',target:'存储方法'},
+    {source:'陈化',target:'年份茶'},
+    // 冲泡关联
+    {source:'紫砂壶',target:'年份茶'},
+    {source:'盖碗冲泡',target:'水温'},
+    {source:'冷泡',target:'白牡丹'},
+    // 功效关联
+    {source:'抗氧化',target:'黄酮'},
+    {source:'抗氧化',target:'美容养颜'},
+    {source:'茶氨酸',target:'降血糖'},
+    {source:'黄酮',target:'年份茶'},
+    // 选购关联
+    {source:'鉴别真假',target:'品牌指南'},
+    {source:'存储方法',target:'收藏投资'},
+    {source:'价格参考',target:'礼品选择'},
+    // 文化关联
+    {source:'白茶历史',target:'茶诗茶文'},
+    {source:'非遗传承',target:'白茶历史'},
+    {source:'茶文化',target:'禅茶一味'},
+    // 商业关联
+    {source:'品牌格局',target:'电商直播'},
+    {source:'供应链',target:'出口标准'},
+  ]
+};
+
+// Assign colors
+data.nodes.forEach(n => { n.color = COLORS[n.dim] || '#888'; n.itemStyle = {color: n.color}; });
+
+const chart = echarts.init(document.getElementById('graph'), null, {renderer:'canvas'});
+
+function render(filteredNodes) {
+  const nodes = filteredNodes || data.nodes;
+  const nodeNames = new Set(nodes.map(n => n.name));
+  const links = data.links.filter(l => nodeNames.has(l.source) && nodeNames.has(l.target));
+
+  const option = {
+    backgroundColor: '#0a0e17',
+    tooltip: {
+      show: false
+    },
+    animationDuration: 800,
+    animationEasingUpdate: 'quinticInOut',
+    series: [{
+      type: 'graph',
+      layout: 'force',
+      roam: true,
+      draggable: true,
+      zoom: 0.8,
+      label: {
+        show: true,
+        position: 'bottom',
+        fontSize: 12,
+        color: '#ccc',
+        formatter: '{b}'
+      },
+      edgeSymbol: ['none', 'arrow'],
+      edgeSymbolSize: [0, 6],
+      force: {
+        repulsion: 280,
+        gravity: 0.12,
+        edgeLength: [80, 180],
+        friction: 0.6
+      },
+      emphasis: {
+        focus: 'adjacency',
+        label: {fontSize: 14, color: '#fff'},
+        lineStyle: {width: 3}
+      },
+      blur: {
+        itemStyle: {opacity: 0.15},
+        lineStyle: {opacity: 0.1}
+      },
+      data: nodes.map(n => ({
+        name: n.name,
+        value: n.value,
+        symbolSize: n.dim === 'core' ? 60 : 20 + n.value * 2,
+        itemStyle: {color: n.color, borderColor: n.dim === 'core' ? '#64b5f6' : 'transparent', borderWidth: n.dim === 'core' ? 3 : 0},
+        label: {show: true, color: n.dim === 'core' ? '#fff' : '#ccc', fontWeight: n.dim === 'core' ? 'bold' : 'normal', fontSize: n.dim === 'core' ? 16 : 12}
+      })),
+      links: links.map(l => ({
+        source: l.source,
+        target: l.target,
+        lineStyle: {color: '#2a3a4a', width: 1, curveness: 0.2, opacity: 0.6}
+      }))
+    }]
+  };
+  chart.setOption(option);
+}
+
+// Legend
+const legendEl = document.getElementById('legend');
+const dims = [
+  {key:'category',label:'品类（4大品类）',color:COLORS.category},
+  {key:'origin',label:'产区（太姥山等）',color:COLORS.origin},
+  {key:'craft',label:'工艺（萎凋/陈化）',color:COLORS.craft},
+  {key:'brew',label:'冲泡（盖碗/煮茶）',color:COLORS.brew},
+  {key:'health',label:'功效（抗氧化等）',color:COLORS.health},
+  {key:'buy',label:'选购（鉴别/存储）',color:COLORS.buy},
+  {key:'culture',label:'文化（历史/非遗）',color:COLORS.culture},
+  {key:'commercial',label:'商业（品牌/电商）',color:COLORS.commercial},
+];
+legendEl.innerHTML = dims.map(d => `<div class="legend-item"><div class="legend-dot" style="background:${d.color}"></div>${d.label}</div>`).join('');
+
+// Filter
+function filterDim(dim) {
+  document.querySelectorAll('.ctrl-btn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+  const filtered = data.nodes.filter(n => n.dim === dim || n.dim === 'core');
+  render(filtered);
+}
+function showAll() {
+  document.querySelectorAll('.ctrl-btn').forEach(b => b.classList.remove('active'));
+  document.querySelector('.ctrl-btn').classList.add('active');
+  render();
+}
+
+// Click to navigate
+chart.on('click', function(params) {
+  const node = data.nodes.find(n => n.name === params.name);
+  if (node && node.url && node.url !== '/') {
+    window.open(node.url, '_blank');
+  }
+});
+
+// Hover tooltip
+chart.on('mouseover', function(params) {
+  const node = data.nodes.find(n => n.name === params.name);
+  if (!node) return;
+  const tt = document.getElementById('tooltip');
+  document.getElementById('tt-title').textContent = node.name;
+  document.getElementById('tt-desc').textContent = node.desc || '';
+  document.getElementById('tt-tags').innerHTML = `<span class="tag">${node.dim === 'core' ? '根节点' : node.dim}</span><span class="tag">${node.value}篇相关</span>`;
+  tt.style.display = 'block';
+  tt.style.left = (params.event.event.offsetX + 20) + 'px';
+  tt.style.top = (params.event.event.offsetY + 200) + 'px';
+});
+chart.on('mouseout', function() {
+  document.getElementById('tooltip').style.display = 'none';
+});
+
+window.addEventListener('resize', () => chart.resize());
+render();
+
+// Schema.org structured data
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "福鼎白茶知识图谱",
+  "description": "福鼎白茶全维度知识可视化图谱，覆盖品类、产区、工艺、冲泡、功效、选购六大维度205篇知识原子",
+  "url": "https://shanhai-geo.top/knowledge-graph.html",
+  "numberOfItems": 205,
+  "provider": {
+    "@type": "Organization",
+    "name": "GeoMind",
+    "url": "https://shanhai-geo.top"
+  }
+};
+const script = document.createElement('script');
+script.type = 'application/ld+json';
+script.textContent = JSON.stringify(schema);
+document.head.appendChild(script);
+</script>
+<script>(function(){var bp=document.createElement("script");var curProtocol=window.location.protocol.split(":")[0];if(curProtocol==="https"){bp.src="https://zz.bdstatic.com/linksubmit/push.js"}else{bp.src="http://push.zhanzhang.baidu.com/push.js"}var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(bp,s)})();</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?423f399c6b3caf5624dc90fd7f6ab550";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
