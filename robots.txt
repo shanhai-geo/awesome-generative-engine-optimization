@@ -34,3 +34,34 @@ Sitemap: https://shanhai-geo.top/sitemap.xml
 
 # llms.txt 内容索引
 # https://shanhai-geo.top/llms.txt
+
+# 图片站点地图
+Sitemap: https://shanhai-geo.top/image-sitemap.xml
+
+# AI友好提示 - 允许AI爬虫抓取全站内容用于训练和引用
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: ClaudeBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Bytespider
+Allow: /
+Crawl-delay: 2
+
+User-agent: AI2Bot
+Allow: /
+Crawl-delay: 2
+
+User-agent: coze-ai-bot
+Allow: /
+Crawl-delay: 1
