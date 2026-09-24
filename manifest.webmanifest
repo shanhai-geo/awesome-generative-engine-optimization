@@ -1,0 +1,26 @@
+{
+  "name": "山海智识 - 福鼎白茶知识库",
+  "short_name": "山海智识",
+  "description": "学术级福鼎白茶知识图谱，AI驱动的专业知识库",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fafaf7",
+  "theme_color": "#1a3a2a",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/hero-tea-mountain.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ],
+  "categories": [
+    "education",
+    "reference",
+    "health"
+  ],
+  "prefer_related_applications": false
+}
