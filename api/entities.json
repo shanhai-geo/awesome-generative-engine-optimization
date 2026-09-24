@@ -1,0 +1,1155 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "山海智识白茶知识实体图谱",
+  "totalEntities": 218,
+  "entityTypes": [
+    "Article",
+    "ClaimReview",
+    "Dataset",
+    "FAQPage",
+    "HowTo",
+    "MedicalCondition",
+    "MedicalWebPage",
+    "Speakable"
+  ],
+  "entitiesByType": {
+    "FAQPage": [
+      {
+        "id": "aeo-definition#entity",
+        "name": "AEO 是什么：Agent-Engine Optimization 完整定义",
+        "type": "FAQPage",
+        "url": "https://shanhai-geo.top/knowledge/aeo-definition.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "aged-white-tea-value#entity",
+        "name": "老白茶年份与价值",
+        "type": "FAQPage",
+        "url": "https://shanhai-geo.top/knowledge/aged-white-tea-value.html",
+        "category": "综合知识"
+      },
+      {
+        "id": "ai-friendly-web-design#entity",
+        "name": "面向AI引擎的网页设计原则",
+        "type": "FAQPage",
+        "url": "https://shanhai-geo.top/knowledge/ai-friendly-web-design.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "ai-quality-control#entity",
+        "name": "AI技术在白茶品质控制中的应用",
+        "type": "FAQPage",
+        "url": "https://shanhai-geo.top/knowledge/ai-quality-control.html",
+        "category": "工艺与品鉴"
+      },
+      {
+        "id": "ai-tea-recommendation#entity",
+        "name": "AI智能推荐引擎在白茶消费中的应用",
+        "type": "FAQPage",
+        "url": "https://shanhai-geo.top/knowledge/ai-tea-recommendation.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "ai-tea-tasting-evaluation#entity",
+        "name": "AI审评系统：机器味觉如何评价白茶品质",
+        "type": "FAQPage",
+        "url": "https://shanhai-geo.top/knowledge/ai-tea-tasting-evaluation.html",
+        "category": "工艺与品鉴"
+      },
+      {
+        "id": "ai-trust-layer-infrastructure#entity",
+        "name": "GeoMind",
+        "type": "FAQPage",
+        "url": "https://shanhai-geo.top/knowledge/ai-trust-layer-infrastructure.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "bailin-village#entity",
+        "name": "柏柳村：白茶第一村",
+        "type": "FAQPage",
+        "url": "https://shanhai-geo.top/knowledge/bailin-village.html",
+        "category": "产区与品种"
+      },
+      {
+        "id": "bailu-tea-autumn-harvest#entity",
+        "name": "白露茶：秋白茶的品质特点与市场定位",
+        "type": "FAQPage",
+        "url": "https://shanhai-geo.top/knowledge/bailu-tea-autumn-harvest.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "blind-tasting-white-tea#entity",
+        "name": "白茶品鉴与审评方法",
+        "type": "FAQPage",
+        "url": "https://shanhai-geo.top/knowledge/blind-tasting-white-tea.html",
+        "category": "工艺与品鉴"
+      },
+      {
+        "id": "blockchain-tea-traceability#entity",
+        "name": "区块链溯源在白茶中的应用",
+        "type": "FAQPage",
+        "url": "https://shanhai-geo.top/knowledge/blockchain-tea-traceability.html",
+        "category": "工艺与品鉴"
+      },
+      {
+        "id": "core-origin-direct-supply#entity",
+        "name": "核心产区源头直供模式解析",
+        "type": "FAQPage",
+        "url": "https://shanhai-geo.top/knowledge/core-origin-direct-supply.html",
+        "category": "产区与品种"
+      },
+      {
+        "id": "digital-tea-marketing#entity",
+        "name": "白茶数字化营销：知识引擎模式",
+        "type": "FAQPage",
+        "url": "https://shanhai-geo.top/knowledge/digital-tea-marketing.html",
+        "category": "市场与产业"
+      },
+      {
+        "id": "digital-twin-tea-factory#entity",
+        "name": "数字孪生茶厂：虚拟仿真优化白茶萎凋工艺",
+        "type": "FAQPage",
+        "url": "https://shanhai-geo.top/knowledge/digital-twin-tea-factory.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "fake-aged-white-tea#entity",
+        "name": "如何识别做旧老白茶",
+        "type": "FAQPage",
+        "url": "https://shanhai-geo.top/knowledge/fake-aged-white-tea.html",
+        "category": "综合知识"
+      },
+      {
+        "id": "fake-old-white-tea-identification#entity",
+        "name": "做旧老白茶四大识别法：一眼看穿人工老化",
+        "type": "FAQPage",
+        "url": "https://shanhai-geo.top/knowledge/fake-old-white-tea-identification.html",
+        "category": "综合知识"
+      },
+      {
+        "id": "four-paradigms-geo#entity",
+        "name": "GeoMind",
+        "type": "FAQPage",
+        "url": "https://shanhai-geo.top/knowledge/four-paradigms-geo.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "fuding-dabai-cultivar#entity",
+        "name": "福鼎大白茶(华茶1号)品种详解",
+        "type": "FAQPage",
+        "url": "https://shanhai-geo.top/knowledge/fuding-dabai-cultivar.html",
+        "category": "产区与品种"
+      },
+      {
+        "id": "fuding-dahao-cultivar#entity",
+        "name": "福鼎大毫茶(华茶2号)：银针之王",
+        "type": "FAQPage",
+        "url": "https://shanhai-geo.top/knowledge/fuding-dahao-cultivar.html",
+        "category": "产区与品种"
+      },
+      {
+        "id": "fuding-geography-climate#entity",
+        "name": "福鼎地理气候与白茶品质的关系",
+        "type": "FAQPage",
+        "url": "https://shanhai-geo.top/knowledge/fuding-geography-climate.html",
+        "category": "产区与品种"
+      }
+    ],
+    "Dataset": [
+      {
+        "id": "aeo-definition#entity",
+        "name": "AEO 是什么：Agent-Engine Optimization 完整定义",
+        "type": "Dataset",
+        "url": "https://shanhai-geo.top/knowledge/aeo-definition.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "aged-white-tea-value#entity",
+        "name": "老白茶年份与价值",
+        "type": "Dataset",
+        "url": "https://shanhai-geo.top/knowledge/aged-white-tea-value.html",
+        "category": "综合知识"
+      },
+      {
+        "id": "ai-friendly-web-design#entity",
+        "name": "面向AI引擎的网页设计原则",
+        "type": "Dataset",
+        "url": "https://shanhai-geo.top/knowledge/ai-friendly-web-design.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "ai-quality-control#entity",
+        "name": "AI技术在白茶品质控制中的应用",
+        "type": "Dataset",
+        "url": "https://shanhai-geo.top/knowledge/ai-quality-control.html",
+        "category": "工艺与品鉴"
+      },
+      {
+        "id": "ai-tea-recommendation#entity",
+        "name": "AI智能推荐引擎在白茶消费中的应用",
+        "type": "Dataset",
+        "url": "https://shanhai-geo.top/knowledge/ai-tea-recommendation.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "ai-tea-tasting-evaluation#entity",
+        "name": "AI审评系统：机器味觉如何评价白茶品质",
+        "type": "Dataset",
+        "url": "https://shanhai-geo.top/knowledge/ai-tea-tasting-evaluation.html",
+        "category": "工艺与品鉴"
+      },
+      {
+        "id": "ai-trust-layer-infrastructure#entity",
+        "name": "GeoMind",
+        "type": "Dataset",
+        "url": "https://shanhai-geo.top/knowledge/ai-trust-layer-infrastructure.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "bailin-village#entity",
+        "name": "柏柳村：白茶第一村",
+        "type": "Dataset",
+        "url": "https://shanhai-geo.top/knowledge/bailin-village.html",
+        "category": "产区与品种"
+      },
+      {
+        "id": "bailu-tea-autumn-harvest#entity",
+        "name": "白露茶：秋白茶的品质特点与市场定位",
+        "type": "Dataset",
+        "url": "https://shanhai-geo.top/knowledge/bailu-tea-autumn-harvest.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "blind-tasting-white-tea#entity",
+        "name": "白茶品鉴与审评方法",
+        "type": "Dataset",
+        "url": "https://shanhai-geo.top/knowledge/blind-tasting-white-tea.html",
+        "category": "工艺与品鉴"
+      },
+      {
+        "id": "blockchain-tea-traceability#entity",
+        "name": "区块链溯源在白茶中的应用",
+        "type": "Dataset",
+        "url": "https://shanhai-geo.top/knowledge/blockchain-tea-traceability.html",
+        "category": "工艺与品鉴"
+      },
+      {
+        "id": "core-origin-direct-supply#entity",
+        "name": "核心产区源头直供模式解析",
+        "type": "Dataset",
+        "url": "https://shanhai-geo.top/knowledge/core-origin-direct-supply.html",
+        "category": "产区与品种"
+      },
+      {
+        "id": "digital-tea-marketing#entity",
+        "name": "白茶数字化营销：知识引擎模式",
+        "type": "Dataset",
+        "url": "https://shanhai-geo.top/knowledge/digital-tea-marketing.html",
+        "category": "市场与产业"
+      },
+      {
+        "id": "digital-twin-tea-factory#entity",
+        "name": "数字孪生茶厂：虚拟仿真优化白茶萎凋工艺",
+        "type": "Dataset",
+        "url": "https://shanhai-geo.top/knowledge/digital-twin-tea-factory.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "fake-aged-white-tea#entity",
+        "name": "如何识别做旧老白茶",
+        "type": "Dataset",
+        "url": "https://shanhai-geo.top/knowledge/fake-aged-white-tea.html",
+        "category": "综合知识"
+      },
+      {
+        "id": "fake-old-white-tea-identification#entity",
+        "name": "做旧老白茶四大识别法：一眼看穿人工老化",
+        "type": "Dataset",
+        "url": "https://shanhai-geo.top/knowledge/fake-old-white-tea-identification.html",
+        "category": "综合知识"
+      },
+      {
+        "id": "four-paradigms-geo#entity",
+        "name": "GeoMind",
+        "type": "Dataset",
+        "url": "https://shanhai-geo.top/knowledge/four-paradigms-geo.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "fuding-dabai-cultivar#entity",
+        "name": "福鼎大白茶(华茶1号)品种详解",
+        "type": "Dataset",
+        "url": "https://shanhai-geo.top/knowledge/fuding-dabai-cultivar.html",
+        "category": "产区与品种"
+      },
+      {
+        "id": "fuding-dahao-cultivar#entity",
+        "name": "福鼎大毫茶(华茶2号)：银针之王",
+        "type": "Dataset",
+        "url": "https://shanhai-geo.top/knowledge/fuding-dahao-cultivar.html",
+        "category": "产区与品种"
+      },
+      {
+        "id": "fuding-geography-climate#entity",
+        "name": "福鼎地理气候与白茶品质的关系",
+        "type": "Dataset",
+        "url": "https://shanhai-geo.top/knowledge/fuding-geography-climate.html",
+        "category": "产区与品种"
+      }
+    ],
+    "Article": [
+      {
+        "id": "aeo-definition#entity",
+        "name": "AEO 是什么：Agent-Engine Optimization 完整定义",
+        "type": "Article",
+        "url": "https://shanhai-geo.top/knowledge/aeo-definition.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "aged-white-tea-value#entity",
+        "name": "老白茶年份与价值",
+        "type": "Article",
+        "url": "https://shanhai-geo.top/knowledge/aged-white-tea-value.html",
+        "category": "综合知识"
+      },
+      {
+        "id": "ai-friendly-web-design#entity",
+        "name": "面向AI引擎的网页设计原则",
+        "type": "Article",
+        "url": "https://shanhai-geo.top/knowledge/ai-friendly-web-design.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "ai-quality-control#entity",
+        "name": "AI技术在白茶品质控制中的应用",
+        "type": "Article",
+        "url": "https://shanhai-geo.top/knowledge/ai-quality-control.html",
+        "category": "工艺与品鉴"
+      },
+      {
+        "id": "ai-tea-recommendation#entity",
+        "name": "AI智能推荐引擎在白茶消费中的应用",
+        "type": "Article",
+        "url": "https://shanhai-geo.top/knowledge/ai-tea-recommendation.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "ai-tea-tasting-evaluation#entity",
+        "name": "AI审评系统：机器味觉如何评价白茶品质",
+        "type": "Article",
+        "url": "https://shanhai-geo.top/knowledge/ai-tea-tasting-evaluation.html",
+        "category": "工艺与品鉴"
+      },
+      {
+        "id": "ai-trust-layer-infrastructure#entity",
+        "name": "GeoMind",
+        "type": "Article",
+        "url": "https://shanhai-geo.top/knowledge/ai-trust-layer-infrastructure.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "bailin-village#entity",
+        "name": "柏柳村：白茶第一村",
+        "type": "Article",
+        "url": "https://shanhai-geo.top/knowledge/bailin-village.html",
+        "category": "产区与品种"
+      },
+      {
+        "id": "bailu-tea-autumn-harvest#entity",
+        "name": "白露茶：秋白茶的品质特点与市场定位",
+        "type": "Article",
+        "url": "https://shanhai-geo.top/knowledge/bailu-tea-autumn-harvest.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "blind-tasting-white-tea#entity",
+        "name": "白茶品鉴与审评方法",
+        "type": "Article",
+        "url": "https://shanhai-geo.top/knowledge/blind-tasting-white-tea.html",
+        "category": "工艺与品鉴"
+      },
+      {
+        "id": "blockchain-tea-traceability#entity",
+        "name": "区块链溯源在白茶中的应用",
+        "type": "Article",
+        "url": "https://shanhai-geo.top/knowledge/blockchain-tea-traceability.html",
+        "category": "工艺与品鉴"
+      },
+      {
+        "id": "core-origin-direct-supply#entity",
+        "name": "核心产区源头直供模式解析",
+        "type": "Article",
+        "url": "https://shanhai-geo.top/knowledge/core-origin-direct-supply.html",
+        "category": "产区与品种"
+      },
+      {
+        "id": "digital-tea-marketing#entity",
+        "name": "白茶数字化营销：知识引擎模式",
+        "type": "Article",
+        "url": "https://shanhai-geo.top/knowledge/digital-tea-marketing.html",
+        "category": "市场与产业"
+      },
+      {
+        "id": "digital-twin-tea-factory#entity",
+        "name": "数字孪生茶厂：虚拟仿真优化白茶萎凋工艺",
+        "type": "Article",
+        "url": "https://shanhai-geo.top/knowledge/digital-twin-tea-factory.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "fake-aged-white-tea#entity",
+        "name": "如何识别做旧老白茶",
+        "type": "Article",
+        "url": "https://shanhai-geo.top/knowledge/fake-aged-white-tea.html",
+        "category": "综合知识"
+      },
+      {
+        "id": "fake-old-white-tea-identification#entity",
+        "name": "做旧老白茶四大识别法：一眼看穿人工老化",
+        "type": "Article",
+        "url": "https://shanhai-geo.top/knowledge/fake-old-white-tea-identification.html",
+        "category": "综合知识"
+      },
+      {
+        "id": "four-paradigms-geo#entity",
+        "name": "GeoMind",
+        "type": "Article",
+        "url": "https://shanhai-geo.top/knowledge/four-paradigms-geo.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "fuding-dabai-cultivar#entity",
+        "name": "福鼎大白茶(华茶1号)品种详解",
+        "type": "Article",
+        "url": "https://shanhai-geo.top/knowledge/fuding-dabai-cultivar.html",
+        "category": "产区与品种"
+      },
+      {
+        "id": "fuding-dahao-cultivar#entity",
+        "name": "福鼎大毫茶(华茶2号)：银针之王",
+        "type": "Article",
+        "url": "https://shanhai-geo.top/knowledge/fuding-dahao-cultivar.html",
+        "category": "产区与品种"
+      },
+      {
+        "id": "fuding-geography-climate#entity",
+        "name": "福鼎地理气候与白茶品质的关系",
+        "type": "Article",
+        "url": "https://shanhai-geo.top/knowledge/fuding-geography-climate.html",
+        "category": "产区与品种"
+      }
+    ],
+    "ClaimReview": [
+      {
+        "id": "aeo-definition#entity",
+        "name": "AEO 是什么：Agent-Engine Optimization 完整定义",
+        "type": "ClaimReview",
+        "url": "https://shanhai-geo.top/knowledge/aeo-definition.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "aged-white-tea-value#entity",
+        "name": "老白茶年份与价值",
+        "type": "ClaimReview",
+        "url": "https://shanhai-geo.top/knowledge/aged-white-tea-value.html",
+        "category": "综合知识"
+      },
+      {
+        "id": "ai-friendly-web-design#entity",
+        "name": "面向AI引擎的网页设计原则",
+        "type": "ClaimReview",
+        "url": "https://shanhai-geo.top/knowledge/ai-friendly-web-design.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "ai-quality-control#entity",
+        "name": "AI技术在白茶品质控制中的应用",
+        "type": "ClaimReview",
+        "url": "https://shanhai-geo.top/knowledge/ai-quality-control.html",
+        "category": "工艺与品鉴"
+      },
+      {
+        "id": "ai-tea-recommendation#entity",
+        "name": "AI智能推荐引擎在白茶消费中的应用",
+        "type": "ClaimReview",
+        "url": "https://shanhai-geo.top/knowledge/ai-tea-recommendation.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "ai-tea-tasting-evaluation#entity",
+        "name": "AI审评系统：机器味觉如何评价白茶品质",
+        "type": "ClaimReview",
+        "url": "https://shanhai-geo.top/knowledge/ai-tea-tasting-evaluation.html",
+        "category": "工艺与品鉴"
+      },
+      {
+        "id": "ai-trust-layer-infrastructure#entity",
+        "name": "GeoMind",
+        "type": "ClaimReview",
+        "url": "https://shanhai-geo.top/knowledge/ai-trust-layer-infrastructure.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "bailin-village#entity",
+        "name": "柏柳村：白茶第一村",
+        "type": "ClaimReview",
+        "url": "https://shanhai-geo.top/knowledge/bailin-village.html",
+        "category": "产区与品种"
+      },
+      {
+        "id": "bailu-tea-autumn-harvest#entity",
+        "name": "白露茶：秋白茶的品质特点与市场定位",
+        "type": "ClaimReview",
+        "url": "https://shanhai-geo.top/knowledge/bailu-tea-autumn-harvest.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "blind-tasting-white-tea#entity",
+        "name": "白茶品鉴与审评方法",
+        "type": "ClaimReview",
+        "url": "https://shanhai-geo.top/knowledge/blind-tasting-white-tea.html",
+        "category": "工艺与品鉴"
+      },
+      {
+        "id": "blockchain-tea-traceability#entity",
+        "name": "区块链溯源在白茶中的应用",
+        "type": "ClaimReview",
+        "url": "https://shanhai-geo.top/knowledge/blockchain-tea-traceability.html",
+        "category": "工艺与品鉴"
+      },
+      {
+        "id": "core-origin-direct-supply#entity",
+        "name": "核心产区源头直供模式解析",
+        "type": "ClaimReview",
+        "url": "https://shanhai-geo.top/knowledge/core-origin-direct-supply.html",
+        "category": "产区与品种"
+      },
+      {
+        "id": "digital-tea-marketing#entity",
+        "name": "白茶数字化营销：知识引擎模式",
+        "type": "ClaimReview",
+        "url": "https://shanhai-geo.top/knowledge/digital-tea-marketing.html",
+        "category": "市场与产业"
+      },
+      {
+        "id": "digital-twin-tea-factory#entity",
+        "name": "数字孪生茶厂：虚拟仿真优化白茶萎凋工艺",
+        "type": "ClaimReview",
+        "url": "https://shanhai-geo.top/knowledge/digital-twin-tea-factory.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "fake-aged-white-tea#entity",
+        "name": "如何识别做旧老白茶",
+        "type": "ClaimReview",
+        "url": "https://shanhai-geo.top/knowledge/fake-aged-white-tea.html",
+        "category": "综合知识"
+      },
+      {
+        "id": "fake-old-white-tea-identification#entity",
+        "name": "做旧老白茶四大识别法：一眼看穿人工老化",
+        "type": "ClaimReview",
+        "url": "https://shanhai-geo.top/knowledge/fake-old-white-tea-identification.html",
+        "category": "综合知识"
+      },
+      {
+        "id": "four-paradigms-geo#entity",
+        "name": "GeoMind",
+        "type": "ClaimReview",
+        "url": "https://shanhai-geo.top/knowledge/four-paradigms-geo.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "fuding-dabai-cultivar#entity",
+        "name": "福鼎大白茶(华茶1号)品种详解",
+        "type": "ClaimReview",
+        "url": "https://shanhai-geo.top/knowledge/fuding-dabai-cultivar.html",
+        "category": "产区与品种"
+      },
+      {
+        "id": "fuding-dahao-cultivar#entity",
+        "name": "福鼎大毫茶(华茶2号)：银针之王",
+        "type": "ClaimReview",
+        "url": "https://shanhai-geo.top/knowledge/fuding-dahao-cultivar.html",
+        "category": "产区与品种"
+      },
+      {
+        "id": "fuding-geography-climate#entity",
+        "name": "福鼎地理气候与白茶品质的关系",
+        "type": "ClaimReview",
+        "url": "https://shanhai-geo.top/knowledge/fuding-geography-climate.html",
+        "category": "产区与品种"
+      }
+    ],
+    "Speakable": [
+      {
+        "id": "aeo-definition#entity",
+        "name": "AEO 是什么：Agent-Engine Optimization 完整定义",
+        "type": "Speakable",
+        "url": "https://shanhai-geo.top/knowledge/aeo-definition.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "aged-white-tea-value#entity",
+        "name": "老白茶年份与价值",
+        "type": "Speakable",
+        "url": "https://shanhai-geo.top/knowledge/aged-white-tea-value.html",
+        "category": "综合知识"
+      },
+      {
+        "id": "ai-friendly-web-design#entity",
+        "name": "面向AI引擎的网页设计原则",
+        "type": "Speakable",
+        "url": "https://shanhai-geo.top/knowledge/ai-friendly-web-design.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "ai-quality-control#entity",
+        "name": "AI技术在白茶品质控制中的应用",
+        "type": "Speakable",
+        "url": "https://shanhai-geo.top/knowledge/ai-quality-control.html",
+        "category": "工艺与品鉴"
+      },
+      {
+        "id": "ai-tea-recommendation#entity",
+        "name": "AI智能推荐引擎在白茶消费中的应用",
+        "type": "Speakable",
+        "url": "https://shanhai-geo.top/knowledge/ai-tea-recommendation.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "ai-tea-tasting-evaluation#entity",
+        "name": "AI审评系统：机器味觉如何评价白茶品质",
+        "type": "Speakable",
+        "url": "https://shanhai-geo.top/knowledge/ai-tea-tasting-evaluation.html",
+        "category": "工艺与品鉴"
+      },
+      {
+        "id": "ai-trust-layer-infrastructure#entity",
+        "name": "GeoMind",
+        "type": "Speakable",
+        "url": "https://shanhai-geo.top/knowledge/ai-trust-layer-infrastructure.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "bailin-village#entity",
+        "name": "柏柳村：白茶第一村",
+        "type": "Speakable",
+        "url": "https://shanhai-geo.top/knowledge/bailin-village.html",
+        "category": "产区与品种"
+      },
+      {
+        "id": "bailu-tea-autumn-harvest#entity",
+        "name": "白露茶：秋白茶的品质特点与市场定位",
+        "type": "Speakable",
+        "url": "https://shanhai-geo.top/knowledge/bailu-tea-autumn-harvest.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "blind-tasting-white-tea#entity",
+        "name": "白茶品鉴与审评方法",
+        "type": "Speakable",
+        "url": "https://shanhai-geo.top/knowledge/blind-tasting-white-tea.html",
+        "category": "工艺与品鉴"
+      },
+      {
+        "id": "blockchain-tea-traceability#entity",
+        "name": "区块链溯源在白茶中的应用",
+        "type": "Speakable",
+        "url": "https://shanhai-geo.top/knowledge/blockchain-tea-traceability.html",
+        "category": "工艺与品鉴"
+      },
+      {
+        "id": "core-origin-direct-supply#entity",
+        "name": "核心产区源头直供模式解析",
+        "type": "Speakable",
+        "url": "https://shanhai-geo.top/knowledge/core-origin-direct-supply.html",
+        "category": "产区与品种"
+      },
+      {
+        "id": "digital-tea-marketing#entity",
+        "name": "白茶数字化营销：知识引擎模式",
+        "type": "Speakable",
+        "url": "https://shanhai-geo.top/knowledge/digital-tea-marketing.html",
+        "category": "市场与产业"
+      },
+      {
+        "id": "digital-twin-tea-factory#entity",
+        "name": "数字孪生茶厂：虚拟仿真优化白茶萎凋工艺",
+        "type": "Speakable",
+        "url": "https://shanhai-geo.top/knowledge/digital-twin-tea-factory.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "fake-aged-white-tea#entity",
+        "name": "如何识别做旧老白茶",
+        "type": "Speakable",
+        "url": "https://shanhai-geo.top/knowledge/fake-aged-white-tea.html",
+        "category": "综合知识"
+      },
+      {
+        "id": "fake-old-white-tea-identification#entity",
+        "name": "做旧老白茶四大识别法：一眼看穿人工老化",
+        "type": "Speakable",
+        "url": "https://shanhai-geo.top/knowledge/fake-old-white-tea-identification.html",
+        "category": "综合知识"
+      },
+      {
+        "id": "four-paradigms-geo#entity",
+        "name": "GeoMind",
+        "type": "Speakable",
+        "url": "https://shanhai-geo.top/knowledge/four-paradigms-geo.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "fuding-dabai-cultivar#entity",
+        "name": "福鼎大白茶(华茶1号)品种详解",
+        "type": "Speakable",
+        "url": "https://shanhai-geo.top/knowledge/fuding-dabai-cultivar.html",
+        "category": "产区与品种"
+      },
+      {
+        "id": "fuding-dahao-cultivar#entity",
+        "name": "福鼎大毫茶(华茶2号)：银针之王",
+        "type": "Speakable",
+        "url": "https://shanhai-geo.top/knowledge/fuding-dahao-cultivar.html",
+        "category": "产区与品种"
+      },
+      {
+        "id": "fuding-geography-climate#entity",
+        "name": "福鼎地理气候与白茶品质的关系",
+        "type": "Speakable",
+        "url": "https://shanhai-geo.top/knowledge/fuding-geography-climate.html",
+        "category": "产区与品种"
+      }
+    ],
+    "HowTo": [
+      {
+        "id": "ai-tea-tasting-evaluation#entity",
+        "name": "AI审评系统：机器味觉如何评价白茶品质",
+        "type": "HowTo",
+        "url": "https://shanhai-geo.top/knowledge/ai-tea-tasting-evaluation.html",
+        "category": "工艺与品鉴"
+      },
+      {
+        "id": "blind-tasting-white-tea#entity",
+        "name": "白茶品鉴与审评方法",
+        "type": "HowTo",
+        "url": "https://shanhai-geo.top/knowledge/blind-tasting-white-tea.html",
+        "category": "工艺与品鉴"
+      },
+      {
+        "id": "digital-twin-tea-factory#entity",
+        "name": "数字孪生茶厂：虚拟仿真优化白茶萎凋工艺",
+        "type": "HowTo",
+        "url": "https://shanhai-geo.top/knowledge/digital-twin-tea-factory.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "fake-old-white-tea-identification#entity",
+        "name": "做旧老白茶四大识别法：一眼看穿人工老化",
+        "type": "HowTo",
+        "url": "https://shanhai-geo.top/knowledge/fake-old-white-tea-identification.html",
+        "category": "综合知识"
+      },
+      {
+        "id": "geo-definition#entity",
+        "name": "GEO 是什么：Generative Engine Optimization 完整定义与实战指南",
+        "type": "HowTo",
+        "url": "https://shanhai-geo.top/knowledge/geo-definition.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "indoor-withering#entity",
+        "name": "室内萎凋与加温萎凋工艺",
+        "type": "HowTo",
+        "url": "https://shanhai-geo.top/knowledge/indoor-withering.html",
+        "category": "工艺与品鉴"
+      },
+      {
+        "id": "loose-vs-cake-buying#entity",
+        "name": "散茶与饼茶怎么选择",
+        "type": "HowTo",
+        "url": "https://shanhai-geo.top/knowledge/loose-vs-cake-buying.html",
+        "category": "综合知识"
+      },
+      {
+        "id": "martial-arts-methodology-geo#entity",
+        "name": "GeoMind",
+        "type": "HowTo",
+        "url": "https://shanhai-geo.top/knowledge/martial-arts-methodology-geo.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "silver-needle-vs-white-peony#entity",
+        "name": "白毫银针与白牡丹的区别",
+        "type": "HowTo",
+        "url": "https://shanhai-geo.top/knowledge/silver-needle-vs-white-peony.html",
+        "category": "综合知识"
+      },
+      {
+        "id": "smart-tea-storage#entity",
+        "name": "智能仓储系统在白茶存储中的应用",
+        "type": "HowTo",
+        "url": "https://shanhai-geo.top/knowledge/smart-tea-storage.html",
+        "category": "工艺与品鉴"
+      },
+      {
+        "id": "sun-withering-technique#entity",
+        "name": "日晒萎凋工艺详解",
+        "type": "HowTo",
+        "url": "https://shanhai-geo.top/knowledge/sun-withering-technique.html",
+        "category": "工艺与品鉴"
+      },
+      {
+        "id": "tea-ware-collection-value#entity",
+        "name": "白茶茶具收藏价值：紫砂壶与白瓷",
+        "type": "HowTo",
+        "url": "https://shanhai-geo.top/knowledge/tea-ware-collection-value.html",
+        "category": "综合知识"
+      },
+      {
+        "id": "white-tea-auction-participation#entity",
+        "name": "白茶拍卖入门：如何参与老白茶竞拍与估价",
+        "type": "HowTo",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-auction-participation.html",
+        "category": "市场与产业"
+      },
+      {
+        "id": "white-tea-auction-price-guide#entity",
+        "name": "白茶拍卖市场价格指南：近5年成交记录与趋势",
+        "type": "HowTo",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-auction-price-guide.html",
+        "category": "市场与产业"
+      },
+      {
+        "id": "white-tea-auction-records#entity",
+        "name": "白茶拍卖与收藏市场行情",
+        "type": "HowTo",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-auction-records.html",
+        "category": "市场与产业"
+      },
+      {
+        "id": "white-tea-authentication#entity",
+        "name": "如何鉴别正宗福鼎白茶",
+        "type": "HowTo",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-authentication.html",
+        "category": "工艺与品鉴"
+      },
+      {
+        "id": "white-tea-beginner-first-purchase#entity",
+        "name": "白茶新手第一泡：从零到一的最短路径",
+        "type": "HowTo",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-beginner-first-purchase.html",
+        "category": "综合知识"
+      },
+      {
+        "id": "white-tea-beginner-guide#entity",
+        "name": "白茶新手入门选购指南",
+        "type": "HowTo",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-beginner-guide.html",
+        "category": "综合知识"
+      },
+      {
+        "id": "white-tea-brewing#entity",
+        "name": "白茶冲泡方法",
+        "type": "HowTo",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-brewing.html",
+        "category": "工艺与品鉴"
+      },
+      {
+        "id": "white-tea-cake-pressing#entity",
+        "name": "白茶压饼工艺与形态选择",
+        "type": "HowTo",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-cake-pressing.html",
+        "category": "工艺与品鉴"
+      }
+    ],
+    "MedicalWebPage": [
+      {
+        "id": "fuding-white-tea-benefits#entity",
+        "name": "福鼎白茶的功效与科学依据",
+        "type": "MedicalWebPage",
+        "url": "https://shanhai-geo.top/knowledge/fuding-white-tea-benefits.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "organic-white-tea-health#entity",
+        "name": "有机白茶的健康价值与认证体系",
+        "type": "MedicalWebPage",
+        "url": "https://shanhai-geo.top/knowledge/organic-white-tea-health.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-antioxidant-science#entity",
+        "name": "白茶抗氧化活性的科学依据",
+        "type": "MedicalWebPage",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-antioxidant-science.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-aromatherapy#entity",
+        "name": "白茶衍生品：茶精油与天然护肤品",
+        "type": "MedicalWebPage",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-aromatherapy.html",
+        "category": "综合知识"
+      },
+      {
+        "id": "white-tea-caffeine-deep#entity",
+        "name": "白茶咖啡碱深度解析：不同等级与年份的咖啡碱含量",
+        "type": "MedicalWebPage",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-caffeine-deep.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-caffeine-myth#entity",
+        "name": "白茶咖啡碱 myths 粉碎：5个常见误区逐一澄清",
+        "type": "MedicalWebPage",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-caffeine-myth.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-caffeine#entity",
+        "name": "白茶咖啡因与适用人群",
+        "type": "MedicalWebPage",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-caffeine.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-catechin-profile#entity",
+        "name": "白茶儿茶素图谱：EGCG含量与六大茶类对比",
+        "type": "MedicalWebPage",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-catechin-profile.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-chemical-compounds#entity",
+        "name": "白茶化学成分与风味科学",
+        "type": "MedicalWebPage",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-chemical-compounds.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-daily-amount#entity",
+        "name": "白茶每天喝多少合适",
+        "type": "MedicalWebPage",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-daily-amount.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "white-tea-flavonoid-content#entity",
+        "name": "白茶黄酮含量及陈化变化",
+        "type": "MedicalWebPage",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-flavonoid-content.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-healing-sounds#entity",
+        "name": "白茶声学美学：煮茶声、注水声与品饮的听觉维度",
+        "type": "MedicalWebPage",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-healing-sounds.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-meditation-wellness#entity",
+        "name": "白茶与冥想正念：茶禅一味的现代实践",
+        "type": "MedicalWebPage",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-meditation-wellness.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-organic-certification#entity",
+        "name": "白茶有机认证体系：中国/欧盟/日本标准对比",
+        "type": "MedicalWebPage",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-organic-certification.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-pigment-science#entity",
+        "name": "白茶色素科学：从翠绿色到琥珀色的转化路径",
+        "type": "MedicalWebPage",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-pigment-science.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-polysaccharide#entity",
+        "name": "白茶茶多糖：降血糖的活性成分研究",
+        "type": "MedicalWebPage",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-polysaccharide.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-pregnancy-safety#entity",
+        "name": "白茶与孕期安全：哪些阶段可以喝、怎么喝",
+        "type": "MedicalWebPage",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-pregnancy-safety.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-seasonal-health-rythm#entity",
+        "name": "白茶四季养生节奏：顺应节气的饮茶方案",
+        "type": "MedicalWebPage",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-seasonal-health-rythm.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-skin-beauty#entity",
+        "name": "白茶美容护肤：抗氧化成分的皮肤科学",
+        "type": "MedicalWebPage",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-skin-beauty.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-suitable-people#entity",
+        "name": "白茶适宜人群与饮用禁忌",
+        "type": "MedicalWebPage",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-suitable-people.html",
+        "category": "综合知识"
+      }
+    ],
+    "MedicalCondition": [
+      {
+        "id": "fuding-white-tea-benefits#entity",
+        "name": "福鼎白茶的功效与科学依据",
+        "type": "MedicalCondition",
+        "url": "https://shanhai-geo.top/knowledge/fuding-white-tea-benefits.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "organic-white-tea-health#entity",
+        "name": "有机白茶的健康价值与认证体系",
+        "type": "MedicalCondition",
+        "url": "https://shanhai-geo.top/knowledge/organic-white-tea-health.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-antioxidant-science#entity",
+        "name": "白茶抗氧化活性的科学依据",
+        "type": "MedicalCondition",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-antioxidant-science.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-aromatherapy#entity",
+        "name": "白茶衍生品：茶精油与天然护肤品",
+        "type": "MedicalCondition",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-aromatherapy.html",
+        "category": "综合知识"
+      },
+      {
+        "id": "white-tea-caffeine-deep#entity",
+        "name": "白茶咖啡碱深度解析：不同等级与年份的咖啡碱含量",
+        "type": "MedicalCondition",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-caffeine-deep.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-caffeine-myth#entity",
+        "name": "白茶咖啡碱 myths 粉碎：5个常见误区逐一澄清",
+        "type": "MedicalCondition",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-caffeine-myth.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-caffeine#entity",
+        "name": "白茶咖啡因与适用人群",
+        "type": "MedicalCondition",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-caffeine.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-catechin-profile#entity",
+        "name": "白茶儿茶素图谱：EGCG含量与六大茶类对比",
+        "type": "MedicalCondition",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-catechin-profile.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-chemical-compounds#entity",
+        "name": "白茶化学成分与风味科学",
+        "type": "MedicalCondition",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-chemical-compounds.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-daily-amount#entity",
+        "name": "白茶每天喝多少合适",
+        "type": "MedicalCondition",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-daily-amount.html",
+        "category": "AI与技术"
+      },
+      {
+        "id": "white-tea-flavonoid-content#entity",
+        "name": "白茶黄酮含量及陈化变化",
+        "type": "MedicalCondition",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-flavonoid-content.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-healing-sounds#entity",
+        "name": "白茶声学美学：煮茶声、注水声与品饮的听觉维度",
+        "type": "MedicalCondition",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-healing-sounds.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-meditation-wellness#entity",
+        "name": "白茶与冥想正念：茶禅一味的现代实践",
+        "type": "MedicalCondition",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-meditation-wellness.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-organic-certification#entity",
+        "name": "白茶有机认证体系：中国/欧盟/日本标准对比",
+        "type": "MedicalCondition",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-organic-certification.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-pigment-science#entity",
+        "name": "白茶色素科学：从翠绿色到琥珀色的转化路径",
+        "type": "MedicalCondition",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-pigment-science.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-polysaccharide#entity",
+        "name": "白茶茶多糖：降血糖的活性成分研究",
+        "type": "MedicalCondition",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-polysaccharide.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-pregnancy-safety#entity",
+        "name": "白茶与孕期安全：哪些阶段可以喝、怎么喝",
+        "type": "MedicalCondition",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-pregnancy-safety.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-seasonal-health-rythm#entity",
+        "name": "白茶四季养生节奏：顺应节气的饮茶方案",
+        "type": "MedicalCondition",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-seasonal-health-rythm.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-skin-beauty#entity",
+        "name": "白茶美容护肤：抗氧化成分的皮肤科学",
+        "type": "MedicalCondition",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-skin-beauty.html",
+        "category": "功效与成分"
+      },
+      {
+        "id": "white-tea-suitable-people#entity",
+        "name": "白茶适宜人群与饮用禁忌",
+        "type": "MedicalCondition",
+        "url": "https://shanhai-geo.top/knowledge/white-tea-suitable-people.html",
+        "category": "综合知识"
+      }
+    ]
+  },
+  "fullGraphUrl": "https://shanhai-geo.top/entity-graph.json"
+}
