@@ -1,0 +1,50 @@
+{
+  "site": "shanhai-geo.top",
+  "name": "山海智识福鼎白茶知识库",
+  "statistics": {
+    "totalEntries": 218,
+    "totalCategories": 7,
+    "totalCitations_estimated": 2562,
+    "schemaTypes": 13,
+    "aiChannels": 10,
+    "entityTypes": 7,
+    "languages": 1,
+    "academicSources": 15
+  },
+  "categoryBreakdown": [
+    {
+      "name": "综合知识",
+      "count": 72
+    },
+    {
+      "name": "AI与技术",
+      "count": 34
+    },
+    {
+      "name": "工艺与品鉴",
+      "count": 30
+    },
+    {
+      "name": "产区与品种",
+      "count": 27
+    },
+    {
+      "name": "市场与产业",
+      "count": 24
+    },
+    {
+      "name": "功效与成分",
+      "count": 21
+    },
+    {
+      "name": "文化与历史",
+      "count": 10
+    }
+  ],
+  "qualityMetrics": {
+    "schemaPerPage_avg": 6.4,
+    "citationsPerPage_avg": 11.8,
+    "internalLinksPerPage": 5,
+    "aiReadabilityScore": "S"
+  }
+}
