@@ -74,7 +74,7 @@ Allow: /
 
 # ===== 站点地图 =====
 Sitemap: https://shanhai-geo.top/sitemap.xml
-Sitemap: https://shanhai-geo.top/sitemap-news.xml
+Sitemap: https://shanhai-geo.top/sitemap.xml
 
 # ===== 百度验证文件 =====
 # 百度搜索资源平台验证：87b24be9a5614409a735f81cfb0ca174.txt
