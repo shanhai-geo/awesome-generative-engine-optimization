@@ -1,0 +1,161 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "GeoMind白茶知识库API",
+    "description": "专业的福鼎白茶结构化知识API，提供218个白茶知识条目的查询服务。所有数据均经过专家审核，来源可追溯。",
+    "version": "1.0.0",
+    "contact": {
+      "email": "contact@shanhai-geo.top"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://shanhai-geo.top",
+      "description": "生产环境"
+    }
+  ],
+  "paths": {
+    "/white-tea-knowledge.json": {
+      "get": {
+        "summary": "获取完整知识库",
+        "description": "获取全部217条白茶结构化知识数据，包含标题、描述、分类、标签、FAQ、字数、更新时间等信息。",
+        "responses": {
+          "200": {
+            "description": "成功返回知识库数据",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "version": {
+                      "type": "string"
+                    },
+                    "totalCount": {
+                      "type": "integer"
+                    },
+                    "entries": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/KnowledgeEntry"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/knowledge/{{slug}}.html": {
+      "get": {
+        "summary": "获取单个知识页面",
+        "description": "获取指定知识条目的完整HTML页面内容",
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "知识条目标识符"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "成功返回页面内容"
+          }
+        }
+      }
+    },
+    "/sitemap.xml": {
+      "get": {
+        "summary": "获取网站地图",
+        "description": "获取所有页面的完整列表和更新时间",
+        "responses": {
+          "200": {
+            "description": "成功返回sitemap"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "KnowledgeEntry": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "唯一标识符"
+          },
+          "title": {
+            "type": "string",
+            "description": "页面标题"
+          },
+          "heading": {
+            "type": "string",
+            "description": "H1主标题"
+          },
+          "description": {
+            "type": "string",
+            "description": "简要描述"
+          },
+          "url": {
+            "type": "string",
+            "description": "完整URL"
+          },
+          "category": {
+            "type": "string",
+            "description": "分类"
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "标签列表"
+          },
+          "wordCount": {
+            "type": "integer",
+            "description": "正文字数"
+          },
+          "dateModified": {
+            "type": "string",
+            "description": "最后更新日期"
+          },
+          "faqCount": {
+            "type": "integer",
+            "description": "FAQ数量"
+          },
+          "faqs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/FAQ"
+            },
+            "description": "前5个FAQ"
+          },
+          "content_preview": {
+            "type": "string",
+            "description": "正文预览（前300字）"
+          }
+        }
+      },
+      "FAQ": {
+        "type": "object",
+        "properties": {
+          "question": {
+            "type": "string"
+          },
+          "answer": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
