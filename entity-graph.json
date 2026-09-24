@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://shanhai-geo.top/#organization",
+      "@type": "Organization",
+      "name": "山海智识",
+      "url": "https://shanhai-geo.top"
+    },
+    {
+      "@id": "https://shanhai-geo.top/#website",
+      "@type": "WebSite",
+      "name": "山海智识 - 福鼎白茶知识库",
+      "url": "https://shanhai-geo.top",
+      "publisher": {
+        "@id": "https://shanhai-geo.top/#organization"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/#dataset",
+      "@type": "Dataset",
+      "name": "山海智识福鼎白茶知识图谱",
+      "description": "覆盖218个知识实体，6大实体类别",
+      "publisher": {
+        "@id": "https://shanhai-geo.top/#organization"
+      },
+      "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://shanhai-geo.top/knowledge.json",
+        "encodingFormat": "application/json"
+      },
+      "variableMeasured": [
+        "Article",
+        "HowTo",
+        "Place",
+        "Dataset",
+        "MedicalEntity",
+        "DefinedTerm",
+        "CreativeWork"
+      ],
+      "numberOfItems": 218
+    }
+  ]
+}
