@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>山海智识</ShortName>
+  <Description>福鼎白茶知识库 - 学术级专业内容搜索</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://shanhai-geo.top/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://shanhai-geo.top/search.html?q={searchTerms}"/>
+  <Url type="application/json" template="https://shanhai-geo.top/api/search.json?q={searchTerms}"/>
+  <Url type="application/rss+xml" template="https://shanhai-geo.top/search-rss.xml?q={searchTerms}"/>
+  <moz:SearchForm>https://shanhai-geo.top/search.html</moz:SearchForm>
+  <Language>zh-cn</Language>
+  <AdultContent>false</AdultContent>
+  <Attribution>© 2026 山海智识</Attribution>
+</OpenSearchDescription>
