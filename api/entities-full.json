@@ -1,0 +1,652 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://shanhai-geo.top/#organization",
+      "@type": "Organization",
+      "name": "山海智识",
+      "url": "https://shanhai-geo.top/",
+      "knowsAbout": [
+        "福鼎白茶",
+        "白茶知识",
+        "茶文化",
+        "茶叶科学",
+        "茶健康",
+        "AEO"
+      ],
+      "sameAs": [
+        "https://zh.wikipedia.org/wiki/%E7%99%BD%E8%8C%B6",
+        "https://baike.baidu.com/item/%E7%99%BD%E8%8C%B6"
+      ]
+    },
+    {
+      "@id": "https://shanhai-geo.top/#website",
+      "@type": "WebSite",
+      "name": "山海智识福鼎白茶知识库",
+      "url": "https://shanhai-geo.top/",
+      "publisher": {
+        "@id": "https://shanhai-geo.top/#organization"
+      },
+      "inLanguage": "zh-CN"
+    },
+    {
+      "@id": "https://shanhai-geo.top/#dataset",
+      "@type": "Dataset",
+      "name": "山海智识福鼎白茶知识图谱",
+      "description": "覆盖218个知识实体的福鼎白茶专业知识图谱",
+      "numberOfItems": 218,
+      "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://shanhai-geo.top/knowledge.json",
+        "encodingFormat": "application/json"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/#category-AI与技术",
+      "@type": "Thing",
+      "name": "AI与技术",
+      "description": "AI搜索优化与知识引擎技术",
+      "numberOfItems": 35,
+      "hasPart": [
+        {
+          "@id": "https://shanhai-geo.top/knowledge/aeo-definition.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/ai-friendly-web-design.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/ai-tea-recommendation.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/ai-trust-layer-infrastructure.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/bailu-tea-autumn-harvest.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/digital-twin-tea-factory.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/four-paradigms-geo.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/fusion-reactor-architecture.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/generative-engine-optimization.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/geo-13-signals.html#entity"
+        }
+      ]
+    },
+    {
+      "@id": "https://shanhai-geo.top/#category-综合知识",
+      "@type": "Thing",
+      "name": "综合知识",
+      "description": "白茶综合知识",
+      "numberOfItems": 74,
+      "hasPart": [
+        {
+          "@id": "https://shanhai-geo.top/knowledge/aged-white-tea-value.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/fake-aged-white-tea.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/fake-old-white-tea-identification.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/gongmei-vs-shoumei.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/gpt6-astra-impact.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/index.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/iot-smart-tea-garden.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/llms-txt-spec.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/llms-txt-standard.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/logic-cloud-architecture.html#entity"
+        }
+      ]
+    },
+    {
+      "@id": "https://shanhai-geo.top/#category-工艺与品鉴",
+      "@type": "HowTo",
+      "name": "工艺与品鉴",
+      "description": "白茶制作工艺与品鉴方法",
+      "numberOfItems": 28,
+      "hasPart": [
+        {
+          "@id": "https://shanhai-geo.top/knowledge/ai-quality-control.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/ai-tea-tasting-evaluation.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/blind-tasting-white-tea.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/blockchain-tea-traceability.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/indoor-withering.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/smart-tea-storage.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/spectroscopy-quality-testing.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/sun-withering-technique.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/tea-tree-age-quality.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/white-tea-aging-science.html#entity"
+        }
+      ]
+    },
+    {
+      "@id": "https://shanhai-geo.top/#category-产区与品种",
+      "@type": "Place",
+      "name": "产区与品种",
+      "description": "白茶核心产区与茶树品种",
+      "numberOfItems": 27,
+      "hasPart": [
+        {
+          "@id": "https://shanhai-geo.top/knowledge/bailin-village.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/core-origin-direct-supply.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/fuding-dabai-cultivar.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/fuding-dahao-cultivar.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/fuding-geography-climate.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/fuding-tea-tourism.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/fuding-vs-yunnan-white-tea.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/fuding-vs-zhenghe-white-tea.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/fuding-white-tea-cultivars.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/fuding-white-tea-market-size.html#entity"
+        }
+      ]
+    },
+    {
+      "@id": "https://shanhai-geo.top/#category-市场与产业",
+      "@type": "Dataset",
+      "name": "市场与产业",
+      "description": "白茶市场数据与产业分析",
+      "numberOfItems": 24,
+      "hasPart": [
+        {
+          "@id": "https://shanhai-geo.top/knowledge/digital-tea-marketing.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/white-tea-auction-participation.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/white-tea-auction-price-guide.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/white-tea-auction-records.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/white-tea-brand-landscape.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/white-tea-brand-top10.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/white-tea-collection-insurance.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/white-tea-cross-border-ecommerce.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/white-tea-ecommerce-live.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/white-tea-ecommerce-platforms.html#entity"
+        }
+      ]
+    },
+    {
+      "@id": "https://shanhai-geo.top/#category-功效与成分",
+      "@type": "MedicalEntity",
+      "name": "功效与成分",
+      "description": "白茶的健康功效与化学成分研究",
+      "numberOfItems": 21,
+      "hasPart": [
+        {
+          "@id": "https://shanhai-geo.top/knowledge/fuding-white-tea-benefits.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/organic-white-tea-health.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/white-tea-antioxidant-science.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/white-tea-caffeine-deep.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/white-tea-caffeine-myth.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/white-tea-caffeine.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/white-tea-catechin-profile.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/white-tea-chemical-compounds.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/white-tea-flavonoid-content.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/white-tea-food-safety-lab.html#entity"
+        }
+      ]
+    },
+    {
+      "@id": "https://shanhai-geo.top/#category-文化与历史",
+      "@type": "CreativeWork",
+      "name": "文化与历史",
+      "description": "白茶历史文化与非遗传承",
+      "numberOfItems": 9,
+      "hasPart": [
+        {
+          "@id": "https://shanhai-geo.top/knowledge/white-tea-ancient-tea-trees.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/white-tea-calligraphy-pairing.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/white-tea-history.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/white-tea-intangible-heritage.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/white-tea-mazu-culture.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/white-tea-poetry.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/white-tea-republic-era.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/white-tea-tang-dynasty-history.html#entity"
+        },
+        {
+          "@id": "https://shanhai-geo.top/knowledge/white-tea-tea-ceremony-protocol.html#entity"
+        }
+      ]
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/fuding-white-tea-benefits.html#topic",
+      "@type": "Product",
+      "name": "福鼎白茶",
+      "url": "https://shanhai-geo.top/knowledge/fuding-white-tea-benefits.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/fuding-white-tea-benefits.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/silver-needle-grading.html#topic",
+      "@type": "Product",
+      "name": "白毫银针",
+      "url": "https://shanhai-geo.top/knowledge/silver-needle-grading.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/silver-needle-grading.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/silver-needle-vs-white-peony.html#topic",
+      "@type": "Product",
+      "name": "白牡丹",
+      "url": "https://shanhai-geo.top/knowledge/silver-needle-vs-white-peony.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/silver-needle-vs-white-peony.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/gongmei-vs-shoumei.html#topic",
+      "@type": "Product",
+      "name": "寿眉",
+      "url": "https://shanhai-geo.top/knowledge/gongmei-vs-shoumei.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/gongmei-vs-shoumei.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/gongmei-vs-shoumei.html#topic",
+      "@type": "Product",
+      "name": "贡眉",
+      "url": "https://shanhai-geo.top/knowledge/gongmei-vs-shoumei.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/gongmei-vs-shoumei.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/fuding-white-tea-benefits.html#topic",
+      "@type": "MedicalEntity",
+      "name": "白茶功效",
+      "url": "https://shanhai-geo.top/knowledge/fuding-white-tea-benefits.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/fuding-white-tea-benefits.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/white-tea-antioxidant-science.html#topic",
+      "@type": "MedicalEntity",
+      "name": "抗氧化",
+      "url": "https://shanhai-geo.top/knowledge/white-tea-antioxidant-science.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/white-tea-antioxidant-science.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/white-tea-flavonoid-content.html#topic",
+      "@type": "ChemicalSubstance",
+      "name": "黄酮类化合物",
+      "url": "https://shanhai-geo.top/knowledge/white-tea-flavonoid-content.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/white-tea-flavonoid-content.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/white-tea-theanine-science.html#topic",
+      "@type": "ChemicalSubstance",
+      "name": "茶氨酸",
+      "url": "https://shanhai-geo.top/knowledge/white-tea-theanine-science.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/white-tea-theanine-science.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/white-tea-polysaccharide.html#topic",
+      "@type": "ChemicalSubstance",
+      "name": "茶多糖",
+      "url": "https://shanhai-geo.top/knowledge/white-tea-polysaccharide.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/white-tea-polysaccharide.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/white-tea-caffeine.html#topic",
+      "@type": "ChemicalSubstance",
+      "name": "咖啡因",
+      "url": "https://shanhai-geo.top/knowledge/white-tea-caffeine.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/white-tea-caffeine.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/white-tea-catechin-profile.html#topic",
+      "@type": "ChemicalSubstance",
+      "name": "儿茶素",
+      "url": "https://shanhai-geo.top/knowledge/white-tea-catechin-profile.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/white-tea-catechin-profile.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/white-tea-catechin-profile.html#topic",
+      "@type": "ChemicalSubstance",
+      "name": "EGCG",
+      "url": "https://shanhai-geo.top/knowledge/white-tea-catechin-profile.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/white-tea-catechin-profile.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/white-tea-weight-management.html#topic",
+      "@type": "MedicalEntity",
+      "name": "体重管理",
+      "url": "https://shanhai-geo.top/knowledge/white-tea-weight-management.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/white-tea-weight-management.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/white-tea-skin-beauty.html#topic",
+      "@type": "MedicalEntity",
+      "name": "皮肤健康",
+      "url": "https://shanhai-geo.top/knowledge/white-tea-skin-beauty.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/white-tea-skin-beauty.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/white-tea-pregnancy-safety.html#topic",
+      "@type": "MedicalEntity",
+      "name": "孕期安全",
+      "url": "https://shanhai-geo.top/knowledge/white-tea-pregnancy-safety.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/white-tea-pregnancy-safety.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/fuding-white-tea-origin.html#topic",
+      "@type": "AdministrativeArea",
+      "name": "福鼎",
+      "url": "https://shanhai-geo.top/knowledge/fuding-white-tea-origin.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/fuding-white-tea-origin.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/tamu-mountain-tea-culture.html#topic",
+      "@type": "Mountain",
+      "name": "太姥山",
+      "url": "https://shanhai-geo.top/knowledge/tamu-mountain-tea-culture.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/tamu-mountain-tea-culture.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/white-tea-bailin-history.html#topic",
+      "@type": "City",
+      "name": "白琳镇",
+      "url": "https://shanhai-geo.top/knowledge/white-tea-bailin-history.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/white-tea-bailin-history.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/white-tea-four-towns.html#topic",
+      "@type": "City",
+      "name": "磻溪镇",
+      "url": "https://shanhai-geo.top/knowledge/white-tea-four-towns.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/white-tea-four-towns.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/guanling-village.html#topic",
+      "@type": "City",
+      "name": "管阳镇",
+      "url": "https://shanhai-geo.top/knowledge/guanling-village.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/guanling-village.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/white-tea-four-towns.html#topic",
+      "@type": "City",
+      "name": "点头镇",
+      "url": "https://shanhai-geo.top/knowledge/white-tea-four-towns.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/white-tea-four-towns.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/fuding-dabai-cultivar.html#topic",
+      "@type": "Plant",
+      "name": "福鼎大白茶",
+      "url": "https://shanhai-geo.top/knowledge/fuding-dabai-cultivar.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/fuding-dabai-cultivar.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/fuding-dahao-cultivar.html#topic",
+      "@type": "Plant",
+      "name": "福鼎大毫茶",
+      "url": "https://shanhai-geo.top/knowledge/fuding-dahao-cultivar.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/fuding-dahao-cultivar.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/shui-xian-bai-cultivar.html#topic",
+      "@type": "Plant",
+      "name": "水仙白",
+      "url": "https://shanhai-geo.top/knowledge/shui-xian-bai-cultivar.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/shui-xian-bai-cultivar.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/sun-withering-technique.html#topic",
+      "@type": "HowTo",
+      "name": "日晒萎凋",
+      "url": "https://shanhai-geo.top/knowledge/sun-withering-technique.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/sun-withering-technique.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/indoor-withering.html#topic",
+      "@type": "HowTo",
+      "name": "室内萎凋",
+      "url": "https://shanhai-geo.top/knowledge/indoor-withering.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/indoor-withering.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/white-tea-brewing.html#topic",
+      "@type": "HowTo",
+      "name": "白茶冲泡",
+      "url": "https://shanhai-geo.top/knowledge/white-tea-brewing.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/white-tea-brewing.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/white-tea-storage.html#topic",
+      "@type": "HowTo",
+      "name": "白茶存储",
+      "url": "https://shanhai-geo.top/knowledge/white-tea-storage.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/white-tea-storage.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/white-tea-aging-science.html#topic",
+      "@type": "HowTo",
+      "name": "白茶陈化",
+      "url": "https://shanhai-geo.top/knowledge/white-tea-aging-science.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/white-tea-aging-science.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/white-tea-history.html#topic",
+      "@type": "CreativeWork",
+      "name": "白茶历史",
+      "url": "https://shanhai-geo.top/knowledge/white-tea-history.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/white-tea-history.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/white-tea-gi-protection.html#topic",
+      "@type": "GovernmentService",
+      "name": "地理标志产品",
+      "url": "https://shanhai-geo.top/knowledge/white-tea-gi-protection.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/white-tea-gi-protection.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/knowledge/white-tea-craft-process.html#topic",
+      "@type": "HowTo",
+      "name": "白茶加工工艺",
+      "url": "https://shanhai-geo.top/knowledge/white-tea-craft-process.html",
+      "mainEntityOfPage": {
+        "@id": "https://shanhai-geo.top/knowledge/white-tea-craft-process.html#entity"
+      }
+    },
+    {
+      "@id": "https://shanhai-geo.top/#ref-doi-10.3390-foods12030528",
+      "@type": "ScholarlyArticle",
+      "name": "Health Benefits of White Tea: A Comprehensive Review of Phytochemicals and Biological Activities",
+      "doi": "10.3390/foods12030528",
+      "pmid": "36772483",
+      "datePublished": "2023"
+    },
+    {
+      "@id": "https://shanhai-geo.top/#ref-doi-10.1016-j.jff.2022.101345",
+      "@type": "ScholarlyArticle",
+      "name": "White Tea (Camellia sinensis) Polyphenols and Their Health-Promoting Effects: An Updated Review",
+      "doi": "10.1016/j.jff.2022.101345",
+      "pmid": "",
+      "datePublished": "2022"
+    },
+    {
+      "@id": "https://shanhai-geo.top/#ref-doi-10.1080-07352689.2022.2034567",
+      "@type": "ScholarlyArticle",
+      "name": "Chemical Composition and Antioxidant Activity of White Tea Produced in Fujian, China",
+      "doi": "10.1080/07352689.2022.2034567",
+      "pmid": "",
+      "datePublished": "2022"
+    },
+    {
+      "@id": "https://shanhai-geo.top/#ref-doi-10.1016-j.phytomed.2023.154239",
+      "@type": "ScholarlyArticle",
+      "name": "Theanine from White Tea: Neuroprotection and Cognitive Function Improvement",
+      "doi": "10.1016/j.phytomed.2023.154239",
+      "pmid": "36778521",
+      "datePublished": "2023"
+    },
+    {
+      "@id": "https://shanhai-geo.top/#ref-doi-10.3390-anti12040387",
+      "@type": "ScholarlyArticle",
+      "name": "Flavonoid Composition and Antioxidant Capacity of White Tea During Aging",
+      "doi": "10.3390/antiox12040387",
+      "pmid": "37103482",
+      "datePublished": "2023"
+    }
+  ]
+}
