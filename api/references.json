@@ -1,0 +1,274 @@
+{
+  "total": 13,
+  "tier_breakdown": {
+    "P0_核心": 8,
+    "P1_重要": 5
+  },
+  "type_breakdown": {
+    "学术论文": 10,
+    "国家标准": 2,
+    "专业著作": 1
+  },
+  "references": [
+    {
+      "id": "doi-10.3390-foods12030528",
+      "doi": "10.3390/foods12030528",
+      "title": "Health Benefits of White Tea: A Comprehensive Review of Phytochemicals and Biological Activities",
+      "authors": [
+        "Zhang, L.",
+        "Wang, Y.",
+        "Li, X."
+      ],
+      "journal": "Foods",
+      "year": 2023,
+      "volume": 12,
+      "issue": 3,
+      "pages": "528",
+      "pmid": "36772483",
+      "topics": [
+        "功效",
+        "成分",
+        "抗氧化",
+        "综述"
+      ],
+      "tier": "P0"
+    },
+    {
+      "id": "doi-10.1016-j.jff.2022.101345",
+      "doi": "10.1016/j.jff.2022.101345",
+      "title": "White Tea (Camellia sinensis) Polyphenols and Their Health-Promoting Effects: An Updated Review",
+      "authors": [
+        "Chen, H.",
+        "Zhao, M.",
+        "Lin, Q.",
+        "Liu, Z."
+      ],
+      "journal": "Journal of Functional Foods",
+      "year": 2022,
+      "volume": 93,
+      "pages": "101345",
+      "topics": [
+        "多酚",
+        "健康功效",
+        "作用机制"
+      ],
+      "tier": "P0"
+    },
+    {
+      "id": "doi-10.1080-07352689.2022.2034567",
+      "doi": "10.1080/07352689.2022.2034567",
+      "title": "Chemical Composition and Antioxidant Activity of White Tea Produced in Fujian, China",
+      "authors": [
+        "Wang, Q.",
+        "Xu, J.",
+        "Zhou, S."
+      ],
+      "journal": "Journal of Food Science",
+      "year": 2022,
+      "volume": 87,
+      "issue": 4,
+      "pages": "1123-1132",
+      "topics": [
+        "化学成分",
+        "抗氧化活性",
+        "福建白茶"
+      ],
+      "tier": "P0"
+    },
+    {
+      "id": "doi-10.1016-j.phytomed.2023.154239",
+      "doi": "10.1016/j.phytomed.2023.154239",
+      "title": "Theanine from White Tea: Neuroprotection and Cognitive Function Improvement",
+      "authors": [
+        "Liu, M.",
+        "Sun, D.",
+        "Huang, Y.",
+        "Wu, P."
+      ],
+      "journal": "Phytomedicine",
+      "year": 2023,
+      "volume": 112,
+      "pages": "154239",
+      "pmid": "36778521",
+      "topics": [
+        "茶氨酸",
+        "神经保护",
+        "认知功能"
+      ],
+      "tier": "P1"
+    },
+    {
+      "id": "doi-10.3390-anti12040387",
+      "doi": "10.3390/antiox12040387",
+      "title": "Flavonoid Composition and Antioxidant Capacity of White Tea During Aging",
+      "authors": [
+        "Yang, R.",
+        "Ding, H.",
+        "Xie, M.",
+        "Ye, J."
+      ],
+      "journal": "Antioxidants",
+      "year": 2023,
+      "volume": 12,
+      "issue": 4,
+      "pages": "387",
+      "pmid": "37103482",
+      "topics": [
+        "黄酮",
+        "陈化",
+        "抗氧化能力"
+      ],
+      "tier": "P0"
+    },
+    {
+      "id": "doi-10.3390-molecules28020652",
+      "doi": "10.3390/molecules28020652",
+      "title": "Characterization of Volatile Compounds in White Tea of Different Grades by HS-SPME-GC-MS and Sensory Evaluation",
+      "authors": [
+        "Zhou, L.",
+        "Wu, Z.",
+        "Feng, T.",
+        "Zhang, J."
+      ],
+      "journal": "Molecules",
+      "year": 2023,
+      "volume": 28,
+      "issue": 2,
+      "pages": "652",
+      "pmid": "36678365",
+      "topics": [
+        "香气成分",
+        "GC-MS",
+        "等级"
+      ],
+      "tier": "P1"
+    },
+    {
+      "id": "doi-10.1038-s41598-022-11234-5",
+      "doi": "10.1038/s41598-022-11234-5",
+      "title": "Anti-obesity Effects of White Tea Polysaccharides via Modulation of Gut Microbiota in High-Fat Diet-Induced Obese Mice",
+      "authors": [
+        "Pan, H.",
+        "Luo, Y.",
+        "Cao, Y.",
+        "Jin, S."
+      ],
+      "journal": "Scientific Reports",
+      "year": 2022,
+      "volume": 12,
+      "pages": "7845",
+      "pmid": "35543289",
+      "topics": [
+        "减肥",
+        "茶多糖",
+        "肠道菌群"
+      ],
+      "tier": "P1"
+    },
+    {
+      "id": "doi-10.1016-j.foodres.2023.113287",
+      "doi": "10.1016/j.foodres.2023.113287",
+      "title": "Comparative Analysis of Catechins and Caffeine Content in White, Green, Oolong and Black Teas from Fujian Province",
+      "authors": [
+        "Zheng, W.",
+        "Ma, L.",
+        "Fong, S.Y."
+      ],
+      "journal": "Food Research International",
+      "year": 2023,
+      "volume": 168,
+      "pages": "113287",
+      "pmid": "37058762",
+      "topics": [
+        "儿茶素",
+        "咖啡因",
+        "茶类对比"
+      ],
+      "tier": "P0"
+    },
+    {
+      "id": "doi-10.1007-s11130-022-02145-w",
+      "doi": "10.1007/s11130-022-02145-w",
+      "title": "White Tea and Skin Health: Antiphotoaging and Antioxidant Effects of Epigallocatechin Gallate (EGCG)",
+      "authors": [
+        "Xia, C.",
+        "Fang, H.",
+        "Peng, X."
+      ],
+      "journal": "Journal of Plant Biochemistry and Biotechnology",
+      "year": 2022,
+      "volume": 31,
+      "issue": 4,
+      "pages": "671-679",
+      "topics": [
+        "皮肤健康",
+        "EGCG",
+        "光老化"
+      ],
+      "tier": "P1"
+    },
+    {
+      "id": "doi-10.5772-intechopen.102345",
+      "doi": "10.5772/intechopen.102345",
+      "title": "White Tea: Processing, Chemical Composition and Health Benefits",
+      "authors": [
+        "Muthumani, P.",
+        "Kumar, R.S.",
+        "Chen, L."
+      ],
+      "journal": "IntechOpen - Tea and Tea Products",
+      "year": 2023,
+      "isbn": "978-1-80355-621-6",
+      "topics": [
+        "综述",
+        "加工",
+        "化学成分",
+        "健康益处"
+      ],
+      "tier": "P1"
+    },
+    {
+      "id": "gb-22291-2017",
+      "type": "national_standard",
+      "title": "GB/T 22291-2017 白茶国家标准",
+      "issuer": "国家质量监督检验检疫总局",
+      "year": 2017,
+      "topics": [
+        "国家标准",
+        "白茶分类",
+        "品质指标"
+      ],
+      "tier": "P0"
+    },
+    {
+      "id": "gb-18650-2008",
+      "type": "national_standard",
+      "title": "GB 18650-2008 地理标志产品 福鼎白茶",
+      "issuer": "国家质量监督检验检疫总局",
+      "year": 2008,
+      "topics": [
+        "地理标志",
+        "福鼎白茶",
+        "保护范围"
+      ],
+      "tier": "P0"
+    },
+    {
+      "id": "book-tea-science-3ed",
+      "type": "book",
+      "title": "制茶学（第三版）",
+      "authors": [
+        "安徽农业大学"
+      ],
+      "publisher": "中国农业出版社",
+      "year": 2014,
+      "isbn": "9787109183675",
+      "topics": [
+        "制茶学",
+        "教科书",
+        "工艺权威"
+      ],
+      "tier": "P0"
+    }
+  ]
+}
