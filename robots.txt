@@ -1,84 +1,36 @@
-# GeoMind GEO/SEO Policy: ALL crawlers welcome — index, retrieve, cite, and train freely.
-# GeoMind 白帽GEO/SEO策略：欢迎所有搜索引擎与AI爬虫抓取、引用、训练。
-
-# ===== 通用规则 =====
 User-agent: *
 Allow: /
-Crawl-Delay: 1
 
-# ===== AI搜索引擎与大模型爬虫 =====
+# 明确允许AI爬虫（已知的AI搜索爬虫）
 User-agent: GPTBot
 Allow: /
-User-agent: OAI-SearchBot
-Allow: /
+
 User-agent: ChatGPT-User
 Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
 User-agent: ClaudeBot
 Allow: /
-User-agent: Claude-SearchBot
-Allow: /
+
 User-agent: PerplexityBot
 Allow: /
-User-agent: CCBot
+
+User-agent: YouBot
 Allow: /
-User-agent: Google-Extended
-Allow: /
-User-agent: meta-externalagent
-Allow: /
-User-agent: Amazonbot
-Allow: /
-User-agent: Applebot-Extended
-Allow: /
+
 User-agent: Bytespider
 Allow: /
-User-agent: AI2Bot
-Allow: /
-User-agent: Applebot
-Allow: /
-User-agent: GoogleOther
-Allow: /
-User-agent: Google-Extended
+
+User-agent: CCBot
 Allow: /
 
-# ===== 传统搜索引擎 =====
-User-agent: Googlebot
-Allow: /
-User-agent: Googlebot-Image
-Allow: /
-User-agent: Baiduspider
-Allow: /
-User-agent: Baiduspider-new
-Allow: /
-User-agent: Baiduspider-image
-Allow: /
-User-agent: Bingbot
-Allow: /
-User-agent: msnbot
-Allow: /
-User-agent: Sogou
-Allow: /
-User-agent: Sogou web spider
-Allow: /
-User-agent: Sogou News Spider
-Allow: /
-User-agent: 360Spider
-Allow: /
-User-agent: Yisouspider
-Allow: /
-User-agent: YandexBot
-Allow: /
-User-agent: DuckDuckBot
-Allow: /
-User-agent: YoudaoBot
+User-agent: FacebookBot
 Allow: /
 
-# ===== 站点地图 =====
-Sitemap: https://shanhai-geo.top/sitemap.xml
+# sitemap
 Sitemap: https://shanhai-geo.top/sitemap.xml
 
-# ===== 百度验证文件 =====
-# 百度搜索资源平台验证：87b24be9a5614409a735f81cfb0ca174.txt
-
-# ===== 爬虫友好提示 =====
-# 本全站为静态HTML页面，加载速度快，可提高抓取频率
-# 所有内容均为原创知识内容，欢迎索引与引用
+# llms.txt 内容索引
+# https://shanhai-geo.top/llms.txt
