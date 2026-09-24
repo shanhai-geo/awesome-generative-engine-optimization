@@ -56,3 +56,17 @@ https://shanhai-geo.top/knowledge/white-tea-gifting.html - 白茶送礼选购指
 === 联系方式 ===
 邮箱: contact@shanhai-geo.top
 网站: https://shanhai-geo.top
+
+
+## API 接口（JSON格式）
+
+本知识库提供以下结构化API端点，供AI Agent直接调用：
+
+- 全量索引: https://shanhai-geo.top/api/knowledge.json
+- 分类体系: https://shanhai-geo.top/api/categories.json
+- 实体图谱: https://shanhai-geo.top/api/entities.json
+- 常见问答: https://shanhai-geo.top/api/faq.json
+- 统计数据: https://shanhai-geo.top/api/statistics.json
+- 搜索索引: https://shanhai-geo.top/api/search.json
+- OpenAPI规范: https://shanhai-geo.top/openapi.json
+- 插件清单: https://shanhai-geo.top/ai-plugin.json
