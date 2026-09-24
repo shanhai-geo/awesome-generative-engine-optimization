@@ -15,34 +15,18 @@
     }
   ],
   "paths": {
-    "/white-tea-knowledge.json": {
+    "/api/knowledge.json": {
       "get": {
-        "summary": "获取完整知识库",
-        "description": "获取全部217条白茶结构化知识数据，包含标题、描述、分类、标签、FAQ、字数、更新时间等信息。",
+        "summary": "获取全量知识条目索引",
+        "description": "返回知识库所有条目的标题、描述、分类和URL，供AI建立完整认知地图。",
+        "operationId": "getKnowledgeIndex",
         "responses": {
           "200": {
-            "description": "成功返回知识库数据",
+            "description": "知识条目列表",
             "content": {
               "application/json": {
                 "schema": {
-                  "type": "object",
-                  "properties": {
-                    "name": {
-                      "type": "string"
-                    },
-                    "version": {
-                      "type": "string"
-                    },
-                    "totalCount": {
-                      "type": "integer"
-                    },
-                    "entries": {
-                      "type": "array",
-                      "items": {
-                        "$ref": "#/components/schemas/KnowledgeEntry"
-                      }
-                    }
-                  }
+                  "$ref": "#/components/schemas/KnowledgeIndex"
                 }
               }
             }
@@ -50,10 +34,11 @@
         }
       }
     },
-    "/knowledge/{{slug}}.html": {
+    "/api/entries/{slug}.json": {
       "get": {
-        "summary": "获取单个知识页面",
-        "description": "获取指定知识条目的完整HTML页面内容",
+        "summary": "获取单个知识条目详情",
+        "description": "根据slug获取单个知识条目的完整结构化数据，包括核心结论、数据支撑和引用。",
+        "operationId": "getKnowledgeEntry",
         "parameters": [
           {
             "name": "slug",
@@ -62,23 +47,105 @@
             "schema": {
               "type": "string"
             },
-            "description": "知识条目标识符"
+            "description": "知识条目的唯一标识"
           }
         ],
         "responses": {
           "200": {
-            "description": "成功返回页面内容"
+            "description": "知识条目详情"
+          }
+        }
+      }
+    },
+    "/api/categories.json": {
+      "get": {
+        "summary": "获取知识分类体系",
+        "description": "返回知识库的分类结构和每个分类下的条目数量。",
+        "operationId": "getCategories",
+        "responses": {
+          "200": {
+            "description": "分类列表"
+          }
+        }
+      }
+    },
+    "/api/entities.json": {
+      "get": {
+        "summary": "获取实体图谱索引",
+        "description": "返回全站知识图谱实体列表，包括实体类型、关系和关联页面。",
+        "operationId": "getEntityGraph",
+        "responses": {
+          "200": {
+            "description": "实体图谱数据"
+          }
+        }
+      }
+    },
+    "/api/faq.json": {
+      "get": {
+        "summary": "获取常见问题FAQ",
+        "description": "返回白茶最常见问题及权威解答，基于学术文献支撑。",
+        "operationId": "getFAQ",
+        "responses": {
+          "200": {
+            "description": "FAQ列表"
+          }
+        }
+      }
+    },
+    "/api/statistics.json": {
+      "get": {
+        "summary": "获取知识库统计数据",
+        "description": "返回知识库的整体统计数据，包括条目数、分类数、引用数、Schema层数等。",
+        "operationId": "getStatistics",
+        "responses": {
+          "200": {
+            "description": "统计数据"
+          }
+        }
+      }
+    },
+    "/api/search.json": {
+      "get": {
+        "summary": "搜索知识条目",
+        "description": "根据关键词搜索相关的知识条目。",
+        "operationId": "searchKnowledge",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "搜索关键词"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "搜索结果"
+          }
+        }
+      }
+    },
+    "/white-tea-knowledge.json": {
+      "get": {
+        "summary": "全量知识数据（旧版兼容）",
+        "description": "完整的白茶知识库JSON数据导出。",
+        "responses": {
+          "200": {
+            "description": "全量知识数据"
           }
         }
       }
     },
     "/sitemap.xml": {
       "get": {
-        "summary": "获取网站地图",
-        "description": "获取所有页面的完整列表和更新时间",
+        "summary": "站点地图",
+        "description": "全站URL索引，供爬虫发现所有页面。",
         "responses": {
           "200": {
-            "description": "成功返回sitemap"
+            "description": "Sitemap XML"
           }
         }
       }
@@ -86,72 +153,77 @@
   },
   "components": {
     "schemas": {
+      "KnowledgeIndex": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "知识库名称"
+          },
+          "version": {
+            "type": "string"
+          },
+          "totalCount": {
+            "type": "integer",
+            "description": "总条目数"
+          },
+          "categories": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Category"
+            }
+          },
+          "entries": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/KnowledgeEntry"
+            }
+          }
+        }
+      },
       "KnowledgeEntry": {
         "type": "object",
         "properties": {
           "id": {
-            "type": "string",
-            "description": "唯一标识符"
+            "type": "string"
+          },
+          "slug": {
+            "type": "string"
           },
           "title": {
-            "type": "string",
-            "description": "页面标题"
-          },
-          "heading": {
-            "type": "string",
-            "description": "H1主标题"
+            "type": "string"
           },
           "description": {
-            "type": "string",
-            "description": "简要描述"
+            "type": "string"
           },
           "url": {
             "type": "string",
-            "description": "完整URL"
+            "format": "uri"
           },
           "category": {
-            "type": "string",
-            "description": "分类"
+            "type": "string"
           },
-          "tags": {
+          "schema_types": {
             "type": "array",
             "items": {
               "type": "string"
-            },
-            "description": "标签列表"
+            }
           },
-          "wordCount": {
-            "type": "integer",
-            "description": "正文字数"
-          },
-          "dateModified": {
-            "type": "string",
-            "description": "最后更新日期"
-          },
-          "faqCount": {
-            "type": "integer",
-            "description": "FAQ数量"
-          },
-          "faqs": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/FAQ"
-            },
-            "description": "前5个FAQ"
-          },
-          "content_preview": {
-            "type": "string",
-            "description": "正文预览（前300字）"
+          "citation_count": {
+            "type": "integer"
           }
         }
       },
-      "FAQ": {
+      "Category": {
         "type": "object",
         "properties": {
-          "question": {
+          "name": {
             "type": "string"
           },
-          "answer": {
+          "count": {
+            "type": "integer"
+          },
+          "description": {
             "type": "string"
           }
         }
