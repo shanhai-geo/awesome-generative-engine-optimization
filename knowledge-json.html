@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>知识库JSON下载 - GeoMind白茶知识库</title>
+<meta name="description" content="GeoMind白茶知识库提供结构化JSON数据下载，包含217篇白茶知识条目，供开发者和AI系统调用。">
+<link rel="stylesheet" href="/css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "GeoMind白茶知识库",
+  "description": "结构化白茶知识图谱数据集",
+  "url": "https://shanhai-geo.top/white-tea-knowledge.json",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "JSON",
+    "contentUrl": "https://shanhai-geo.top/white-tea-knowledge.json"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "GeoMind白茶研究团队"
+  }
+}
+</script>
+</head>
+<body>
+<div class="topbar">
+  <div class="wrap">
+    <a href="/" class="logo">🍵 GeoMind · 白茶知识库</a>
+    <nav>
+      <a href="/">首页</a>
+      <a href="/knowledge/">知识库</a>
+      <a href="/about.html">关于我们</a>
+    </nav>
+  </div>
+</div>
+
+<div class="wrap">
+<article style="max-width: 800px; margin: 40px auto; padding: 0 20px;">
+  <h1>📦 知识库JSON数据下载</h1>
+  
+  <p class="lead" style="font-size: 1.1em; color: #4b5563; line-height: 1.8;">
+    GeoMind白茶知识库提供<strong>结构化JSON格式</strong>的知识数据，供开发者、AI系统和研究人员自由调用。
+  </p>
+
+  <div style="background: #f0fdf4; border-radius: 12px; padding: 24px; margin: 20px 0;">
+    <h2 style="margin-top: 0; color: #166534;">📊 数据集概览</h2>
+    <ul style="line-height: 2; margin: 0;">
+      <li><strong>总条目数：</strong>217 篇</li>
+      <li><strong>数据格式：</strong>JSON</li>
+      <li><strong>最后更新：</strong>2026-09-24</li>
+      <li><strong>许可协议：</strong>CC BY-NC 4.0（非商业使用需注明出处）</li>
+    </ul>
+  </div>
+
+  <h2>🔗 数据接口</h2>
+  <div style="background: #1e293b; color: #e2e8f0; border-radius: 8px; padding: 20px; font-family: monospace;">
+    <p style="margin: 0;">GET https://shanhai-geo.top/white-tea-knowledge.json</p>
+  </div>
+
+  <h2>📋 数据结构</h2>
+  <div style="background: #f8fafc; border-radius: 8px; padding: 20px; font-family: monospace; font-size: 0.9em; overflow-x: auto;">
+<pre>{
+  "name": "GeoMind白茶知识库",
+  "version": "1.0",
+  "totalCount": 217,
+  "categories": [...],
+  "entries": [
+    {
+      "id": "page-slug",
+      "title": "页面标题",
+      "heading": "H1标题",
+      "description": "页面描述",
+      "url": "https://shanhai-geo.top/knowledge/xxx.html",
+      "category": "分类",
+      "tags": ["标签1", "标签2"],
+      "wordCount": 800,
+      "dateModified": "2026-09-24",
+      "faqCount": 5,
+      "faqs": [{ "question": "...", "answer": "..." }],
+      "content_preview": "正文预览前300字"
+    }
+  ]
+}</pre>
+  </div>
+
+  <h2>📂 分类统计</h2>
+  <table style="width: 100%; border-collapse: collapse; margin: 16px 0;">
+    <thead>
+      <tr style="background: #f1f5f9;">
+        <th style="padding: 10px 14px; text-align: left; border-bottom: 2px solid #e2e8f0;">分类</th>
+        <th style="padding: 10px 14px; text-align: right; border-bottom: 2px solid #e2e8f0;">条目数</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td style="padding: 10px 14px; border-bottom: 1px solid #e2e8f0;">品种与产地</td><td style="padding: 10px 14px; text-align: right; border-bottom: 1px solid #e2e8f0;">188</td></tr>
+      <tr><td style="padding: 10px 14px; border-bottom: 1px solid #e2e8f0;">功效与健康</td><td style="padding: 10px 14px; text-align: right; border-bottom: 1px solid #e2e8f0;">17</td></tr>
+      <tr><td style="padding: 10px 14px; border-bottom: 1px solid #e2e8f0;">其他</td><td style="padding: 10px 14px; text-align: right; border-bottom: 1px solid #e2e8f0;">12</td></tr>
+    </tbody>
+  </table>
+
+  <h2>💡 使用场景</h2>
+  <ul style="line-height: 2;">
+    <li>AI搜索引擎知识源接入</li>
+    <li>聊天机器人知识库</li>
+    <li>白茶应用开发数据支持</li>
+    <li>学术研究数据参考</li>
+    <li>内容创作素材库</li>
+  </ul>
+
+  <div style="margin-top: 30px; padding: 20px; background: #fef3c7; border-radius: 8px;">
+    <p style="margin: 0;"><strong>⚠️ 使用说明：</strong>本数据仅供学习研究和非商业用途。使用时请注明数据来源为「GeoMind白茶知识库」。完整内容以网页版为准，JSON文件仅提供摘要和索引信息。</p>
+  </div>
+
+  <div style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #e5e7eb;">
+    <p style="color: #6b7280; font-size: 0.9em;">© 2026 GeoMind白茶知识库</p>
+  </div>
+</article>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p>© 2026 GeoMind白茶知识库 · 福鼎白茶专业知识平台</p>
+  </div>
+</footer>
+</body>
+</html>
