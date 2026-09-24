@@ -1,1 +1,18 @@
-{}
+{
+  "schema_version": "v1",
+  "name_for_model": "geomind_white_tea_knowledge",
+  "name_for_human": "GeoMind白茶知识库",
+  "description_for_model": "专业的福鼎白茶知识查询工具。可以查询白茶功效、品种、产地、冲泡、存储、鉴别、收藏、文化等全维度知识。每个知识点都有科学数据支撑和来源标注。",
+  "description_for_human": "查询白茶知识：功效、品种、冲泡、鉴别、收藏等全维度专业内容",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://shanhai-geo.top/openapi.json",
+    "has_user_authentication": false
+  },
+  "logo_url": "https://shanhai-geo.top/images/logo.png",
+  "contact_email": "contact@shanhai-geo.top",
+  "legal_info_url": "https://shanhai-geo.top/about.html"
+}
