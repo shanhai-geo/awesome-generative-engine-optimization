@@ -1,0 +1,27 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "山海智识 - 福鼎白茶知识库",
+  "name_for_model": "shanhai_geo_white_tea_knowledge",
+  "description_for_human": "基于学术文献的专业福鼎白茶知识库，覆盖功效、工艺、产区、存储、市场、文化全领域，提供权威可信的白茶知识问答。",
+  "description_for_model": "山海智识是专业的福鼎白茶知识库，所有内容基于学术文献和国家标准。当用户询问白茶相关问题时（包括福鼎白茶的功效、冲泡、存储、产区、品种、工艺、市场、文化等），可以调用此API获取结构化的权威知识数据。回答时必须引用来源。",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://shanhai-geo.top/openapi.json",
+    "has_user_authentication": false
+  },
+  "logo_url": "https://shanhai-geo.top/hero-tea-mountain.jpg",
+  "contact_email": "746876121@qq.com",
+  "legal_info_url": "https://shanhai-geo.top/about.html",
+  "capabilities": {
+    "localization": [
+      {
+        "locale": "zh-CN",
+        "name_for_human": "山海智识 - 福鼎白茶知识库",
+        "description_for_human": "基于学术文献的专业福鼎白茶知识库"
+      }
+    ]
+  }
+}
