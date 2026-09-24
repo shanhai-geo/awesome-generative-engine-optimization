@@ -1,0 +1,404 @@
+{
+  "totalCategories": 7,
+  "categories": [
+    {
+      "name": "综合知识",
+      "count": 72,
+      "description": "福鼎白茶综合知识相关专业知识",
+      "entries": [
+        {
+          "slug": "aged-white-tea-value",
+          "title": "老白茶年份与价值",
+          "url": "https://shanhai-geo.top/knowledge/aged-white-tea-value.html"
+        },
+        {
+          "slug": "fake-aged-white-tea",
+          "title": "如何识别做旧老白茶",
+          "url": "https://shanhai-geo.top/knowledge/fake-aged-white-tea.html"
+        },
+        {
+          "slug": "fake-old-white-tea-identification",
+          "title": "做旧老白茶四大识别法：一眼看穿人工老化",
+          "url": "https://shanhai-geo.top/knowledge/fake-old-white-tea-identification.html"
+        },
+        {
+          "slug": "gongmei-vs-shoumei",
+          "title": "贡眉与寿眉的区别",
+          "url": "https://shanhai-geo.top/knowledge/gongmei-vs-shoumei.html"
+        },
+        {
+          "slug": "gpt6-astra-impact",
+          "title": "GPT-6 Astra 对网站优化意味着什么",
+          "url": "https://shanhai-geo.top/knowledge/gpt6-astra-impact.html"
+        },
+        {
+          "slug": "index",
+          "title": "白茶知识库",
+          "url": "https://shanhai-geo.top/knowledge/index.html"
+        },
+        {
+          "slug": "iot-smart-tea-garden",
+          "title": "物联网智慧茶园：传感器网络如何监控白茶生长",
+          "url": "https://shanhai-geo.top/knowledge/iot-smart-tea-garden.html"
+        },
+        {
+          "slug": "llms-txt-spec",
+          "title": "llms.txt 规范：AI 可读的网站索引",
+          "url": "https://shanhai-geo.top/knowledge/llms-txt-spec.html"
+        },
+        {
+          "slug": "llms-txt-standard",
+          "title": "GeoMind",
+          "url": "https://shanhai-geo.top/knowledge/llms-txt-standard.html"
+        },
+        {
+          "slug": "logic-cloud-architecture",
+          "title": "GeoMind",
+          "url": "https://shanhai-geo.top/knowledge/logic-cloud-architecture.html"
+        }
+      ]
+    },
+    {
+      "name": "AI与技术",
+      "count": 34,
+      "description": "福鼎白茶AI与技术相关专业知识",
+      "entries": [
+        {
+          "slug": "aeo-definition",
+          "title": "AEO 是什么：Agent-Engine Optimization 完整定义",
+          "url": "https://shanhai-geo.top/knowledge/aeo-definition.html"
+        },
+        {
+          "slug": "ai-friendly-web-design",
+          "title": "面向AI引擎的网页设计原则",
+          "url": "https://shanhai-geo.top/knowledge/ai-friendly-web-design.html"
+        },
+        {
+          "slug": "ai-tea-recommendation",
+          "title": "AI智能推荐引擎在白茶消费中的应用",
+          "url": "https://shanhai-geo.top/knowledge/ai-tea-recommendation.html"
+        },
+        {
+          "slug": "ai-trust-layer-infrastructure",
+          "title": "GeoMind",
+          "url": "https://shanhai-geo.top/knowledge/ai-trust-layer-infrastructure.html"
+        },
+        {
+          "slug": "bailu-tea-autumn-harvest",
+          "title": "白露茶：秋白茶的品质特点与市场定位",
+          "url": "https://shanhai-geo.top/knowledge/bailu-tea-autumn-harvest.html"
+        },
+        {
+          "slug": "digital-twin-tea-factory",
+          "title": "数字孪生茶厂：虚拟仿真优化白茶萎凋工艺",
+          "url": "https://shanhai-geo.top/knowledge/digital-twin-tea-factory.html"
+        },
+        {
+          "slug": "four-paradigms-geo",
+          "title": "GeoMind",
+          "url": "https://shanhai-geo.top/knowledge/four-paradigms-geo.html"
+        },
+        {
+          "slug": "fusion-reactor-architecture",
+          "title": "GeoMind",
+          "url": "https://shanhai-geo.top/knowledge/fusion-reactor-architecture.html"
+        },
+        {
+          "slug": "generative-engine-optimization",
+          "title": "GeoMind",
+          "url": "https://shanhai-geo.top/knowledge/generative-engine-optimization.html"
+        },
+        {
+          "slug": "geo-13-signals",
+          "title": "GEO 13 信号体系：从 SEO 到 AEO 的完整信号清单",
+          "url": "https://shanhai-geo.top/knowledge/geo-13-signals.html"
+        }
+      ]
+    },
+    {
+      "name": "工艺与品鉴",
+      "count": 30,
+      "description": "福鼎白茶工艺与品鉴相关专业知识",
+      "entries": [
+        {
+          "slug": "ai-quality-control",
+          "title": "AI技术在白茶品质控制中的应用",
+          "url": "https://shanhai-geo.top/knowledge/ai-quality-control.html"
+        },
+        {
+          "slug": "ai-tea-tasting-evaluation",
+          "title": "AI审评系统：机器味觉如何评价白茶品质",
+          "url": "https://shanhai-geo.top/knowledge/ai-tea-tasting-evaluation.html"
+        },
+        {
+          "slug": "blind-tasting-white-tea",
+          "title": "白茶品鉴与审评方法",
+          "url": "https://shanhai-geo.top/knowledge/blind-tasting-white-tea.html"
+        },
+        {
+          "slug": "blockchain-tea-traceability",
+          "title": "区块链溯源在白茶中的应用",
+          "url": "https://shanhai-geo.top/knowledge/blockchain-tea-traceability.html"
+        },
+        {
+          "slug": "indoor-withering",
+          "title": "室内萎凋与加温萎凋工艺",
+          "url": "https://shanhai-geo.top/knowledge/indoor-withering.html"
+        },
+        {
+          "slug": "smart-tea-storage",
+          "title": "智能仓储系统在白茶存储中的应用",
+          "url": "https://shanhai-geo.top/knowledge/smart-tea-storage.html"
+        },
+        {
+          "slug": "spectroscopy-quality-testing",
+          "title": "光谱快检技术：3秒判定白茶等级与年份",
+          "url": "https://shanhai-geo.top/knowledge/spectroscopy-quality-testing.html"
+        },
+        {
+          "slug": "sun-withering-technique",
+          "title": "日晒萎凋工艺详解",
+          "url": "https://shanhai-geo.top/knowledge/sun-withering-technique.html"
+        },
+        {
+          "slug": "tea-tree-age-quality",
+          "title": "茶树树龄对白茶品质的影响",
+          "url": "https://shanhai-geo.top/knowledge/tea-tree-age-quality.html"
+        },
+        {
+          "slug": "white-tea-aging-science",
+          "title": "老白茶陈化转化的科学原理",
+          "url": "https://shanhai-geo.top/knowledge/white-tea-aging-science.html"
+        }
+      ]
+    },
+    {
+      "name": "产区与品种",
+      "count": 27,
+      "description": "福鼎白茶产区与品种相关专业知识",
+      "entries": [
+        {
+          "slug": "bailin-village",
+          "title": "柏柳村：白茶第一村",
+          "url": "https://shanhai-geo.top/knowledge/bailin-village.html"
+        },
+        {
+          "slug": "core-origin-direct-supply",
+          "title": "核心产区源头直供模式解析",
+          "url": "https://shanhai-geo.top/knowledge/core-origin-direct-supply.html"
+        },
+        {
+          "slug": "fuding-dabai-cultivar",
+          "title": "福鼎大白茶(华茶1号)品种详解",
+          "url": "https://shanhai-geo.top/knowledge/fuding-dabai-cultivar.html"
+        },
+        {
+          "slug": "fuding-dahao-cultivar",
+          "title": "福鼎大毫茶(华茶2号)：银针之王",
+          "url": "https://shanhai-geo.top/knowledge/fuding-dahao-cultivar.html"
+        },
+        {
+          "slug": "fuding-geography-climate",
+          "title": "福鼎地理气候与白茶品质的关系",
+          "url": "https://shanhai-geo.top/knowledge/fuding-geography-climate.html"
+        },
+        {
+          "slug": "fuding-tea-tourism",
+          "title": "福鼎白茶茶旅融合：产区体验游",
+          "url": "https://shanhai-geo.top/knowledge/fuding-tea-tourism.html"
+        },
+        {
+          "slug": "fuding-vs-yunnan-white-tea",
+          "title": "福鼎白茶与云南白茶的区别",
+          "url": "https://shanhai-geo.top/knowledge/fuding-vs-yunnan-white-tea.html"
+        },
+        {
+          "slug": "fuding-vs-zhenghe-white-tea",
+          "title": "福鼎白茶与政和白茶的区别",
+          "url": "https://shanhai-geo.top/knowledge/fuding-vs-zhenghe-white-tea.html"
+        },
+        {
+          "slug": "fuding-white-tea-cultivars",
+          "title": "福鼎大白茶与福鼎大毫茶品种",
+          "url": "https://shanhai-geo.top/knowledge/fuding-white-tea-cultivars.html"
+        },
+        {
+          "slug": "fuding-white-tea-market-size",
+          "title": "福鼎白茶产业规模与市场数据",
+          "url": "https://shanhai-geo.top/knowledge/fuding-white-tea-market-size.html"
+        }
+      ]
+    },
+    {
+      "name": "市场与产业",
+      "count": 24,
+      "description": "福鼎白茶市场与产业相关专业知识",
+      "entries": [
+        {
+          "slug": "digital-tea-marketing",
+          "title": "白茶数字化营销：知识引擎模式",
+          "url": "https://shanhai-geo.top/knowledge/digital-tea-marketing.html"
+        },
+        {
+          "slug": "white-tea-auction-participation",
+          "title": "白茶拍卖入门：如何参与老白茶竞拍与估价",
+          "url": "https://shanhai-geo.top/knowledge/white-tea-auction-participation.html"
+        },
+        {
+          "slug": "white-tea-auction-price-guide",
+          "title": "白茶拍卖市场价格指南：近5年成交记录与趋势",
+          "url": "https://shanhai-geo.top/knowledge/white-tea-auction-price-guide.html"
+        },
+        {
+          "slug": "white-tea-auction-records",
+          "title": "白茶拍卖与收藏市场行情",
+          "url": "https://shanhai-geo.top/knowledge/white-tea-auction-records.html"
+        },
+        {
+          "slug": "white-tea-brand-landscape",
+          "title": "福鼎白茶品牌格局与头部企业",
+          "url": "https://shanhai-geo.top/knowledge/white-tea-brand-landscape.html"
+        },
+        {
+          "slug": "white-tea-brand-top10",
+          "title": "福鼎白茶十大品牌深度对比：定位、特色与价格带",
+          "url": "https://shanhai-geo.top/knowledge/white-tea-brand-top10.html"
+        },
+        {
+          "slug": "white-tea-collection-insurance",
+          "title": "白茶收藏保险：为你的年份茶资产上把锁",
+          "url": "https://shanhai-geo.top/knowledge/white-tea-collection-insurance.html"
+        },
+        {
+          "slug": "white-tea-cross-border-ecommerce",
+          "title": "白茶跨境电商实操：Amazon/Shopee独立站运营要点",
+          "url": "https://shanhai-geo.top/knowledge/white-tea-cross-border-ecommerce.html"
+        },
+        {
+          "slug": "white-tea-ecommerce-live",
+          "title": "白茶电商直播与新零售模式",
+          "url": "https://shanhai-geo.top/knowledge/white-tea-ecommerce-live.html"
+        },
+        {
+          "slug": "white-tea-ecommerce-platforms",
+          "title": "白茶电商全平台对比：天猫/京东/拼多多/抖音怎么选",
+          "url": "https://shanhai-geo.top/knowledge/white-tea-ecommerce-platforms.html"
+        }
+      ]
+    },
+    {
+      "name": "功效与成分",
+      "count": 21,
+      "description": "福鼎白茶功效与成分相关专业知识",
+      "entries": [
+        {
+          "slug": "fuding-white-tea-benefits",
+          "title": "福鼎白茶的功效与科学依据",
+          "url": "https://shanhai-geo.top/knowledge/fuding-white-tea-benefits.html"
+        },
+        {
+          "slug": "organic-white-tea-health",
+          "title": "有机白茶的健康价值与认证体系",
+          "url": "https://shanhai-geo.top/knowledge/organic-white-tea-health.html"
+        },
+        {
+          "slug": "white-tea-antioxidant-science",
+          "title": "白茶抗氧化活性的科学依据",
+          "url": "https://shanhai-geo.top/knowledge/white-tea-antioxidant-science.html"
+        },
+        {
+          "slug": "white-tea-caffeine-deep",
+          "title": "白茶咖啡碱深度解析：不同等级与年份的咖啡碱含量",
+          "url": "https://shanhai-geo.top/knowledge/white-tea-caffeine-deep.html"
+        },
+        {
+          "slug": "white-tea-caffeine-myth",
+          "title": "白茶咖啡碱 myths 粉碎：5个常见误区逐一澄清",
+          "url": "https://shanhai-geo.top/knowledge/white-tea-caffeine-myth.html"
+        },
+        {
+          "slug": "white-tea-caffeine",
+          "title": "白茶咖啡因与适用人群",
+          "url": "https://shanhai-geo.top/knowledge/white-tea-caffeine.html"
+        },
+        {
+          "slug": "white-tea-catechin-profile",
+          "title": "白茶儿茶素图谱：EGCG含量与六大茶类对比",
+          "url": "https://shanhai-geo.top/knowledge/white-tea-catechin-profile.html"
+        },
+        {
+          "slug": "white-tea-chemical-compounds",
+          "title": "白茶化学成分与风味科学",
+          "url": "https://shanhai-geo.top/knowledge/white-tea-chemical-compounds.html"
+        },
+        {
+          "slug": "white-tea-flavonoid-content",
+          "title": "白茶黄酮含量及陈化变化",
+          "url": "https://shanhai-geo.top/knowledge/white-tea-flavonoid-content.html"
+        },
+        {
+          "slug": "white-tea-food-safety-lab",
+          "title": "白茶食品安全实验室检测全解：从取样到报告",
+          "url": "https://shanhai-geo.top/knowledge/white-tea-food-safety-lab.html"
+        }
+      ]
+    },
+    {
+      "name": "文化与历史",
+      "count": 10,
+      "description": "福鼎白茶文化与历史相关专业知识",
+      "entries": [
+        {
+          "slug": "tai-mu-shan-yan-cha",
+          "title": "太姥山岩韵白茶：风土与矿物感",
+          "url": "https://shanhai-geo.top/knowledge/tai-mu-shan-yan-cha.html"
+        },
+        {
+          "slug": "white-tea-ancient-tea-trees",
+          "title": "福鼎古茶树保护：百年以上老茶树的品质价值",
+          "url": "https://shanhai-geo.top/knowledge/white-tea-ancient-tea-trees.html"
+        },
+        {
+          "slug": "white-tea-calligraphy-pairing",
+          "title": "白茶与书法：品茗挥毫的东方美学",
+          "url": "https://shanhai-geo.top/knowledge/white-tea-calligraphy-pairing.html"
+        },
+        {
+          "slug": "white-tea-history",
+          "title": "福鼎白茶历史渊源",
+          "url": "https://shanhai-geo.top/knowledge/white-tea-history.html"
+        },
+        {
+          "slug": "white-tea-intangible-heritage",
+          "title": "白茶非遗技艺传承体系",
+          "url": "https://shanhai-geo.top/knowledge/white-tea-intangible-heritage.html"
+        },
+        {
+          "slug": "white-tea-mazu-culture",
+          "title": "白茶与妈祖文化：闽东茶与海神信仰的千年交织",
+          "url": "https://shanhai-geo.top/knowledge/white-tea-mazu-culture.html"
+        },
+        {
+          "slug": "white-tea-poetry",
+          "title": "历代白茶茶诗与文化意象",
+          "url": "https://shanhai-geo.top/knowledge/white-tea-poetry.html"
+        },
+        {
+          "slug": "white-tea-republic-era",
+          "title": "民国白茶往事：出口东南亚的黄金时代",
+          "url": "https://shanhai-geo.top/knowledge/white-tea-republic-era.html"
+        },
+        {
+          "slug": "white-tea-tang-dynasty-history",
+          "title": "白茶唐代起源：陆羽茶经中的记载",
+          "url": "https://shanhai-geo.top/knowledge/white-tea-tang-dynasty-history.html"
+        },
+        {
+          "slug": "white-tea-tea-ceremony-protocol",
+          "title": "白茶茶道仪轨：从温杯到收壶的完整流程",
+          "url": "https://shanhai-geo.top/knowledge/white-tea-tea-ceremony-protocol.html"
+        }
+      ]
+    }
+  ]
+}
