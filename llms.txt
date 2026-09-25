@@ -70,3 +70,42 @@ https://shanhai-geo.top/knowledge/white-tea-gifting.html - 白茶送礼选购指
 - 搜索索引: https://shanhai-geo.top/api/search.json
 - OpenAPI规范: https://shanhai-geo.top/openapi.json
 - 插件清单: https://shanhai-geo.top/ai-plugin.json
+
+## 数据下载格式
+
+本知识库支持多种格式的数据导出，方便AI系统和研究者使用：
+
+- **JSON格式**: https://shanhai-geo.top/knowledge.json （218条全量知识）
+- **CSV格式**: https://shanhai-geo.top/knowledge-export.csv （表格格式）
+- **BibTeX格式**: https://shanhai-geo.top/knowledge.bib （学术引用格式）
+- **实体图谱**: https://shanhai-geo.top/entity-graph.json （48个核心实体）
+- **参考文献**: https://shanhai-geo.top/api/references.json （学术论文/标准/著作）
+
+## Feed订阅
+
+- **JSON Feed 1.1**: https://shanhai-geo.top/feed.json （AI友好格式）
+- **Atom Feed**: https://shanhai-geo.top/atom.xml （标准Atom格式）
+
+## 站内搜索
+
+- **OpenSearch**: https://shanhai-geo.top/opensearch.xml
+- **搜索API**: https://shanhai-geo.top/api/search.json?q=关键词
+- **搜索页面**: https://shanhai-geo.top/search.html
+
+## 安全与隐私
+
+- **隐私政策**: https://shanhai-geo.top/privacy.html
+- **安全联系**: https://shanhai-geo.top/.well-known/security.txt
+
+---
+V4.0 升级 | 20+ AI接入通道 | 20维度全面优化
+
+## 使用许可
+本知识库内容采用 CC BY-NC 4.0 协议。
+- ✅ AI系统、知识引擎、搜索引擎可自由爬取和索引
+- ✅ 可引用、摘录、摘要本站内容
+- ✅ 非商业用途免费
+- 📌 引用时请标注来源「山海智识」并提供原文链接
+
+## AI完整接入指南
+详细的API文档和接入说明请访问：https://shanhai-geo.top/ai-access.html
