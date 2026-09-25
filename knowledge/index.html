@@ -38,6 +38,47 @@ h1{font-size:clamp(26px,4vw,36px);font-weight:700;letter-spacing:2px;color:#2d5a
 .cta .small{font-size:12px;opacity:.65}
 footer{text-align:center;color:#bbb;font-size:12px;padding:30px 5% 50px;letter-spacing:1px;line-height:2}
 footer a{color:#2d5a3d;text-decoration:none}
+
+
+.related-section {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid #e8e8e8;
+}
+.related-section h3 {
+  color: #1a3a2a;
+  margin-bottom: 16px;
+  font-size: 1.1rem;
+}
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}
+.related-card {
+  display: block;
+  padding: 12px;
+  background: #f6faf7;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.related-card:hover {
+  background: #e8f0ea;
+}
+.related-title {
+  font-weight: 600;
+  color: #1a3a2a;
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+.related-desc {
+  font-size: 0.8rem;
+  color: #666;
+  line-height: 1.5;
+}
+
 </style>
 <script type="application/ld+json">
 {
@@ -91,9 +132,12 @@ footer a{color:#2d5a3d;text-decoration:none}
 <meta name="twitter:title" content="白茶知识库 | White Tea Knowledge Base — GeoMind · 福鼎白茶知识引擎">
 <meta name="twitter:description" content="白茶知识库 | White Tea Knowledge Base — GeoMind · 福鼎白茶知识引擎：。来源：GeoMind福鼎白茶知识库。">
 <meta name="twitter:image" content="https://shanhai-geo.top/hero-tea-mountain.jpg">
+
+  <link rel="alternate" hreflang="zh-CN" href="https://shanhai-geo.top/knowledge/index.html">
+  <link rel="alternate" hreflang="x-default" href="https://shanhai-geo.top/knowledge/index.html">
 </head>
-<body>
-  <main>
+<body><a href="#main-content" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;" aria-label="跳转到主要内容">跳转到主要内容</a>
+  <main id="main-content">
 <div class="topbar">
 <a class="brand" href="https://shanhai-geo.top/">GeoMind<span>福鼎白茶知识引擎</span></a>
 <a class="home" href="https://shanhai-geo.top/">← 返回首页</a>
@@ -196,6 +240,33 @@ var _hmt = _hmt || [];
         <li><a href="white-tea-caffeine.html">White Tea Caffeine</a></li>
       </ul>
     </section>
-    </main>
+
+  <div class="related-section">
+    <h3>📚 相关推荐</h3>
+    <div class="related-grid">
+      <a href="/knowledge/iot-smart-tea-garden.html" class="related-card">
+        <div class="related-title">物联网智慧茶园：传感器网络如何监控白茶生长 | IoT Smart Tea Gardens: ...</div>
+        <div class="related-desc">物联网（IoT）正在革新白茶种植管理。智慧茶园部署：1）土壤传感器——实时监测pH值（白茶适宜4.5...</div>
+      </a>
+      <a href="/knowledge/knowledge-atomization-architecture.html" class="related-card">
+        <div class="related-title">GeoMind - GEO Knowledge Engine</div>
+        <div class="related-desc">GeoMind open-source GEO knowledge engine - 200 str...</div>
+      </a>
+      <a href="/knowledge/llms-txt-spec.html" class="related-card">
+        <div class="related-title">llms.txt 规范：AI 可读的网站索引 | llms.txt Specification...</div>
+        <div class="related-desc">llms.txt 是一种为 AI 引擎设计的网站内容索引格式，让 GPTBot、ClaudeBot、...</div>
+      </a>
+      <a href="/knowledge/llms-txt-standard.html" class="related-card">
+        <div class="related-title">GeoMind - GEO Knowledge Engine</div>
+        <div class="related-desc">GeoMind open-source GEO knowledge engine - 200 str...</div>
+      </a>
+      <a href="/knowledge/logic-cloud-architecture.html" class="related-card">
+        <div class="related-title">GeoMind - GEO Knowledge Engine</div>
+        <div class="related-desc">GeoMind open-source GEO knowledge engine - 200 str...</div>
+      </a>
+    </div>
+  </div>
+
+</main>
 </body>
 </html>
