@@ -1,4 +1,7 @@
-# GeoMind · GEO知识引擎
+# GeoMind
+
+📚 **[福鼎白茶知识库 Wiki](https://github.com/shanhai-geo/awesome-generative-engine-optimization/wiki)** — 11个专题页面，涵盖等级、功效、冲泡、鉴别、收藏等全部知识
+ · GEO知识引擎
 
 > AI时代的可信知识基础设施 | Trusted Knowledge Infrastructure for the AI Era
 
